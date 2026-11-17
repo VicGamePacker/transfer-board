@@ -12,10 +12,11 @@ today = datetime.now(tw).strftime("%Y-%m-%d")
 def git(*a):
     return subprocess.run(["git", *a], capture_output=True, text=True, encoding="utf-8").stdout.strip()
 
-base = git("log", "--before", today + " 00:00 +0800", "--format=%h", "-1")
+base = sys.argv[2] if len(sys.argv) > 2 else git("log", "--before", today + " 00:00 +0800", "--format=%h", "-1")
 if not base:
     base = git("log", "--since", today + " 00:00 +0800", "--format=%h").splitlines()[-1]
-old = json.loads(git("show", base + ":data.json"))
+bases = base.split(",")  # 可給多個基準 commit，同一選手取最前面有他的那版
+olds = [json.loads(git("show", b + ":data.json")) for b in bases]
 new = json.load(open("data.json", encoding="utf-8"))
 
 def index(d):
@@ -27,7 +28,11 @@ def index(d):
     return m
 
 LV = {"official": "官方", "report": "報導", "gcd": "合約庫"}
-o, n = index(old), index(new)
+o = {}
+for od in olds:
+    for k, v in index(od).items():
+        o.setdefault(k, v)
+n = index(new)
 rows = []  # (排序, 賽區, 隊, 選手, 文字)
 for k, p in n.items():
     q = o.get(k)
@@ -48,7 +53,9 @@ for k, p in n.items():
         t2 = f"明年人選 {pn['n']}（{LV[pn['lv']]}）"
         txt = f"{txt}；{t2}" if txt else t2
     if txt:
-        rows.append((0 if "官方" in txt else 1, lgid, team, name, txt))
+        rows.append((0 if "官方" in txt.split("；")[0] else 1, lgid, team, name, txt))
+if os.environ.get("ONLY_STATUS"):
+    rows = [r for r in rows if not r[4].startswith("明年人選")]
 rows.sort()
 
 FB = "C:/Windows/Fonts/msjhbd.ttc"
