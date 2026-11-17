@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T16:27:00+08:00",
-  "updatedLabel": "2026/11/17 16:27（台灣時間）",
+  "updated": "2026-11-17T17:47:00+08:00",
+  "updatedLabel": "2026/11/17 17:47（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1173,8 +1173,8 @@
               "n": "Flauren",
               "r": "上",
               "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "lv": "official",
+              "note": "官方公告合約期滿（DCG Facebook，11/17 15:56）"
             },
             {
               "n": "Pop9",
@@ -1187,8 +1187,8 @@
               "n": "HongSuo",
               "r": "中",
               "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "lv": "official",
+              "note": "官方公告合約期滿（DCG Facebook，11/17 15:56）"
             },
             {
               "n": "Feng",
@@ -1201,8 +1201,8 @@
               "n": "ShiauC",
               "r": "輔",
               "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "lv": "official",
+              "note": "官方公告合約期滿（DCG Facebook，11/17 15:56）"
             }
           ],
           "logo": "logos/dcg.webp"
