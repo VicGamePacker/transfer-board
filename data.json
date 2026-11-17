@@ -2373,8 +2373,8 @@
   "channel": {
     "name": "遊者 GamePacker",
     "bio": [
-      "遊戲是超越維度的旅行，有著無限可能的體驗",
-      "我是 Vic，一個遊戲旅行者，創作所有有關電玩遊戲的內容。"
+      "電競遊戲內容創作｜英雄聯盟彩蛋",
+      "覺得值得就去做它會值得的"
     ],
     "avatar": "assets/channel.jpg",
     "links": [
@@ -2390,7 +2390,7 @@
       }
     ],
     "latest": {
-      "label": "最新長片",
+      "label": "推薦影片",
       "title": "五千字！最細最全最豐富 125+ 彩蛋逐幀拆解分析｜Know My Name 彩蛋解析｜2026 LoL 世界賽主題曲 Faker T1",
       "url": "https://www.youtube.com/watch?v=2LrqSfQt6Vs",
       "thumb": "assets/kmn.jpg",

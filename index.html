@@ -331,6 +331,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     var info = el("div");
     info.appendChild(el("h2", null, c.name));
     c.bio.forEach(function(t){ info.appendChild(el("p", null, t)); });
+    if (c.email) { var ep = el("p", null, "合作邀約 Email："); var ea = el("a", null, c.email); ea.href = "mailto:" + c.email; ep.appendChild(ea); info.appendChild(ep); }
     var ico = el("div", "ico");
     c.links.forEach(function(l){
       var a = el("a"); a.href = l.url; a.target = "_blank"; a.rel = "noopener";
