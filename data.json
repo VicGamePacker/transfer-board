@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T11:58:00+08:00",
-  "updatedLabel": "2026/11/17 11:58（台灣時間）",
+  "updated": "2026-11-17T12:21:00+08:00",
+  "updatedLabel": "2026/11/17 12:21（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -184,7 +184,14 @@
               "lv": "gcd"
             }
           ],
-          "logo": "logos/dk.webp"
+          "logo": "logos/dk.webp",
+          "notes": [
+            {
+              "t": "二軍 DK Challengers 官方公告 Loopy、Garden、Wayne 離隊（他們剛在亞洲大師賽 2026 決賽 3 比 1 贏 T1 學院）。",
+              "lv": "official",
+              "src": "Sheep X，11/17 12:15"
+            }
+          ]
         },
         {
           "name": "KT Rolster",
