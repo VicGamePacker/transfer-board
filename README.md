@@ -42,6 +42,6 @@ BLG 5926660141、WBG 5937903233、TES 5449734852、iG 2099708877、JDG 617497686
 - 取材範圍：Sheep 轉會追蹤頁、具名媒體（Inven、Dot Esports、Insider Gaming 等）、記者的 X 與微博貼文、球隊與選手官方社群。匿名、論壇、自媒體整理一律不收，查不到出處不寫。
 - `next.srcX`：Sheep X 爆料貼文網址（選填），頁面顯示成「X」連結。Sheep X 的 [SOURCES] 與 [BREAKING] 貼文都可當明年人選來源。
 
-## 補充來源（Vic 11/17 指定可信）
-- Cool-Style 酷炫的轉會整理文：具名媒體，標 `report`；文中沒列原始出處的項目，備註要寫明並待官方確認。
-- LCP 各隊另看 Facebook 粉專（Vic 的 Chrome 已登入，只讀）：CTBC Flying Oyster `facebook.com/ctbc.flyingoyster`，其他隊用 Facebook 搜尋頁找官方粉專。
+## 補充來源（Vic 11/17 指定）
+- LCP 各隊另看 Facebook 粉專（Vic 的 Chrome 已登入，只讀）：CTBC Flying Oyster `facebook.com/ctbc.flyingoyster`、Deep Cross Gaming `facebook.com/DeepCrossGaming`、GAM `facebook.com/GAMeSportsVN`、MVK `facebook.com/MVKEsportsLOL`、Team Secret Whales `facebook.com/TeamSecretWhales`。
+- Cool-Style 酷炫已移除，不當來源（Vic 11/17）。

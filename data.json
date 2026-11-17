@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T18:44:00+08:00",
-  "updatedLabel": "2026/11/17 18:44（台灣時間）",
+  "updated": "2026-11-17T18:47:00+08:00",
+  "updatedLabel": "2026/11/17 18:47（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -278,9 +278,9 @@
             {
               "n": "Sharvel",
               "r": "野",
-              "s": "left",
-              "lv": "report",
-              "note": "報導：離隊（Cool-Style 酷炫整理 LCK 離隊名單，文中未列原始出處，球隊官方公告待確認，11/17）",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣",
               "next": {
                 "n": "Cuzz",
                 "lv": "official",
@@ -291,9 +291,9 @@
             {
               "n": "Clozer",
               "r": "中",
-              "s": "left",
-              "lv": "report",
-              "note": "報導：離隊（Cool-Style 酷炫整理 LCK 離隊名單，文中未列原始出處，球隊官方公告待確認，11/17）"
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
             },
             {
               "n": "deokdam",
@@ -305,9 +305,9 @@
             {
               "n": "Peter",
               "r": "輔",
-              "s": "left",
-              "lv": "report",
-              "note": "報導：離隊（Cool-Style 酷炫整理 LCK 離隊名單，文中未列原始出處，球隊官方公告待確認，11/17）"
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
             }
           ],
           "logo": "logos/dns.webp"
@@ -2581,11 +2581,6 @@
       "name": "LoL Esports",
       "url": "https://lolesports.com/zh-TW/lolesports/news/a-more-open-lcp-ecosystem-in-2027",
       "desc": "LCP 2027 改制官方說明。"
-    },
-    {
-      "name": "Cool-Style 酷炫",
-      "url": "https://www.cool-style.com.tw/wd2/archives/1365608",
-      "desc": "具名媒體整理的 LCK 離隊、加盟名單，部分項目文中未列原始出處，標報導。"
     }
   ],
   "channel": {
