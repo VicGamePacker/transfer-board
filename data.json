@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T18:47:00+08:00",
-  "updatedLabel": "2026/11/17 18:47（台灣時間）",
+  "updated": "2026-11-17T19:49:00+08:00",
+  "updatedLabel": "2026/11/17 19:49（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -143,7 +143,14 @@
               "lv": "gcd"
             }
           ],
-          "logo": "logos/hle.webp"
+          "logo": "logos/hle.webp",
+          "notes": [
+            {
+              "t": "Mowgli 升任 2027 總教練（HLE 官方 Instagram，11/17）",
+              "lv": "official",
+              "src": "HLE 官方 Instagram"
+            }
+          ]
         },
         {
           "name": "Dplus KIA",
