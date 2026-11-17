@@ -54,6 +54,9 @@ for k, p in n.items():
         txt = f"{txt}；{t2}" if txt else t2
     if txt:
         rows.append((0 if "官方" in txt.split("；")[0] else 1, lgid, team, name, txt))
+for e in filter(None, os.environ.get("EXTRA", "").split(";")):  # 手動補列：賽區|隊|選手|文字;...
+    a = e.split("|")
+    rows.append((0 if "官方" in a[3].split("；")[0] else 1, *a))
 if os.environ.get("ONLY_STATUS"):
     rows = [r for r in rows if not r[4].startswith("明年人選")]
 rows.sort()
