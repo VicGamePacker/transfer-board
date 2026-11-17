@@ -33,3 +33,8 @@
 
 ## LPL 官方微博 UID（只讀，需 Vic 在 Chrome 登入 weibo.com）
 BLG 5926660141、WBG 5937903233、TES 5449734852、iG 2099708877、JDG 6174976862、AL 6198774314、LNG 5511584320、WE 1869429662、NIP 6420953344、LGD 2157471171、UP 6424306175、OMG 3165008832、EDG 5235726837。皆為藍 V 官方帳號。
+
+## 明年可能人選欄
+- 欄位 `next`：`{"n":"人選","lv":"report","src":"Sheep 文章網址"}`，放在「目前選手」那一列，對應 Sheep 轉會追蹤頁的同位置。
+- 來源頁：https://www.sheepesports.com/en/all/transfers/ 的 lec、lcs、lck、lpl、lcp 分頁。連結文字是新人選，連結網址是來源文章。
+- 全是記者報導，標 `report`。球隊官宣後，把該選手改成官方狀態並拿掉 `next` 或改成官方。

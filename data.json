@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T12:21:00+08:00",
-  "updatedLabel": "2026/11/17 12:21（台灣時間）",
+  "updated": "2026-11-17T12:28:00+08:00",
+  "updatedLabel": "2026/11/17 12:28（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -216,7 +216,12 @@
               "y": 2027,
               "lv": "gcd",
               "note": "合約庫寫到 2027，有報導他 2027 年要去 DN SOOPers",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Raptor",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-raptor-kellin-and-taeyoon-expected-to-join-kt-rolster-for-lck-2027/en"
+              }
             },
             {
               "n": "Bdd",
@@ -230,14 +235,24 @@
               "r": "下",
               "s": "expired",
               "lv": "official",
-              "note": "官方公告合約結束，成為自由球員"
+              "note": "官方公告合約結束，成為自由球員",
+              "next": {
+                "n": "Taeyoon",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-raptor-kellin-and-taeyoon-expected-to-join-kt-rolster-for-lck-2027/en"
+              }
             },
             {
               "n": "Effort",
               "r": "輔",
               "s": "expired",
               "lv": "official",
-              "note": "官方公告合約結束，成為自由球員"
+              "note": "官方公告合約結束，成為自由球員",
+              "next": {
+                "n": "Kellin",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-raptor-kellin-and-taeyoon-expected-to-join-kt-rolster-for-lck-2027/en"
+              }
             }
           ],
           "logo": "logos/kt.webp"
@@ -265,7 +280,12 @@
               "r": "野",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Cuzz",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-cuzz-set-to-join-dn-soopers-ahead-of-2027-lck-season/en"
+              }
             },
             {
               "n": "Clozer",
@@ -378,7 +398,12 @@
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作，成為自由人（11/17）"
+              "note": "官方公告結束合作，成為自由人（11/17）",
+              "next": {
+                "n": "Deft",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-deft-set-to-join-nongshim-redforce-for-lck-2027/en"
+              }
             },
             {
               "n": "Lehends",
@@ -420,7 +445,12 @@
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作"
+              "note": "官方公告結束合作",
+              "next": {
+                "n": "Noah",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-noah-set-to-join-bnk-fearx-ahead-of-2027-lck-season/en"
+              }
             },
             {
               "n": "Kellin",
@@ -505,7 +535,7 @@
     {
       "id": "LPL",
       "name": "LPL 中國",
-      "dataAsOf": "合約約期：Riot 官方合約庫 2026/11/12 版（LPL 多數 11/17 到期）。官宣：Sheep Esports 時間軸，讀到台灣 11/17 10:28，LPL 到此時還沒有球隊公布去留。",
+      "dataAsOf": "合約約期：Riot 官方合約庫 2026/11/12 版（LPL 多數 11/17 到期）。官宣：Sheep Esports 時間軸，讀到台灣 11/17 10:28，LPL 到此時還沒有球隊公布去留。 明年可能人選：Sheep 轉會追蹤頁在這個賽區還沒有任何人選報導，所以欄位空白。",
       "misc": [],
       "teams": [
         {
@@ -1078,7 +1108,7 @@
     {
       "id": "LCP",
       "name": "LCP 太平洋",
-      "dataAsOf": "約期：Riot 官方合約庫 LCP 分頁 11/2 版。最新版 LCP 分頁改列選手居留身分，不含約期，所以約期停在 11/2。官宣：Sheep Esports 時間軸，讀到台灣 11/17 11:50。",
+      "dataAsOf": "約期：Riot 官方合約庫 LCP 分頁 11/2 版。最新版 LCP 分頁改列選手居留身分，不含約期，所以約期停在 11/2。官宣：Sheep Esports 時間軸，讀到台灣 11/17 11:50。 明年可能人選：Sheep 轉會追蹤頁在這個賽區還沒有任何人選報導，所以欄位空白。",
       "misc": [
         {
           "t": "Riot 宣布 LCP 2027 改制：各隊回 PCS、VCS、LJL 打聯賽，表現好的再進 LCP。",
@@ -1461,7 +1491,12 @@
               "lv": "gcd",
               "y": 2028,
               "note": "報導：G2 要把他下放，需要轉會費",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Lyncas",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-lyncas-set-to-join-g2-esports-ahead-of-lec-2027-season/en"
+              }
             },
             {
               "n": "Caps",
@@ -1482,7 +1517,12 @@
               "r": "輔",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/16）。報導：口頭協議去 Fnatic"
+              "note": "官方公告離隊（11/16）。報導：口頭協議去 Fnatic",
+              "next": {
+                "n": "Mikyx",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-mikyx-set-to-return-with-g2-esports-for-2027-lec-season/en"
+              }
             }
           ],
           "notes": [
@@ -1510,7 +1550,12 @@
               "s": "expired",
               "lv": "gcd",
               "note": "未官宣。報導：傳轉往 Team Heretics",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Yike",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-yike-set-to-join-fnatic-ahead-of-2027-lec-season/en"
+              }
             },
             {
               "n": "Vladi",
@@ -1534,7 +1579,12 @@
               "lv": "gcd",
               "y": 2027,
               "note": "報導：口頭協議轉往 SK",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Labrov",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-labrov-fnatic-fans-enjoy-this-offseason-hehehehe/en"
+              }
             }
           ],
           "notes": [
@@ -1613,14 +1663,24 @@
               "r": "中",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Guti",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-guti-set-to-join-team-vitality-in-the-lec/en"
+              }
             },
             {
               "n": "Carzzy",
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/13），報導：去 MKOI"
+              "note": "官方公告離隊（11/13），報導：去 MKOI",
+              "next": {
+                "n": "Jopa",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-jopa-set-to-join-team-vitality-ahead-of-2027-lec-season/en"
+              }
             },
             {
               "n": "Fleshy",
@@ -1647,14 +1707,24 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/16）"
+              "note": "官方公告離隊（11/16）",
+              "next": {
+                "n": "Kryze",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-kryze-set-to-join-sk-gaming-in-lec-2027/en"
+              }
             },
             {
               "n": "Skeanz",
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/16）"
+              "note": "官方公告離隊（11/16）",
+              "next": {
+                "n": "Zicssi",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-zicssi-set-to-join-sk-gaming-for-the-2027-lec-season/en"
+              }
             },
             {
               "n": "SlowQ",
@@ -1668,14 +1738,24 @@
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/16）"
+              "note": "官方公告離隊（11/16）",
+              "next": {
+                "n": "3XA",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-3xa-set-to-rejoin-sk-gaming-in-the-lec/en"
+              }
             },
             {
               "n": "Mikyx",
               "r": "輔",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/16）"
+              "note": "官方公告離隊（11/16）",
+              "next": {
+                "n": "Lospa",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-lospa-set-to-join-sk-gaming-for-2027-after-leaving-fnatic/en"
+              }
             }
           ],
           "notes": [
@@ -1699,7 +1779,12 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/14）"
+              "note": "官方公告離隊（11/14）",
+              "next": {
+                "n": "BrokenBlade",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-brokenblade-set-to-join-movistar-koi-for-lec-2027/en"
+              }
             },
             {
               "n": "Elyoya",
@@ -1722,7 +1807,12 @@
               "s": "expired",
               "lv": "gcd",
               "note": "未官宣。報導：傳去 NAVI 當 AD",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Carzzy",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-carzzy-set-to-return-to-movistar-koi-for-the-2027-lec-season/en"
+              }
             },
             {
               "n": "Alvaro",
@@ -1756,14 +1846,24 @@
               "r": "野",
               "s": "until",
               "lv": "gcd",
-              "y": 2027
+              "y": 2027,
+              "next": {
+                "n": "Razork",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-razork-set-to-join-team-heretics-in-the-lec/en"
+              }
             },
             {
               "n": "Serin",
               "r": "中",
               "s": "until",
               "lv": "gcd",
-              "y": 2027
+              "y": 2027,
+              "next": {
+                "n": "Jackies",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-jackies-set-to-join-team-heretics-ahead-of-2027-lec-season/en"
+              }
             },
             {
               "n": "Hype",
@@ -1777,7 +1877,12 @@
               "r": "輔",
               "s": "unknown",
               "lv": "gcd",
-              "note": "合約庫沒有這位選手的約期"
+              "note": "合約庫沒有這位選手的約期",
+              "next": {
+                "n": "Jun",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-jun-set-to-join-team-heretics-after-delaying-military-service/en"
+              }
             }
           ],
           "notes": [
@@ -1797,35 +1902,60 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/14）"
+              "note": "官方公告離隊（11/14）",
+              "next": {
+                "n": "Myrwn",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-myrwn-set-to-join-giantx-for-2027-lec-season/en"
+              }
             },
             {
               "n": "ISMA",
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/13）"
+              "note": "官方公告離隊（11/13）",
+              "next": {
+                "n": "Thayger",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-thayger-reaches-verbal-agreement-with-giantx-for-lec-2027/en"
+              }
             },
             {
               "n": "Jackies",
               "r": "中",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/12）"
+              "note": "官方公告離隊（11/12）",
+              "next": {
+                "n": "Feisty",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-feisty-reaches-verbal-agreement-with-giantx/en"
+              }
             },
             {
               "n": "Flakked",
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/14）"
+              "note": "官方公告離隊（11/14）",
+              "next": {
+                "n": "Harpoon",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-harpoon-set-to-join-giantx-for-lec-2027/en"
+              }
             },
             {
               "n": "Jun",
               "r": "輔",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/13）"
+              "note": "官方公告離隊（11/13）",
+              "next": {
+                "n": "Piero",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-piero-set-to-join-giantx-for-the-lec-2027-season/en"
+              }
             }
           ],
           "notes": [
@@ -1893,7 +2023,12 @@
               "r": "上",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Zest",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-zest-set-to-join-natus-vincere-for-lec-2027/en"
+              }
             },
             {
               "n": "Rhilech",
@@ -1914,7 +2049,12 @@
               "r": "下",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Supa",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-supa-set-to-join-natus-vincere-ahead-of-2027-lec-season/en"
+              }
             },
             {
               "n": "Parus",
@@ -1976,7 +2116,12 @@
               "r": "下",
               "s": "until",
               "lv": "gcd",
-              "y": 2028
+              "y": 2028,
+              "next": {
+                "n": "Yeon",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-yeon-set-to-leave-team-liquid-and-join-cloud9-for-the-2027-lcs-season/en"
+              }
             },
             {
               "n": "Vulcan",
@@ -1985,7 +2130,12 @@
               "lv": "gcd",
               "y": 2029,
               "note": "報導：傳離開 C9 加入 Shopify，與合約庫寫的 2029 矛盾",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "CoreJJ",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-corejj-set-to-leave-team-liquid-and-join-cloud9-for-the-2027-lcs-season/en"
+              }
             }
           ],
           "notes": [
@@ -2100,7 +2250,12 @@
               "r": "上",
               "s": "until",
               "lv": "gcd",
-              "y": 2027
+              "y": 2027,
+              "next": {
+                "n": "Zamudo",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-zamudo-set-to-join-flyquest-for-lcs-2027/en"
+              }
             },
             {
               "n": "Gryffinn",
@@ -2255,28 +2410,48 @@
               "r": "野",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Gryffinn",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-gryffinn-set-to-join-shopify-rebellion-ahead-of-2027-lcs-season/en"
+              }
             },
             {
               "n": "Zinie",
               "r": "中",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Quad",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-quad-is-set-to-join-shopify-rebellion-for-2027/en"
+              }
             },
             {
               "n": "Bvoy",
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方宣布退役"
+              "note": "官方宣布退役",
+              "next": {
+                "n": "Massu",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-massu-set-to-join-shopify-rebellion-for-lcs-2027/en"
+              }
             },
             {
               "n": "Zeyzal",
               "r": "輔",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Vulcan",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-vulcan-set-to-join-shopify-rebellion-ahead-of-the-2027-season/en"
+              }
             }
           ],
           "notes": [
@@ -2347,6 +2522,11 @@
       "desc": "各隊官方公告與記者報導的整理，官宣時間以此對照。"
     },
     {
+      "name": "Sheep Esports Transfers",
+      "url": "https://www.sheepesports.com/en/all/transfers",
+      "desc": "「明年可能人選」欄的出處。每個人選附 Sheep 的報導連結，全部是記者爆料，不是球隊官宣。"
+    },
+    {
       "name": "Leaguepedia 韓國轉會頁",
       "url": "https://lol.fandom.com/wiki/Roster_Swaps/Current/Korea",
       "desc": "2026 下半季 LCK 陣容、位置與離隊紀錄。"
@@ -2405,5 +2585,6 @@
       "date": "2026/10/13"
     },
     "email": "j29499844@gmail.com"
-  }
+  },
+  "nextNote": "明年可能人選：取自 Sheep Esports 轉會追蹤頁，全是記者報導，不是球隊官宣。官宣後會改成官方。"
 }
