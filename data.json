@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T12:59:00+08:00",
-  "updatedLabel": "2026/11/17 12:59（台灣時間）",
+  "updated": "2026-11-17T13:04:00+08:00",
+  "updatedLabel": "2026/11/17 13:04（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -450,7 +450,8 @@
               "next": {
                 "n": "Noah",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-noah-set-to-join-bnk-fearx-ahead-of-2027-lck-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-noah-set-to-join-bnk-fearx-ahead-of-2027-lck-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120899063201849565"
               }
             },
             {
@@ -1496,7 +1497,8 @@
               "next": {
                 "n": "Lyncas",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-lyncas-set-to-join-g2-esports-ahead-of-lec-2027-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-lyncas-set-to-join-g2-esports-ahead-of-lec-2027-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2118006952844460149"
               }
             },
             {
@@ -1522,7 +1524,8 @@
               "next": {
                 "n": "Mikyx",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-mikyx-set-to-return-with-g2-esports-for-2027-lec-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-mikyx-set-to-return-with-g2-esports-for-2027-lec-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120131020183965885"
               }
             }
           ],
@@ -1555,7 +1558,8 @@
               "next": {
                 "n": "Yike",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-yike-set-to-join-fnatic-ahead-of-2027-lec-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-yike-set-to-join-fnatic-ahead-of-2027-lec-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120923014258708490"
               }
             },
             {
@@ -1584,7 +1588,8 @@
               "next": {
                 "n": "Labrov",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-labrov-fnatic-fans-enjoy-this-offseason-hehehehe/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-labrov-fnatic-fans-enjoy-this-offseason-hehehehe/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2119569759494963315"
               }
             }
           ],
@@ -1619,9 +1624,9 @@
               "n": "kyeahoo",
               "r": "中",
               "s": "renewed",
-              "lv": "official",
+              "lv": "report",
               "y": 2027,
-              "note": "官方宣布續約一年"
+              "note": "報導：與 KC 合約延長一年，球隊未公告（Sheep X，記者 anonimotum、LEC_Wooloo、i_Eros_，11/12）"
             },
             {
               "n": "Caliste",
@@ -1681,7 +1686,8 @@
               "next": {
                 "n": "Jopa",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-jopa-set-to-join-team-vitality-ahead-of-2027-lec-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-jopa-set-to-join-team-vitality-ahead-of-2027-lec-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2121332007837823019"
               }
             },
             {
@@ -1713,7 +1719,8 @@
               "next": {
                 "n": "Kryze",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-kryze-set-to-join-sk-gaming-in-lec-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-kryze-set-to-join-sk-gaming-in-lec-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120944758562701679"
               }
             },
             {
@@ -1725,7 +1732,8 @@
               "next": {
                 "n": "Zicssi",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-zicssi-set-to-join-sk-gaming-for-the-2027-lec-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-zicssi-set-to-join-sk-gaming-for-the-2027-lec-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120944758562701679"
               }
             },
             {
@@ -1744,7 +1752,8 @@
               "next": {
                 "n": "3XA",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-3xa-set-to-rejoin-sk-gaming-in-the-lec/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-3xa-set-to-rejoin-sk-gaming-in-the-lec/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120944758562701679"
               }
             },
             {
@@ -1756,7 +1765,8 @@
               "next": {
                 "n": "Lospa",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-lospa-set-to-join-sk-gaming-for-2027-after-leaving-fnatic/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-lospa-set-to-join-sk-gaming-for-2027-after-leaving-fnatic/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2116940157848879493"
               }
             }
           ],
@@ -1785,7 +1795,8 @@
               "next": {
                 "n": "BrokenBlade",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-brokenblade-set-to-join-movistar-koi-for-lec-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-brokenblade-set-to-join-movistar-koi-for-lec-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120573383377297887"
               }
             },
             {
@@ -1813,7 +1824,8 @@
               "next": {
                 "n": "Carzzy",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-carzzy-set-to-return-to-movistar-koi-for-the-2027-lec-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-carzzy-set-to-return-to-movistar-koi-for-the-2027-lec-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120573383377297887"
               }
             },
             {
@@ -1908,7 +1920,8 @@
               "next": {
                 "n": "Myrwn",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-myrwn-set-to-join-giantx-for-2027-lec-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-myrwn-set-to-join-giantx-for-2027-lec-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120996884336787681"
               }
             },
             {
@@ -1920,7 +1933,8 @@
               "next": {
                 "n": "Thayger",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-thayger-reaches-verbal-agreement-with-giantx-for-lec-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-thayger-reaches-verbal-agreement-with-giantx-for-lec-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2118819432008946031"
               }
             },
             {
@@ -1944,7 +1958,8 @@
               "next": {
                 "n": "Harpoon",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-harpoon-set-to-join-giantx-for-lec-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-harpoon-set-to-join-giantx-for-lec-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2121357173943157030"
               }
             },
             {
@@ -2029,7 +2044,8 @@
               "next": {
                 "n": "Zest",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-zest-set-to-join-natus-vincere-for-lec-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-zest-set-to-join-natus-vincere-for-lec-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2121369869991956832"
               }
             },
             {
@@ -2055,7 +2071,8 @@
               "next": {
                 "n": "Supa",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-supa-set-to-join-natus-vincere-ahead-of-2027-lec-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-supa-set-to-join-natus-vincere-ahead-of-2027-lec-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120997822870806537"
               }
             },
             {
@@ -2122,7 +2139,8 @@
               "next": {
                 "n": "Yeon",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-yeon-set-to-leave-team-liquid-and-join-cloud9-for-the-2027-lcs-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-yeon-set-to-leave-team-liquid-and-join-cloud9-for-the-2027-lcs-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120916563499135364"
               }
             },
             {
@@ -2136,7 +2154,8 @@
               "next": {
                 "n": "CoreJJ",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-corejj-set-to-leave-team-liquid-and-join-cloud9-for-the-2027-lcs-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-corejj-set-to-leave-team-liquid-and-join-cloud9-for-the-2027-lcs-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120921887328854083"
               }
             }
           ],
@@ -2430,7 +2449,8 @@
               "next": {
                 "n": "Quad",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-quad-is-set-to-join-shopify-rebellion-for-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-quad-is-set-to-join-shopify-rebellion-for-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2120805886184530383"
               }
             },
             {
