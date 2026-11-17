@@ -44,4 +44,4 @@ BLG 5926660141、WBG 5937903233、TES 5449734852、iG 2099708877、JDG 617497686
 
 ## 補充來源（Vic 11/17 指定）
 - LCP 各隊另看 Facebook 粉專（Vic 的 Chrome 已登入，只讀）：CTBC Flying Oyster `facebook.com/ctbc.flyingoyster`、Deep Cross Gaming `facebook.com/DeepCrossGaming`、GAM `facebook.com/GAMeSportsVN`、MVK `facebook.com/MVKEsportsLOL`、Team Secret Whales `facebook.com/TeamSecretWhales`。
-- Cool-Style 酷炫已移除，不當來源（Vic 11/17）。
+- Cool-Style 轉會整理文可信，標 `report`，對外只寫英文名 Cool-Style，不寫中文名（Vic 11/17）；文中沒列原始出處的項目，備註要寫明並待官方確認。
