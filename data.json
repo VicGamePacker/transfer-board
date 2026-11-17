@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T19:52:00+08:00",
-  "updatedLabel": "2026/11/17 19:52（台灣時間）",
+  "updated": "2026-11-17T23:04:00+08:00",
+  "updatedLabel": "2026/11/17 23:04（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1825,10 +1825,10 @@
             {
               "n": "Supa",
               "r": "下",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。報導：傳去 NAVI 當 AD",
-              "nlv": "report",
+              "s": "left",
+              "lv": "official",
+              "note": "Movistar KOI 官方公告結束合作（Sheep 轉述，11/17）",
+              "nlv": "official",
               "next": {
                 "n": "Carzzy",
                 "lv": "report",
