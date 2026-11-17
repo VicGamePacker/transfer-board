@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T14:04:00+08:00",
-  "updatedLabel": "2026/11/17 14:04（台灣時間）",
+  "updated": "2026-11-17T07:35:00+08:00",
+  "updatedLabel": "2026/11/17 07:35（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2348,9 +2348,10 @@
             {
               "n": "Saint",
               "r": "中",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "renewed",
+              "lv": "report",
+              "note": "報導：將與 LYON 續約，球隊未公告（Sheep X，記者 LEC_Wooloo、anonimotum、LCS_Eevee，11/17）",
+              "y": 2027
             },
             {
               "n": "Berserker",
