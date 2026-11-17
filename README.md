@@ -45,3 +45,6 @@ BLG 5926660141、WBG 5937903233、TES 5449734852、iG 2099708877、JDG 617497686
 ## 補充來源（Vic 11/17 指定）
 - LCP 各隊另看 Facebook 粉專（Vic 的 Chrome 已登入，只讀）：CTBC Flying Oyster `facebook.com/ctbc.flyingoyster`、Deep Cross Gaming `facebook.com/DeepCrossGaming`、GAM `facebook.com/GAMeSportsVN`、MVK `facebook.com/MVKEsportsLOL`、Team Secret Whales `facebook.com/TeamSecretWhales`。
 - Cool-Style 轉會整理文可信，標 `report`，對外只寫英文名 Cool-Style，不寫中文名（Vic 11/17）；文中沒列原始出處的項目，備註要寫明並待官方確認。
+
+## 每日 23:00 貼文素材
+排程 23:00 場更新完會跑 `python -I make_post.py 輸出資料夾`，比對今天 00:00 前最後一版 data.json，產出多圖（01.png 封面，之後每頁 6 筆異動）加 changes.txt，再由 V 寫 Threads 文案。圖與文案放 vault `03 GamePacker\近期\轉會看板貼文\日期\`，Vic 自己發。
