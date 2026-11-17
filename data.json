@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T11:50:00+08:00",
-  "updatedLabel": "2026/11/17 11:50（台灣時間）",
+  "updated": "2026-11-17T11:56:00+08:00",
+  "updatedLabel": "2026/11/17 11:56（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -329,6 +329,16 @@
           "name": "Nongshim RedForce",
           "notes": [
             {
+              "t": "教練 Crazy 官方公告結束合作，成為自由人（台灣時間 11:20）。",
+              "lv": "official",
+              "src": "NS RedForce 官方 X"
+            },
+            {
+              "t": "LCK CL 二軍的 SeTab、Pleata 也官方公告結束合作。",
+              "lv": "official",
+              "src": "NS RedForce 官方 X"
+            },
+            {
               "t": "Deft 傳加入農心。他 11/18 退伍，農心人員稱已確定但尚未公布。",
               "lv": "report",
               "src": "Wikitree"
@@ -347,28 +357,28 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "官方公告分道揚鑣（11/17）"
+              "note": "官方公告結束合作，成為自由人（11/17）"
             },
             {
               "n": "Scout",
               "r": "中",
               "s": "left",
               "lv": "official",
-              "note": "官方公告分道揚鑣（11/17）"
+              "note": "官方公告結束合作，成為自由人（11/17）"
             },
             {
               "n": "Diable",
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方公告分道揚鑣（11/17）"
+              "note": "官方公告結束合作，成為自由人（11/17）"
             },
             {
               "n": "Lehends",
               "r": "輔",
               "s": "left",
               "lv": "official",
-              "note": "官方公告分道揚鑣（11/17）"
+              "note": "官方公告結束合作，成為自由人（11/17）"
             }
           ],
           "logo": "logos/ns.webp"
