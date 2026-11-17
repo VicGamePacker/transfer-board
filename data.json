@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T17:47:00+08:00",
-  "updatedLabel": "2026/11/17 17:47（台灣時間）",
+  "updated": "2026-11-17T18:44:00+08:00",
+  "updatedLabel": "2026/11/17 18:44（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -215,8 +215,8 @@
               "s": "until",
               "y": 2027,
               "lv": "gcd",
-              "note": "合約庫寫到 2027，有報導他 2027 年要去 DN SOOPers",
-              "nlv": "report",
+              "note": "DN SOOPers 官方影片宣布 Cuzz 加入 2027 陣容，KT 尚未公告",
+              "nlv": "official",
               "next": {
                 "n": "Raptor",
                 "lv": "report",
@@ -261,9 +261,9 @@
           "name": "DN SOOPers",
           "notes": [
             {
-              "t": "Cuzz 傳將加入 DN SOOPers，重返他 2024 年效力過的組織。",
-              "lv": "report",
-              "src": "Sheep，記者 LEC_Wooloo"
+              "t": "官方影片宣布 Cuzz 加入 2027 陣容（DN SOOPers 官方，11/17）",
+              "lv": "official",
+              "src": "DN SOOPers 官方影片"
             }
           ],
           "players": [
@@ -283,7 +283,7 @@
               "note": "報導：離隊（Cool-Style 酷炫整理 LCK 離隊名單，文中未列原始出處，球隊官方公告待確認，11/17）",
               "next": {
                 "n": "Cuzz",
-                "lv": "report",
+                "lv": "official",
                 "src": "https://www.sheepesports.com/en/articles/sources-cuzz-set-to-join-dn-soopers-ahead-of-2027-lck-season/en",
                 "srcX": "https://x.com/Sheep_Esports/status/2122517127659716885"
               }
