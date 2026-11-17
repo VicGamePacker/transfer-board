@@ -97,7 +97,7 @@ section.block h2{font-size:20px;margin:0 0 10px}
 .p.unknown{--bar:var(--line)}
 .team h3 .tn{display:flex;align-items:center;gap:10px;min-width:0}
 .team h3 img{width:32px;height:32px;object-fit:contain;flex:none}
-.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,360px);gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:18px;box-shadow:var(--shadow)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,220px);gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:18px;box-shadow:var(--shadow)}
 .who{display:flex;gap:14px;align-items:flex-start;min-width:0}
 .who img{width:72px;height:72px;border-radius:50%;flex:none;border:2px solid var(--line)}
 .who h2{margin:0 0 4px;font-size:20px}
@@ -330,8 +330,10 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     who.appendChild(av);
     var info = el("div");
     info.appendChild(el("h2", null, c.name));
-    c.bio.forEach(function(t){ info.appendChild(el("p", null, t)); });
-    if (c.email) { var ep = el("p", null, "合作邀約 Email："); var ea = el("a", null, c.email); ea.href = "mailto:" + c.email; ep.appendChild(ea); info.appendChild(ep); }
+    c.bio.forEach(function(t, i){
+      info.appendChild(el("p", null, t));
+      if (i === 0 && c.email) { var ep = el("p", null, "合作邀約 Email："); var ea = el("a", null, c.email); ea.href = "mailto:" + c.email; ep.appendChild(ea); info.appendChild(ep); }
+    });
     var ico = el("div", "ico");
     c.links.forEach(function(l){
       var a = el("a"); a.href = l.url; a.target = "_blank"; a.rel = "noopener";
