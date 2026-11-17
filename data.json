@@ -1,0 +1,221 @@
+{
+  "updated": "2026-11-17T10:28:00+08:00",
+  "updatedLabel": "2026/11/17 10:28（台灣時間）",
+  "leagues": [
+    {
+      "id": "LCK",
+      "name": "LCK 韓國",
+      "dataAsOf": "合約約期：Riot 官方合約庫 2026/11/03 版。官宣：Sheep Esports 時間軸，讀到台灣 11/17 10:28。",
+      "misc": [
+        { "t": "Nuguri 正在找 2027 年回職業賽場的隊伍，已簽經紀公司。", "lv": "report", "src": "Inven，Sheep 轉述" }
+      ],
+      "teams": [
+        { "name": "Gen.G", "players": [
+          { "n": "Kiin", "r": "上", "s": "expired", "lv": "official", "note": "Gen.G 官方公告合約已到期，去留未公布" },
+          { "n": "Canyon", "r": "野", "s": "expired", "lv": "official", "note": "Gen.G 官方公告合約已到期，去留未公布" },
+          { "n": "Chovy", "r": "中", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Ruler", "r": "下", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Duro", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "T1", "notes": [
+          { "t": "Roach 將回 T1 擔任 2027 總教練，T1 尚未公布。", "lv": "report", "src": "Inven，Sheep 轉述" }
+        ], "players": [
+          { "n": "Doran", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Oner", "r": "野", "s": "until", "y": 2028, "lv": "gcd" },
+          { "n": "Faker", "r": "中", "s": "until", "y": 2029, "lv": "gcd" },
+          { "n": "Peyz", "r": "下", "s": "until", "y": 2028, "lv": "gcd" },
+          { "n": "Keria", "r": "輔", "s": "until", "y": 2029, "lv": "gcd" }
+        ]},
+        { "name": "Hanwha Life Esports", "players": [
+          { "n": "Zeus", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣。11/2 有報導說他拒絕續約，HLE 表示還在談", "nlv": "report" },
+          { "n": "Kanavi", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Zeka", "r": "中", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Gumayusi", "r": "下", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Delight", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "Dplus KIA", "players": [
+          { "n": "Siwoo", "r": "上", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Lucid", "r": "野", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "ShowMaker", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Smash", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Career", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "KT Rolster", "notes": [
+          { "t": "同批官方公告合約結束的還有 Ghost、Sylvie、Pollu。", "lv": "official" }
+        ], "players": [
+          { "n": "PerfecT", "r": "上", "s": "until", "y": 2028, "lv": "gcd" },
+          { "n": "Cuzz", "r": "野", "s": "until", "y": 2027, "lv": "gcd", "note": "合約庫寫到 2027，有報導他 2027 年要去 DN SOOPers", "nlv": "report" },
+          { "n": "Bdd", "r": "中", "s": "until", "y": 2028, "lv": "gcd" },
+          { "n": "Jiwoo", "r": "下", "s": "expired", "lv": "official", "note": "官方公告合約結束，成為自由球員" },
+          { "n": "Effort", "r": "輔", "s": "expired", "lv": "official", "note": "官方公告合約結束，成為自由球員" }
+        ]},
+        { "name": "DN SOOPers", "notes": [
+          { "t": "Cuzz 傳將加入 DN SOOPers。", "lv": "report", "src": "Sheep，記者 LEC_Wooloo" }
+        ], "players": [
+          { "n": "DuDu", "r": "上", "s": "until", "y": 2028, "lv": "report", "note": "合約庫 11/3 版寫已到期，Sheep 稱他已續約到 2028，隊方未公布" },
+          { "n": "Sharvel", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Clozer", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "deokdam", "r": "下", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Peter", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "HANJIN BRION", "players": [
+          { "n": "Casting", "r": "上", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "GIDEON", "r": "野", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Roamer", "r": "中", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Teddy", "r": "下", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Namgung", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "Nongshim RedForce", "notes": [
+          { "t": "Deft 傳加入農心。他 11/18 退伍，農心人員稱已確定但尚未公布。", "lv": "report", "src": "Wikitree" }
+        ], "players": [
+          { "n": "Kingen", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Sponge", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Scout", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Diable", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Lehends", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "BNK FEARX", "players": [
+          { "n": "Clear", "r": "上", "s": "left", "lv": "official", "note": "官方公告結束合作" },
+          { "n": "Raptor", "r": "野", "s": "left", "lv": "official", "note": "官方公告結束合作" },
+          { "n": "VicLa", "r": "中", "s": "renewed", "y": 2027, "lv": "official", "note": "官方公告續約，打 2027 賽季" },
+          { "n": "Taeyoon", "r": "下", "s": "left", "lv": "official", "note": "官方公告結束合作" },
+          { "n": "Kellin", "r": "輔", "s": "left", "lv": "official", "note": "官方公告結束合作" }
+        ]},
+        { "name": "KIWOOM DRX", "notes": [
+          { "t": "總教練 Joker 與教練 Naehyun 合約也到期（官方公告）。", "lv": "official" }
+        ], "players": [
+          { "n": "Rich", "r": "", "s": "expired", "lv": "official", "note": "官方公告合約到期" },
+          { "n": "Willer", "r": "", "s": "expired", "lv": "official", "note": "官方公告合約到期" },
+          { "n": "Vincenzo", "r": "", "s": "expired", "lv": "official", "note": "官方公告合約到期" },
+          { "n": "Ucal", "r": "", "s": "expired", "lv": "official", "note": "官方公告合約到期" },
+          { "n": "Aiming", "r": "", "s": "expired", "lv": "official", "note": "官方公告合約到期" },
+          { "n": "Andil", "r": "", "s": "expired", "lv": "official", "note": "官方公告合約到期" },
+          { "n": "AKaJe", "r": "", "s": "until", "y": 2028, "lv": "gcd" },
+          { "n": "LazyFeel", "r": "", "s": "until", "y": 2028, "lv": "gcd" }
+        ]}
+      ]
+    },
+    {
+      "id": "LPL",
+      "name": "LPL 中國",
+      "dataAsOf": "合約約期：Riot 官方合約庫 2026/11/12 版（LPL 多數 11/17 到期）。官宣：Sheep Esports 時間軸，讀到台灣 11/17 10:28，LPL 到此時還沒有球隊公布去留。",
+      "misc": [],
+      "teams": [
+        { "name": "Bilibili Gaming", "notes": [
+          { "t": "Sheep 選手頁寫 Viper 到 2027，以官方合約庫為準，BLG 尚未確認。", "lv": "gcd" }
+        ], "players": [
+          { "n": "Bin", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Xun", "r": "野", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Knight", "r": "中", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Viper", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "ON", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "Weibo Gaming", "players": [
+          { "n": "Zika", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Jiejie", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Xiaohu", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Elk", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Jwei", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Hang", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "Top Esports", "players": [
+          { "n": "369", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Tian", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Creme", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "JackeyLove", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Zhuo", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "ZUIAN", "r": "上", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "Invictus Gaming", "players": [
+          { "n": "TheShy", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Wei", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Rookie", "r": "中", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Assum", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "JiaQi", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Meiko", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "JD Gaming", "players": [
+          { "n": "Xiaoxu", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "JunJia", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "xiaofeng", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "HongQ", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "GALA", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Vampire", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "Anyone's Legend", "players": [
+          { "n": "Breath", "r": "上", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Tarzan", "r": "野", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Shanks", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Hope", "r": "下", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Kael", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "LNG Esports", "players": [
+          { "n": "sheer", "r": "上", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "5t5", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Nia", "r": "中", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "1xn", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "MISSING", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "Team WE", "players": [
+          { "n": "Cube", "r": "上", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Monki", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Tyrion", "r": "野", "s": "until", "y": 2028, "lv": "gcd" },
+          { "n": "Karis", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "About", "r": "下", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Erha", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "Ninjas in Pyjamas", "players": [
+          { "n": "HOYA", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Guwon", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Care", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Photic", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "LGD Gaming", "players": [
+          { "n": "Burdol", "r": "上", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Heng", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Tangyuan", "r": "中", "s": "until", "y": 2028, "lv": "gcd" },
+          { "n": "Shaoye", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "Ultra Prime", "players": [
+          { "n": "Hery", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "climber", "r": "野", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Saber", "r": "中", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "LP", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Xiaoxia", "r": "輔", "s": "until", "y": 2027, "lv": "gcd" }
+        ]},
+        { "name": "Oh My God", "notes": [
+          { "t": "合約庫把多數選手的到期日寫成 11/15，其中 Starry 是 11/17。", "lv": "gcd" }
+        ], "players": [
+          { "n": "Alley", "r": "上", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "re0", "r": "野", "s": "until", "y": 2027, "lv": "gcd" },
+          { "n": "Linfeng", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Banye", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Starry", "r": "下", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "Dorian", "r": "輔", "s": "expired", "lv": "gcd", "note": "未官宣" }
+        ]},
+        { "name": "EDward Gaming", "notes": [
+          { "t": "合約庫 11/12 版的 EDG 欄位有空白，其他位置待補。", "lv": "gcd" }
+        ], "players": [
+          { "n": "BuLLDog", "r": "中", "s": "expired", "lv": "gcd", "note": "未官宣" },
+          { "n": "sinian", "r": "中", "s": "until", "y": 2029, "lv": "gcd" },
+          { "n": "Parukia", "r": "輔", "s": "until", "y": 2028, "lv": "gcd" }
+        ]}
+      ]
+    }
+  ],
+  "sources": [
+    { "name": "Riot Global Contract Database（官方合約庫）", "url": "https://docs.google.com/spreadsheets/d/1Y7k5kQ2AegbuyiGwEPsa62e883FYVtHqr6UVut9RC4o/pubhtml", "desc": "約期以此為準。LCK 版本 2026/11/03，LPL 版本 2026/11/12，只取暱稱、隊伍、到期日。" },
+    { "name": "Sheep Esports X", "url": "https://x.com/Sheep_Esports", "desc": "各隊官方公告與記者報導的整理，官宣時間以此對照。" },
+    { "name": "Leaguepedia 韓國轉會頁", "url": "https://lol.fandom.com/wiki/Roster_Swaps/Current/Korea", "desc": "2026 下半季 LCK 陣容、位置與離隊紀錄。" },
+    { "name": "Leaguepedia 中國轉會頁", "url": "https://lol.fandom.com/wiki/Roster_Swaps/Current/China", "desc": "2026 下半季 LPL 陣容與位置。" },
+    { "name": "球隊官方社群", "url": "", "desc": "Gen.G、KT Rolster、KIWOOM DRX、BNK FEARX 等球隊自己公布的合約到期與續約公告。" }
+  ],
+  "channel": {
+    "name": "遊者 GamePacker",
+    "desc": "用說故事的方式講電競與 ACG，英雄聯盟選手傳記、賽事經典時刻、遊戲彩蛋。",
+    "links": [
+      { "label": "YouTube 頻道", "url": "https://www.youtube.com/@GamePacker" },
+      { "label": "全部連結", "url": "https://portaly.cc/GamePacker" }
+    ]
+  }
+}

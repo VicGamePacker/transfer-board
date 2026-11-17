@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>轉會期看板 遊者 GamePacker</title>
+<meta name="description" content="2026 英雄聯盟轉會期 LCK、LPL 選手合約與官宣狀態整理，附消息來源與更新時間。">
+<meta property="og:title" content="2026 轉會期看板｜遊者 GamePacker">
+<meta property="og:description" content="LCK、LPL 選手合約到期、續約、離隊狀態，官方公告與報導分開標示。">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#ffffff; --ink:#15181e; --muted:#5b6472; --line:#e3e6ec;
+  --accent:#1f4fd8; --accent-ink:#ffffff;
+  --expired-bg:#fff3d6; --expired-ink:#7a4b00; --expired-bar:#e8a317;
+  --until-bg:#e9edf3; --until-ink:#3b4656; --until-bar:#9aa5b5;
+  --left-bg:#fde4e1; --left-ink:#8a1c12; --left-bar:#d6453a;
+  --renewed-bg:#dcf3e6; --renewed-ink:#0e5a33; --renewed-bar:#2aa064;
+  --report-bg:#ede4fb; --report-ink:#4a2b8a;
+  --shadow:0 1px 2px rgba(20,28,40,.06),0 4px 14px rgba(20,28,40,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1116; --card:#171b22; --ink:#e8ebf0; --muted:#98a2b3; --line:#2a303b;
+    --accent:#6d93ff; --accent-ink:#0e1116;
+    --expired-bg:#3a2d0c; --expired-ink:#f3cd78; --expired-bar:#e8a317;
+    --until-bg:#242a34; --until-ink:#b9c2d0; --until-bar:#5a6578;
+    --left-bg:#401a17; --left-ink:#ffb4ab; --left-bar:#e0584c;
+    --renewed-bg:#10341f; --renewed-ink:#8fe0b3; --renewed-bar:#2aa064;
+    --report-bg:#2c2147; --report-ink:#cdb8fb;
+    --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e1116; --card:#171b22; --ink:#e8ebf0; --muted:#98a2b3; --line:#2a303b;
+  --accent:#6d93ff; --accent-ink:#0e1116;
+  --expired-bg:#3a2d0c; --expired-ink:#f3cd78; --expired-bar:#e8a317;
+  --until-bg:#242a34; --until-ink:#b9c2d0; --until-bar:#5a6578;
+  --left-bg:#401a17; --left-ink:#ffb4ab; --left-bar:#e0584c;
+  --renewed-bg:#10341f; --renewed-ink:#8fe0b3; --renewed-bar:#2aa064;
+  --report-bg:#2c2147; --report-ink:#cdb8fb;
+  --shadow:0 1px 2px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.6;font-size:16px}
+a{color:var(--accent)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+header{padding:28px 0 8px}
+.eyebrow{font-size:13px;letter-spacing:.08em;color:var(--muted);margin:0 0 4px}
+h1{font-size:clamp(24px,4.2vw,36px);line-height:1.2;margin:0 0 10px;font-weight:800}
+.updated{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;box-shadow:var(--shadow)}
+.updated b{font-variant-numeric:tabular-nums}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--renewed-bar)}
+.lead{color:var(--muted);margin:12px 0 0;max-width:720px;font-size:15px}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0 10px;border-bottom:1px solid var(--line);margin-top:16px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 18px;border-radius:10px;font:inherit;font-weight:700;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.row2{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:5px 12px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip[aria-pressed="true"]{outline:2px solid var(--accent);outline-offset:1px}
+.chip i{width:10px;height:10px;border-radius:3px;display:inline-block}
+.chip em{font-style:normal;color:var(--muted);font-variant-numeric:tabular-nums}
+.search{flex:1;min-width:180px;max-width:320px;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit;font-size:15px}
+.asof{font-size:13px;color:var(--muted);margin:10px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin:16px 0 8px}
+.team{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.team h3{margin:0;padding:12px 14px 8px;font-size:17px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.team h3 small{font-size:12px;color:var(--muted);font-weight:500;white-space:nowrap}
+.players{list-style:none;margin:0;padding:0 0 6px}
+.p{display:grid;grid-template-columns:34px 1fr auto;gap:2px 10px;align-items:center;padding:8px 14px;border-top:1px solid var(--line);position:relative}
+.p::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--bar,var(--until-bar))}
+.role{font-size:12px;color:var(--muted);text-align:center;border:1px solid var(--line);border-radius:6px;padding:1px 0}
+.pn{font-weight:700;word-break:break-word}
+.pill{font-size:13px;font-weight:700;padding:2px 10px;border-radius:999px;white-space:nowrap}
+.pill.expired{background:var(--expired-bg);color:var(--expired-ink)}
+.pill.until{background:var(--until-bg);color:var(--until-ink)}
+.pill.left{background:var(--left-bg);color:var(--left-ink)}
+.pill.renewed{background:var(--renewed-bg);color:var(--renewed-ink)}
+.p.expired{--bar:var(--expired-bar)} .p.until{--bar:var(--until-bar)} .p.left{--bar:var(--left-bar)} .p.renewed{--bar:var(--renewed-bar)}
+.note{grid-column:2 / 4;font-size:13px;color:var(--muted)}
+.tag{display:inline-block;font-size:11px;font-weight:700;border-radius:5px;padding:0 6px;margin-right:6px;vertical-align:1px}
+.tag.report{background:var(--report-bg);color:var(--report-ink)}
+.tag.official{background:var(--renewed-bg);color:var(--renewed-ink)}
+.tag.gcd{background:var(--until-bg);color:var(--until-ink)}
+.tnote{margin:0;padding:8px 14px 10px;border-top:1px dashed var(--line);font-size:13px;color:var(--muted)}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin:6px 0 0}
+section.block{margin:28px 0}
+section.block h2{font-size:20px;margin:0 0 10px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
+.panel ul{margin:0;padding-left:20px}
+.panel li{margin:6px 0}
+.panel p{margin:0 0 8px}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:9px 18px;border-radius:10px;background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:480px){.grid{grid-template-columns:1fr}}
+@media (max-width:760px){.controls{position:static}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">遊者 GamePacker</p>
+    <h1>2026 轉會期看板</h1>
+    <div class="updated"><span class="dot" aria-hidden="true"></span>最後更新 <b id="updated">載入中</b></div>
+    <p class="lead">英雄聯盟 S16 世界賽後，各賽區選手的合約與官宣狀態。官方公告、合約庫與報導分開標示，傳聞不收。</p>
+  </header>
+
+  <div class="controls">
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="row2">
+      <div class="chips" id="chips"></div>
+      <label class="sr" for="q">搜尋隊伍或選手</label>
+      <input class="search" id="q" type="search" placeholder="搜尋隊伍或選手，例如 Zeus">
+    </div>
+    <div class="legend" aria-label="來源標示說明">
+      <span><span class="tag official">官方</span>球隊或 Riot 公告</span>
+      <span><span class="tag gcd">合約庫</span>Riot 官方合約庫</span>
+      <span><span class="tag report">報導</span>具名媒體或記者，非官方確認</span>
+    </div>
+    <p class="asof" id="asof"></p>
+  </div>
+
+  <main>
+    <div class="grid" id="grid" aria-live="polite"></div>
+    <div id="misc"></div>
+  </main>
+
+  <section class="block" id="sources">
+    <h2>消息來源</h2>
+    <div class="panel"><ul id="srcList"></ul></div>
+  </section>
+
+  <section class="block" id="disclaimer">
+    <h2>免責聲明</h2>
+    <div class="panel">
+      <ul>
+        <li>這是粉絲整理的非官方資訊，與 Riot Games、各電競隊伍無關，也沒有獲得它們背書。League of Legends 與相關名稱為 Riot Games 的商標。</li>
+        <li>資料可能延遲或有誤，最後更新時間以頁面最上方為準。實際去留一律以 Riot 與球隊的官方公告為準。</li>
+        <li>「約滿」代表合約到期、可以談新約，不代表選手已經離隊。「報導」是具名媒體或記者的說法，尚未經球隊確認。</li>
+        <li>約期取自 Riot 官方合約庫的指定版本，版本日期見各賽區上方說明。合約庫之後才出現的官宣，以球隊公告為準，可能與合約庫不同。</li>
+        <li>本頁只收選手暱稱、隊伍、位置、約期與官宣，不收本名與其他個人資料。</li>
+        <li>發現錯誤或有更新，歡迎到頻道留言告訴我。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block" id="channel">
+    <h2>宣傳頻道</h2>
+    <div class="panel">
+      <p><strong id="chName"></strong></p>
+      <p id="chDesc"></p>
+      <div class="cta" id="chLinks"></div>
+    </div>
+  </section>
+
+  <footer>最後更新 <span id="updated2"></span>。資料由遊者 GamePacker 整理。</footer>
+</div>
+
+<script>
+(function(){
+  var STATUS = {
+    expired:{label:"約滿", short:"約滿"},
+    until:{label:"約到", short:"約到"},
+    left:{label:"離隊", short:"離隊"},
+    renewed:{label:"續約", short:"續約"}
+  };
+  var LV = {official:"官方", gcd:"合約庫", report:"報導"};
+  var BAR = {expired:"--expired-bar", until:"--until-bar", left:"--left-bar", renewed:"--renewed-bar"};
+  var data = null, cur = "LCK", filter = null, query = "";
+
+  function el(tag, cls, text){
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function pillText(p){
+    if (p.s === "until") return "約到 " + p.y;
+    if (p.s === "renewed") return "續約 " + p.y;
+    return STATUS[p.s].label;
+  }
+  function tag(lv){ return el("span", "tag " + lv, LV[lv]); }
+
+  function leagueById(id){
+    for (var i=0;i<data.leagues.length;i++) if (data.leagues[i].id===id) return data.leagues[i];
+    return data.leagues[0];
+  }
+
+  function renderTabs(){
+    var box = document.getElementById("tabs");
+    box.textContent = "";
+    data.leagues.forEach(function(l){
+      var b = el("button", "tab", l.name);
+      b.setAttribute("role", "tab");
+      b.setAttribute("aria-selected", l.id===cur ? "true" : "false");
+      b.addEventListener("click", function(){
+        cur = l.id; filter = null;
+        try { history.replaceState(null, "", "#" + l.id.toLowerCase()); } catch(e){}
+        render();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function counts(league){
+    var c = {expired:0, until:0, left:0, renewed:0};
+    league.teams.forEach(function(t){ t.players.forEach(function(p){ c[p.s]++; }); });
+    return c;
+  }
+
+  function renderChips(league){
+    var box = document.getElementById("chips");
+    box.textContent = "";
+    var c = counts(league);
+    ["expired","renewed","left","until"].forEach(function(k){
+      var b = el("button", "chip");
+      b.setAttribute("aria-pressed", filter===k ? "true" : "false");
+      var sw = el("i"); sw.style.background = "var(" + BAR[k] + ")";
+      b.appendChild(sw);
+      b.appendChild(document.createTextNode((k==="until" ? "約到 2027 以後" : STATUS[k].label)));
+      b.appendChild(el("em", null, String(c[k])));
+      b.addEventListener("click", function(){ filter = (filter===k ? null : k); renderBody(); renderChips(league); });
+      box.appendChild(b);
+    });
+  }
+
+  function matchPlayer(team, p){
+    if (filter && p.s !== filter) return false;
+    if (query) {
+      var q = query.toLowerCase();
+      if (team.name.toLowerCase().indexOf(q) < 0 && p.n.toLowerCase().indexOf(q) < 0) return false;
+    }
+    return true;
+  }
+
+  function renderBody(){
+    var league = leagueById(cur);
+    document.getElementById("asof").textContent = league.dataAsOf;
+    var grid = document.getElementById("grid");
+    grid.textContent = "";
+    var shown = 0;
+    league.teams.forEach(function(team){
+      var ps = team.players.filter(function(p){ return matchPlayer(team, p); });
+      if (!ps.length) return;
+      shown++;
+      var card = el("article", "team");
+      var h = el("h3", null, team.name);
+      h.appendChild(el("small", null, ps.length + " 位"));
+      card.appendChild(h);
+      var ul = el("ul", "players");
+      ps.forEach(function(p){
+        var li = el("li", "p " + p.s);
+        li.appendChild(el("span", "role", p.r || "?"));
+        var nm = el("span", "pn", p.n);
+        li.appendChild(nm);
+        var pill = el("span", "pill " + p.s, pillText(p));
+        li.appendChild(pill);
+        var n = el("div", "note");
+        n.appendChild(tag(p.nlv || p.lv));
+        n.appendChild(document.createTextNode(p.note || ""));
+        if (p.note || (p.nlv||p.lv)) li.appendChild(n);
+        ul.appendChild(li);
+      });
+      card.appendChild(ul);
+      (team.notes || []).forEach(function(tn){
+        var d = el("p", "tnote");
+        d.appendChild(tag(tn.lv));
+        d.appendChild(document.createTextNode(tn.t + (tn.src ? "（" + tn.src + "）" : "")));
+        card.appendChild(d);
+      });
+      grid.appendChild(card);
+    });
+    if (!shown) grid.appendChild(el("div", "empty", "沒有符合的結果"));
+    var misc = document.getElementById("misc");
+    misc.textContent = "";
+    if (league.misc && league.misc.length && !filter && !query) {
+      var panel = el("div", "panel");
+      panel.appendChild(el("p", null, "其他消息"));
+      league.misc.forEach(function(m){
+        var p = el("p");
+        p.appendChild(tag(m.lv));
+        p.appendChild(document.createTextNode(m.t + (m.src ? "（" + m.src + "）" : "")));
+        panel.appendChild(p);
+      });
+      misc.appendChild(panel);
+    }
+  }
+
+  function renderStatic(){
+    document.getElementById("updated").textContent = data.updatedLabel;
+    document.getElementById("updated2").textContent = data.updatedLabel;
+    var ul = document.getElementById("srcList");
+    ul.textContent = "";
+    data.sources.forEach(function(s){
+      var li = el("li");
+      if (s.url) { var a = el("a", null, s.name); a.href = s.url; a.target = "_blank"; a.rel = "noopener"; li.appendChild(a); }
+      else li.appendChild(el("strong", null, s.name));
+      li.appendChild(document.createTextNode("：" + s.desc));
+      ul.appendChild(li);
+    });
+    document.getElementById("chName").textContent = data.channel.name;
+    document.getElementById("chDesc").textContent = data.channel.desc;
+    var box = document.getElementById("chLinks");
+    data.channel.links.forEach(function(l, i){
+      var a = el("a", "btn" + (i ? " ghost" : ""), l.label);
+      a.href = l.url; a.target = "_blank"; a.rel = "noopener";
+      box.appendChild(a);
+    });
+  }
+
+  function render(){
+    renderTabs();
+    renderChips(leagueById(cur));
+    renderBody();
+  }
+
+  document.getElementById("q").addEventListener("input", function(e){ query = e.target.value.trim(); renderBody(); });
+
+  var h = (location.hash || "").replace("#","").toUpperCase();
+  window.addEventListener("hashchange", function(){
+    var x = (location.hash || "").replace("#","").toUpperCase();
+    if (data && x !== cur && data.leagues.some(function(l){ return l.id===x; })) { cur = x; filter = null; render(); }
+  });
+
+  fetch("data.json", {cache:"no-cache"}).then(function(r){ return r.json(); }).then(function(d){
+    data = d;
+    if (h && d.leagues.some(function(l){ return l.id===h; })) cur = h; else cur = d.leagues[0].id;
+    renderStatic();
+    render();
+  }).catch(function(){
+    document.getElementById("updated").textContent = "資料載入失敗，請重新整理";
+  });
+})();
+</script>
+</body>
+</html>
