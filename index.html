@@ -305,6 +305,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
         var d = el("p", "tnote");
         d.appendChild(tag(tn.lv));
         d.appendChild(document.createTextNode(tn.t + (tn.src ? "（" + tn.src + "）" : "")));
+        if (tn.url) { var ua = el("a", null, "來源"); ua.href = tn.url; ua.target = "_blank"; ua.rel = "noopener"; ua.style.marginLeft = "6px"; d.appendChild(ua); }
         card.appendChild(d);
       });
       grid.appendChild(card);

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T19:49:00+08:00",
-  "updatedLabel": "2026/11/17 19:49（台灣時間）",
+  "updated": "2026-11-17T19:52:00+08:00",
+  "updatedLabel": "2026/11/17 19:52（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -148,7 +148,8 @@
             {
               "t": "Mowgli 升任 2027 總教練（HLE 官方 Instagram，11/17）",
               "lv": "official",
-              "src": "HLE 官方 Instagram"
+              "src": "HLE 官方 Instagram",
+              "url": "https://www.instagram.com/p/Df108UbTthM/"
             }
           ]
         },
