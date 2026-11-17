@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T12:54:00+08:00",
-  "updatedLabel": "2026/11/17 12:54（台灣時間）",
+  "updated": "2026-11-17T12:59:00+08:00",
+  "updatedLabel": "2026/11/17 12:59（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -284,7 +284,8 @@
               "next": {
                 "n": "Cuzz",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-cuzz-set-to-join-dn-soopers-ahead-of-2027-lck-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-cuzz-set-to-join-dn-soopers-ahead-of-2027-lck-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2122517127659716885"
               }
             },
             {
@@ -1667,7 +1668,8 @@
               "next": {
                 "n": "Guti",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-guti-set-to-join-team-vitality-in-the-lec/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-guti-set-to-join-team-vitality-in-the-lec/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2122360440290517327"
               }
             },
             {
@@ -2254,7 +2256,8 @@
               "next": {
                 "n": "Zamudo",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-zamudo-set-to-join-flyquest-for-lcs-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-zamudo-set-to-join-flyquest-for-lcs-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2122471665267527691"
               }
             },
             {
@@ -2414,7 +2417,8 @@
               "next": {
                 "n": "Gryffinn",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-gryffinn-set-to-join-shopify-rebellion-ahead-of-2027-lcs-season/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-gryffinn-set-to-join-shopify-rebellion-ahead-of-2027-lcs-season/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2122427940738883726"
               }
             },
             {
@@ -2438,7 +2442,8 @@
               "next": {
                 "n": "Massu",
                 "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-massu-set-to-join-shopify-rebellion-for-lcs-2027/en"
+                "src": "https://www.sheepesports.com/en/articles/sources-massu-set-to-join-shopify-rebellion-for-lcs-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2122374616781889588"
               }
             },
             {
@@ -2586,5 +2591,5 @@
     },
     "email": "j29499844@gmail.com"
   },
-  "nextNote": "明年可能人選：整理自具名媒體、記者與各大社群平台的報導，目前多數引用 Sheep Esports。都不是球隊官宣，官宣後會改成官方。"
+  "nextNote": "明年可能人選：整理自具名媒體、記者與各大社群平台的報導，包含 Sheep Esports 轉會頁與它的 X 爆料貼文。都不是球隊官宣，官宣後會改成官方。"
 }

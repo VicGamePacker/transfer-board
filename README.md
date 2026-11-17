@@ -40,3 +40,4 @@ BLG 5926660141、WBG 5937903233、TES 5449734852、iG 2099708877、JDG 617497686
 - 全是記者報導，標 `report`。球隊官宣後，把該選手改成官方狀態並拿掉 `next` 或改成官方。
 
 - 取材範圍：Sheep 轉會追蹤頁、具名媒體（Inven、Dot Esports、Insider Gaming 等）、記者的 X 與微博貼文、球隊與選手官方社群。匿名、論壇、自媒體整理一律不收，查不到出處不寫。
+- `next.srcX`：Sheep X 爆料貼文網址（選填），頁面顯示成「X」連結。Sheep X 的 [SOURCES] 與 [BREAKING] 貼文都可當明年人選來源。

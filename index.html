@@ -295,6 +295,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
           nx.appendChild(el("b", null, p.next.n));
           nx.appendChild(tag(p.next.lv));
           if (p.next.src) { var sa = el("a", null, "來源"); sa.href = p.next.src; sa.target = "_blank"; sa.rel = "noopener"; nx.appendChild(sa); }
+          if (p.next.srcX) { var xa = el("a", null, "X"); xa.href = p.next.srcX; xa.target = "_blank"; xa.rel = "noopener"; xa.style.marginLeft = "6px"; nx.appendChild(xa); }
           li.appendChild(nx);
         }
         ul.appendChild(li);
