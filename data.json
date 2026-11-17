@@ -2524,7 +2524,7 @@
     {
       "name": "Sheep Esports Transfers",
       "url": "https://www.sheepesports.com/en/all/transfers",
-      "desc": "「明年可能人選」欄的出處。每個人選附 Sheep 的報導連結，全部是記者爆料，不是球隊官宣。"
+      "desc": "「明年可能人選」欄目前的主要出處，每個人選附報導連結，全是記者爆料，不是球隊官宣。"
     },
     {
       "name": "Leaguepedia 韓國轉會頁",
@@ -2586,5 +2586,5 @@
     },
     "email": "j29499844@gmail.com"
   },
-  "nextNote": "明年可能人選：取自 Sheep Esports 轉會追蹤頁，全是記者報導，不是球隊官宣。官宣後會改成官方。"
+  "nextNote": "明年可能人選：整理自具名媒體、記者與各大社群平台的報導，目前多數引用 Sheep Esports。都不是球隊官宣，官宣後會改成官方。"
 }

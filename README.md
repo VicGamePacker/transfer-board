@@ -38,3 +38,5 @@ BLG 5926660141、WBG 5937903233、TES 5449734852、iG 2099708877、JDG 617497686
 - 欄位 `next`：`{"n":"人選","lv":"report","src":"Sheep 文章網址"}`，放在「目前選手」那一列，對應 Sheep 轉會追蹤頁的同位置。
 - 來源頁：https://www.sheepesports.com/en/all/transfers/ 的 lec、lcs、lck、lpl、lcp 分頁。連結文字是新人選，連結網址是來源文章。
 - 全是記者報導，標 `report`。球隊官宣後，把該選手改成官方狀態並拿掉 `next` 或改成官方。
+
+- 取材範圍：Sheep 轉會追蹤頁、具名媒體（Inven、Dot Esports、Insider Gaming 等）、記者的 X 與微博貼文、球隊與選手官方社群。匿名、論壇、自媒體整理一律不收，查不到出處不寫。
