@@ -93,9 +93,26 @@ section.block h2{font-size:20px;margin:0 0 10px}
 .panel ul{margin:0;padding-left:20px}
 .panel li{margin:6px 0}
 .panel p{margin:0 0 8px}
-.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
-.btn{display:inline-block;text-decoration:none;font-weight:700;padding:9px 18px;border-radius:10px;background:var(--accent);color:var(--accent-ink)}
-.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.pill.unknown{background:var(--until-bg);color:var(--until-ink);font-weight:500}
+.p.unknown{--bar:var(--line)}
+.team h3 .tn{display:flex;align-items:center;gap:10px;min-width:0}
+.team h3 img{width:32px;height:32px;object-fit:contain;flex:none}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,360px);gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:18px;box-shadow:var(--shadow)}
+.who{display:flex;gap:14px;align-items:flex-start;min-width:0}
+.who img{width:72px;height:72px;border-radius:50%;flex:none;border:2px solid var(--line)}
+.who h2{margin:0 0 4px;font-size:20px}
+.who p{margin:0;color:var(--muted);font-size:14px}
+.ico{display:flex;gap:10px;margin-top:12px}
+.ico a{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.ico a:hover{border-color:var(--accent);color:var(--accent)}
+.ico i{width:22px;height:22px;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat;display:block}
+.vid{display:block;text-decoration:none;color:inherit;min-width:0}
+.vid .lab{font-size:12px;font-weight:700;color:var(--accent);margin:0 0 6px;letter-spacing:.04em}
+.vid img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;border:1px solid var(--line);display:block}
+.vid .vt{margin:8px 0 0;font-size:14px;font-weight:700;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vid .vd{margin:2px 0 0;font-size:12px;color:var(--muted)}
+.vid:hover .vt{color:var(--accent)}
+@media (max-width:760px){.hero{grid-template-columns:1fr}}
 footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (max-width:480px){.grid{grid-template-columns:1fr}}
@@ -104,6 +121,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
 </head>
 <body>
 <div class="wrap">
+  <section class="hero" id="hero" aria-label="頻道介紹"></section>
   <header>
     <p class="eyebrow">遊者 GamePacker</p>
     <h1>2026 轉會期看板</h1>
@@ -144,18 +162,10 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
         <li>資料可能延遲或有誤，最後更新時間以頁面最上方為準。實際去留一律以 Riot 與球隊的官方公告為準。</li>
         <li>「約滿」代表合約到期、可以談新約，不代表選手已經離隊。「報導」是具名媒體或記者的說法，尚未經球隊確認。</li>
         <li>約期取自 Riot 官方合約庫的指定版本，版本日期見各賽區上方說明。合約庫之後才出現的官宣，以球隊公告為準，可能與合約庫不同。</li>
+        <li>隊徽與選手、隊伍名稱的權利屬於各隊與 Riot Games，圖片取自 Leaguepedia，只用來辨識隊伍。頻道頭像與影片縮圖屬於遊者 GamePacker。</li>
         <li>本頁只收選手暱稱、隊伍、位置、約期與官宣，不收本名與其他個人資料。</li>
         <li>發現錯誤或有更新，歡迎到頻道留言告訴我。</li>
       </ul>
-    </div>
-  </section>
-
-  <section class="block" id="channel">
-    <h2>宣傳頻道</h2>
-    <div class="panel">
-      <p><strong id="chName"></strong></p>
-      <p id="chDesc"></p>
-      <div class="cta" id="chLinks"></div>
     </div>
   </section>
 
@@ -168,7 +178,8 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     expired:{label:"約滿", short:"約滿"},
     until:{label:"約到", short:"約到"},
     left:{label:"離隊", short:"離隊"},
-    renewed:{label:"續約", short:"續約"}
+    renewed:{label:"續約", short:"續約"},
+    unknown:{label:"約期待補", short:"約期待補"}
   };
   var LV = {official:"官方", gcd:"合約庫", report:"報導"};
   var BAR = {expired:"--expired-bar", until:"--until-bar", left:"--left-bar", renewed:"--renewed-bar"};
@@ -209,7 +220,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
   }
 
   function counts(league){
-    var c = {expired:0, until:0, left:0, renewed:0};
+    var c = {expired:0, until:0, left:0, renewed:0, unknown:0};
     league.teams.forEach(function(t){ t.players.forEach(function(p){ c[p.s]++; }); });
     return c;
   }
@@ -250,7 +261,11 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
       if (!ps.length) return;
       shown++;
       var card = el("article", "team");
-      var h = el("h3", null, team.name);
+      var h = el("h3");
+      var tn = el("span", "tn");
+      if (team.logo) { var lg = el("img"); lg.src = team.logo; lg.alt = ""; lg.width = 32; lg.height = 32; lg.loading = "lazy"; tn.appendChild(lg); }
+      tn.appendChild(el("span", null, team.name));
+      h.appendChild(tn);
       h.appendChild(el("small", null, ps.length + " 位"));
       card.appendChild(h);
       var ul = el("ul", "players");
@@ -304,14 +319,36 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
       li.appendChild(document.createTextNode("：" + s.desc));
       ul.appendChild(li);
     });
-    document.getElementById("chName").textContent = data.channel.name;
-    document.getElementById("chDesc").textContent = data.channel.desc;
-    var box = document.getElementById("chLinks");
-    data.channel.links.forEach(function(l, i){
-      var a = el("a", "btn" + (i ? " ghost" : ""), l.label);
-      a.href = l.url; a.target = "_blank"; a.rel = "noopener";
-      box.appendChild(a);
+    renderHero();
+  }
+
+  function renderHero(){
+    var c = data.channel, box = document.getElementById("hero");
+    box.textContent = "";
+    var who = el("div", "who");
+    var av = el("img"); av.src = c.avatar; av.alt = c.name; av.width = 72; av.height = 72;
+    who.appendChild(av);
+    var info = el("div");
+    info.appendChild(el("h2", null, c.name));
+    c.bio.forEach(function(t){ info.appendChild(el("p", null, t)); });
+    var ico = el("div", "ico");
+    c.links.forEach(function(l){
+      var a = el("a"); a.href = l.url; a.target = "_blank"; a.rel = "noopener";
+      a.setAttribute("aria-label", l.label); a.title = l.label;
+      var i = el("i"); i.style.setProperty("--m", "url(assets/" + l.type + ".svg)");
+      a.appendChild(i); ico.appendChild(a);
     });
+    info.appendChild(ico);
+    who.appendChild(info);
+    box.appendChild(who);
+    var v = c.latest;
+    var a = el("a", "vid"); a.href = v.url; a.target = "_blank"; a.rel = "noopener";
+    a.appendChild(el("p", "lab", v.label));
+    var im = el("img"); im.src = v.thumb; im.alt = v.title; im.loading = "lazy";
+    a.appendChild(im);
+    a.appendChild(el("p", "vt", v.title));
+    a.appendChild(el("p", "vd", "遊者 GamePacker，" + v.date));
+    box.appendChild(a);
   }
 
   function render(){

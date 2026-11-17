@@ -6,7 +6,7 @@ for lg in d["leagues"]:
     for t in lg["teams"]:
         for p in t["players"]:
             where = f'{lg["id"]} {t["name"]} {p["n"]}'
-            if p["s"] not in ("expired", "until", "left", "renewed"):
+            if p["s"] not in ("expired", "until", "left", "renewed", "unknown"):
                 bad.append(where + " 狀態不合法")
             if p["s"] in ("until", "renewed") and not p.get("y"):
                 bad.append(where + " 缺年份")

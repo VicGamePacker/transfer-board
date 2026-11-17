@@ -9,10 +9,14 @@
 4. `git add -A && git commit && git push`，Pages 幾分鐘內更新。
 
 ## 欄位
-- `s`：`expired` 約滿、`until` 約到（要有 `y`）、`left` 官方離隊、`renewed` 官方續約（要有 `y`）。
+- `s`：`expired` 約滿、`until` 約到（要有 `y`）、`left` 官方離隊、`renewed` 官方續約（要有 `y`）、`unknown` 合約庫沒有約期。
 - `lv`：`official` 球隊或 Riot 公告、`gcd` 官方合約庫、`report` 具名媒體或記者。
 - `nlv`：`note` 那句話的來源級別，沒寫就用 `lv`。
 - 位置 `r`：上、野、中、下、輔，不確定留空字串。
+
+## 素材
+- `logos/`：各隊隊徽，96px webp，取自 Leaguepedia，檔名是隊伍代號小寫。
+- `assets/`：頻道頭像、最新長片縮圖、YouTube 與 Threads 圖示（Simple Icons，CC0）。換最新長片時改 `data.json` 的 `channel.latest` 並換 `assets/kmn.jpg`。
 
 ## 守則
 - 不放選手本名與個資，只放暱稱、隊伍、位置、約期、官宣。
