@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T14:50:00+08:00",
-  "updatedLabel": "2026/11/18 14:50（台灣時間）",
+  "updated": "2026-11-18T15:05:00+08:00",
+  "updatedLabel": "2026/11/18 15:05（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1318,6 +1318,13 @@
         },
         {
           "name": "MVK Esports",
+          "notes": [
+            {
+              "t": "總教練 SofM 離隊，MVK 發布感謝圖（11/18）。",
+              "lv": "official",
+              "src": "MVK 官方感謝圖"
+            }
+          ],
           "players": [
             {
               "n": "Kratos",
