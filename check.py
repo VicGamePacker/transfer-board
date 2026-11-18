@@ -12,6 +12,11 @@ for lg in d["leagues"]:
                 bad.append(where + " 缺年份")
             if p["lv"] not in ("official", "gcd", "report"):
                 bad.append(where + " 來源級別不合法")
+for lg in d["leagues"]:
+    for t in lg["teams"]:
+        for j in t.get("joins", []):
+            if j.get("lv") not in ("official", "gcd", "report") or not j.get("n"):
+                bad.append(f'{lg["id"]} {t["name"]} 新加入 {j.get("n")} 格式不合法')
 text = open("data.json", encoding="utf-8").read()
 if re.search("[—–]", text):
     bad.append("含破折號")

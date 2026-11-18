@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T13:20:00+08:00",
-  "updatedLabel": "2026/11/18 13:20（台灣時間）",
+  "updated": "2026-11-18T13:45:00+08:00",
+  "updatedLabel": "2026/11/18 13:45（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -316,6 +316,9 @@
               "lv": "report",
               "note": "報導：離隊（Cool-Style LCK 離隊名單，文中未列原始出處，球隊官方公告待確認，11/17）"
             }
+          ],
+          "joins": [
+            {"n": "Cuzz", "r": "野", "from": "KT", "lv": "official", "note": "DN SOOPers 官方影片宣布加入 2027 陣容（11/17）", "src": "https://www.invenglobal.com/articles/28718/cuzz-leaves-kt-returns-to-dns-after-two-years"}
           ],
           "logo": "logos/dns.webp"
         },
@@ -2939,6 +2942,9 @@
               "lv": "gcd",
               "y": 2027
             }
+          ],
+          "joins": [
+            {"n": "Morttheus", "r": "下", "from": "RED Canids Kalunga", "lv": "official", "note": "CBLOL 官方 X 宣布（11/18）", "src": "https://x.com/CBLOL/status/2122736533392478711"}
           ],
           "logo": "logos/vks.webp"
         }

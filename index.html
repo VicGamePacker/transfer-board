@@ -15,6 +15,7 @@
   --until-bg:#e9edf3; --until-ink:#3b4656; --until-bar:#9aa5b5;
   --left-bg:#fde4e1; --left-ink:#8a1c12; --left-bar:#d6453a;
   --renewed-bg:#dcf3e6; --renewed-ink:#0e5a33; --renewed-bar:#2aa064;
+  --joined-bg:#dce9fb; --joined-ink:#0b3d7a; --joined-bar:#3b82d6;
   --report-bg:#ede4fb; --report-ink:#4a2b8a;
   --shadow:0 1px 2px rgba(20,28,40,.06),0 4px 14px rgba(20,28,40,.05);
 }
@@ -26,6 +27,7 @@
     --until-bg:#242a34; --until-ink:#b9c2d0; --until-bar:#5a6578;
     --left-bg:#401a17; --left-ink:#ffb4ab; --left-bar:#e0584c;
     --renewed-bg:#10341f; --renewed-ink:#8fe0b3; --renewed-bar:#2aa064;
+  --joined-bg:#12294a; --joined-ink:#9cc4f5; --joined-bar:#3b82d6;
     --report-bg:#2c2147; --report-ink:#cdb8fb;
     --shadow:0 1px 2px rgba(0,0,0,.4);
   }
@@ -37,6 +39,7 @@
   --until-bg:#242a34; --until-ink:#b9c2d0; --until-bar:#5a6578;
   --left-bg:#401a17; --left-ink:#ffb4ab; --left-bar:#e0584c;
   --renewed-bg:#10341f; --renewed-ink:#8fe0b3; --renewed-bar:#2aa064;
+  --joined-bg:#12294a; --joined-ink:#9cc4f5; --joined-bar:#3b82d6;
   --report-bg:#2c2147; --report-ink:#cdb8fb;
   --shadow:0 1px 2px rgba(0,0,0,.4);
 }
@@ -78,7 +81,9 @@ h1{font-size:clamp(24px,4.2vw,36px);line-height:1.2;margin:0 0 10px;font-weight:
 .pill.until{background:var(--until-bg);color:var(--until-ink)}
 .pill.left{background:var(--left-bg);color:var(--left-ink)}
 .pill.renewed{background:var(--renewed-bg);color:var(--renewed-ink)}
-.p.expired{--bar:var(--expired-bar)} .p.until{--bar:var(--until-bar)} .p.left{--bar:var(--left-bar)} .p.renewed{--bar:var(--renewed-bar)}
+.pill.joined{background:var(--joined-bg);color:var(--joined-ink)}
+.jhd{padding:8px 14px 2px;font-size:12px;font-weight:700;color:var(--muted);border-top:1px solid var(--line)}
+.p.expired{--bar:var(--expired-bar)} .p.until{--bar:var(--until-bar)} .p.left{--bar:var(--left-bar)} .p.renewed{--bar:var(--renewed-bar)} .p.joined{--bar:var(--joined-bar)}
 .note{grid-column:2 / 4;grid-row:2;font-size:13px;color:var(--muted)}
 .tag{display:inline-block;font-size:11px;font-weight:700;border-radius:5px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .tag.report{background:var(--report-bg);color:var(--report-ink)}
@@ -190,10 +195,11 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     until:{label:"約到", short:"約到"},
     left:{label:"離隊", short:"離隊"},
     renewed:{label:"續約", short:"續約"},
+    joined:{label:"新加入", short:"新加入"},
     unknown:{label:"約期待補", short:"約期待補"}
   };
   var LV = {official:"官方", gcd:"合約庫", report:"報導"};
-  var BAR = {expired:"--expired-bar", until:"--until-bar", left:"--left-bar", renewed:"--renewed-bar"};
+  var BAR = {expired:"--expired-bar", until:"--until-bar", left:"--left-bar", renewed:"--renewed-bar", joined:"--joined-bar"};
   var data = null, cur = "LCK", filter = null, query = "";
 
   function el(tag, cls, text){
@@ -231,8 +237,8 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
   }
 
   function counts(league){
-    var c = {expired:0, until:0, left:0, renewed:0, unknown:0};
-    league.teams.forEach(function(t){ t.players.forEach(function(p){ c[p.s]++; }); });
+    var c = {expired:0, until:0, left:0, renewed:0, unknown:0, joined:0};
+    league.teams.forEach(function(t){ t.players.forEach(function(p){ c[p.s]++; }); c.joined += (t.joins || []).length; });
     return c;
   }
 
@@ -240,7 +246,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     var box = document.getElementById("chips");
     box.textContent = "";
     var c = counts(league);
-    ["expired","renewed","left","until"].forEach(function(k){
+    ["expired","renewed","left","joined","until"].forEach(function(k){
       var b = el("button", "chip");
       b.setAttribute("aria-pressed", filter===k ? "true" : "false");
       var sw = el("i"); sw.style.background = "var(" + BAR[k] + ")";
@@ -261,6 +267,15 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     return true;
   }
 
+  function matchJoin(team, j){
+    if (filter && filter !== "joined") return false;
+    if (query) {
+      var q = query.toLowerCase();
+      if (team.name.toLowerCase().indexOf(q) < 0 && j.n.toLowerCase().indexOf(q) < 0 && (j.from || "").toLowerCase().indexOf(q) < 0) return false;
+    }
+    return true;
+  }
+
   function renderBody(){
     var league = leagueById(cur);
     document.getElementById("asof").textContent = league.dataAsOf;
@@ -269,8 +284,9 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     grid.textContent = "";
     var shown = 0;
     league.teams.forEach(function(team){
-      var ps = team.players.filter(function(p){ return matchPlayer(team, p); });
-      if (!ps.length) return;
+      var ps = filter === "joined" ? [] : team.players.filter(function(p){ return matchPlayer(team, p); });
+      var js = (team.joins || []).filter(function(j){ return matchJoin(team, j); });
+      if (!ps.length && !js.length) return;
       shown++;
       var card = el("article", "team");
       var h = el("h3");
@@ -278,9 +294,9 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
       if (team.logo) { var lg = el("img"); lg.src = team.logo; lg.alt = ""; lg.width = 32; lg.height = 32; lg.loading = "lazy"; tn.appendChild(lg); }
       tn.appendChild(el("span", null, team.name));
       h.appendChild(tn);
-      h.appendChild(el("small", null, ps.length + " 位"));
+      h.appendChild(el("small", null, (ps.length || js.length) + " 位"));
       card.appendChild(h);
-      var hd = el("div", "ph"); ["位置","選手與狀態","","明年可能人選"].forEach(function(t){ hd.appendChild(el("span", null, t)); }); card.appendChild(hd);
+      if (ps.length) { var hd = el("div", "ph"); ["位置","選手與狀態","","明年可能人選"].forEach(function(t){ hd.appendChild(el("span", null, t)); }); card.appendChild(hd); }
       var ul = el("ul", "players");
       ps.forEach(function(p){
         var li = el("li", "p " + p.s);
@@ -304,7 +320,24 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
         }
         ul.appendChild(li);
       });
-      card.appendChild(ul);
+      if (ps.length) card.appendChild(ul);
+      if (js.length) {
+        if (ps.length) card.appendChild(el("div", "jhd", "新加入"));
+        var ju = el("ul", "players");
+        js.forEach(function(j){
+          var li = el("li", "p joined");
+          li.appendChild(el("span", "role", j.r || "?"));
+          li.appendChild(el("span", "pn", j.n));
+          li.appendChild(el("span", "pill joined", "新加入"));
+          var n = el("div", "note");
+          n.appendChild(tag(j.lv));
+          n.appendChild(document.createTextNode((j.from ? "從 " + j.from + " 轉入" : "") + (j.note ? (j.from ? "，" : "") + j.note : "")));
+          if (j.src) { var ja = el("a", null, "來源"); ja.href = j.src; ja.target = "_blank"; ja.rel = "noopener"; ja.style.marginLeft = "6px"; n.appendChild(ja); }
+          li.appendChild(n);
+          ju.appendChild(li);
+        });
+        card.appendChild(ju);
+      }
       (team.notes || []).forEach(function(tn){
         var d = el("p", "tnote");
         d.appendChild(tag(tn.lv));
