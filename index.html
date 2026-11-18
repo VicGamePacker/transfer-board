@@ -296,7 +296,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
       h.appendChild(tn);
       h.appendChild(el("small", null, (ps.length || js.length) + " 位"));
       card.appendChild(h);
-      if (ps.length) { var hd = el("div", "ph"); ["位置","選手與狀態","","明年可能人選"].forEach(function(t){ hd.appendChild(el("span", null, t)); }); card.appendChild(hd); }
+      if (ps.length) { var hd = el("div", "ph"); ["位置","選手與狀態","","2027"].forEach(function(t){ hd.appendChild(el("span", null, t)); }); card.appendChild(hd); }
       var ul = el("ul", "players");
       ps.forEach(function(p){
         var li = el("li", "p " + p.s);
@@ -309,13 +309,15 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
         n.appendChild(tag(p.nlv || p.lv));
         n.appendChild(document.createTextNode(p.note || ""));
         if (p.note || (p.nlv||p.lv)) li.appendChild(n);
-        if (p.next) {
+        var stay = (p.s === "renewed" || (p.s === "until" && p.y >= 2027)) ? {n: p.n, lv: p.lv} : null;
+        var who = p.next || stay;
+        if (who) {
           var nx = el("div", "nx");
-          nx.appendChild(el("span", "nxlab", "明年可能："));
-          nx.appendChild(el("b", null, p.next.n));
-          nx.appendChild(tag(p.next.lv));
-          if (p.next.src) { var sa = el("a", null, "來源"); sa.href = p.next.src; sa.target = "_blank"; sa.rel = "noopener"; nx.appendChild(sa); }
-          if (p.next.srcX) { var xa = el("a", null, "X"); xa.href = p.next.srcX; xa.target = "_blank"; xa.rel = "noopener"; xa.style.marginLeft = "6px"; nx.appendChild(xa); }
+          nx.appendChild(el("span", "nxlab", "2027："));
+          nx.appendChild(el("b", null, who.n));
+          nx.appendChild(tag(who.lv));
+          if (p.next && p.next.src) { var sa = el("a", null, "來源"); sa.href = p.next.src; sa.target = "_blank"; sa.rel = "noopener"; nx.appendChild(sa); }
+          if (p.next && p.next.srcX) { var xa = el("a", null, "X"); xa.href = p.next.srcX; xa.target = "_blank"; xa.rel = "noopener"; xa.style.marginLeft = "6px"; nx.appendChild(xa); }
           li.appendChild(nx);
         }
         ul.appendChild(li);
@@ -334,6 +336,11 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
           n.appendChild(document.createTextNode((j.from ? "從 " + j.from + " 轉入" : "") + (j.note ? (j.from ? "，" : "") + j.note : "")));
           if (j.src) { var ja = el("a", null, "來源"); ja.href = j.src; ja.target = "_blank"; ja.rel = "noopener"; ja.style.marginLeft = "6px"; n.appendChild(ja); }
           li.appendChild(n);
+          var jx = el("div", "nx");
+          jx.appendChild(el("span", "nxlab", "2027："));
+          jx.appendChild(el("b", null, j.n));
+          jx.appendChild(tag(j.lv));
+          li.appendChild(jx);
           ju.appendChild(li);
         });
         card.appendChild(ju);
