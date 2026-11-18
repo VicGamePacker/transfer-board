@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T14:10:00+08:00",
-  "updatedLabel": "2026/11/18 14:10（台灣時間）",
+  "updated": "2026-11-18T14:50:00+08:00",
+  "updatedLabel": "2026/11/18 14:50（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -386,9 +386,18 @@
             {
               "n": "Kingen",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "renewed",
+              "y": 2028,
+              "lv": "official",
+              "note": "NS RedForce 官方 X 公告簽到 2028 年（11/18）"
+            },
+            {
+              "n": "Calix",
+              "r": "中",
+              "s": "renewed",
+              "y": 2028,
+              "lv": "official",
+              "note": "NS RedForce 官方 X 公告續約到 2028 年（11/18）"
             },
             {
               "n": "Sponge",
@@ -500,9 +509,10 @@
             {
               "n": "Vincenzo",
               "r": "",
-              "s": "expired",
+              "s": "renewed",
+              "y": 2028,
               "lv": "official",
-              "note": "官方公告合約到期"
+              "note": "BNK FEARX 官方發布 Welcome Back 簽約圖，兩年合約 2026.11.17 到 2028.11.20（11/18）"
             },
             {
               "n": "Ucal",
