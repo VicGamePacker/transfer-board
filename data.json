@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T23:57:00+08:00",
-  "updatedLabel": "2026/11/18 23:57（台灣時間）",
+  "updated": "2026-11-19T00:07:00+08:00",
+  "updatedLabel": "2026/11/19 00:07（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1914,7 +1914,7 @@
           ],
           "notes": [
             {
-              "t": "助教 Alphari 離隊（官方，11/14）。報導：MKOI 2027 定下 BrokenBlade、Elyoya、Jojopyun、Carzzy、Alvaro。",
+              "t": "助教 Alphari 官方離隊（11/16）。報導：MKOI 2027 定下 BrokenBlade、Elyoya、Jojopyun、Carzzy、Alvaro。",
               "lv": "report",
               "src": "Sheep，11/11"
             }
@@ -2056,6 +2056,11 @@
               "t": "報導：GIANTX 2027 定下 Myrwn、Thayger、Feisty、HARPOON、Piero，整隊換掉。",
               "lv": "report",
               "src": "Sheep，11/14"
+            },
+            {
+              "t": "官方 X 宣布 Guilhoto 續留 GIANTX 再一個賽季，第三年（11/18）。",
+              "lv": "official",
+              "src": "GIANTX 官方 X"
             }
           ],
           "logo": "logos/gx.webp"
