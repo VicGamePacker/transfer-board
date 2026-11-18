@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T13:45:00+08:00",
-  "updatedLabel": "2026/11/18 13:45（台灣時間）",
+  "updated": "2026-11-18T14:10:00+08:00",
+  "updatedLabel": "2026/11/18 14:10（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1271,9 +1271,9 @@
             {
               "n": "Kiaya",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "left",
+              "lv": "official",
+              "note": "GAM 發布感謝圖，官方確認離隊（11/18）"
             },
             {
               "n": "Draktharr",
