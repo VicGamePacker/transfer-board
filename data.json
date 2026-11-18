@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T13:05:00+08:00",
-  "updatedLabel": "2026/11/18 13:05（台灣時間）",
+  "updated": "2026-11-18T13:20:00+08:00",
+  "updatedLabel": "2026/11/18 13:20（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -3000,6 +3000,16 @@
       "name": "CBLOL 官方 X",
       "url": "https://x.com/CBLOL",
       "desc": "巴西賽區官方帳號，球隊官宣與選手動向，標官方。"
+    },
+    {
+      "name": "Inven Global",
+      "url": "https://www.invenglobal.com/lol",
+      "desc": "具名電競媒體，LCK 消息尤其完整。報導標報導，轉述球隊官方公告且確認時標官方。"
+    },
+    {
+      "name": "Dot Esports",
+      "url": "https://dotesports.com/league-of-legends",
+      "desc": "具名電競媒體。報導標報導，轉述球隊官方公告且確認時標官方。"
     }
   ],
   "channel": {

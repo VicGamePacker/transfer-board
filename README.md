@@ -27,6 +27,7 @@
 ## 來源信任規則（Vic 11/17 定）
 - 球隊或賽區官方 X 的公告可直接信任，標 `official`。Sheep 轉述的官方公告也算。
 - 記者爆料與具名媒體報導標 `report`，寫出處。傳聞不收。
+- Inven Global 與 Dot Esports 列為固定來源（Vic 11/18 指定）。兩家轉述球隊官方公告時，可標 `official` 並附文章連結；自己的消息與爆料標 `report`。
 
 ## 固定更新
 每天 12:00 與 17:00 由排程任務 `transfer-board-update` 掃描並推上線。電腦與 Claude 桌面版要開著，沒開會在下次開啟時補跑。
