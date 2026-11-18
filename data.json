@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T23:52:00+08:00",
-  "updatedLabel": "2026/11/18 23:52（台灣時間）",
+  "updated": "2026-11-18T23:57:00+08:00",
+  "updatedLabel": "2026/11/18 23:57（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1699,9 +1699,9 @@
               "n": "kyeahoo",
               "r": "中",
               "s": "renewed",
-              "lv": "report",
+              "lv": "official",
               "y": 2027,
-              "note": "報導：與 KC 合約延長一年，球隊未公告（Sheep X，記者 anonimotum、LEC_Wooloo、i_Eros_，11/12）"
+              "note": "KC 官方 X 宣布 kyeahoo 為 2027 年 LEC 中路選手（11/12）"
             },
             {
               "n": "Caliste",
@@ -2144,7 +2144,7 @@
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "NAVI 官方 X 發 Thank You 圖，向 SamD 道別（11/18）",
+              "note": "NAVI 官方 X 發 Thank You 圖，官方離隊（11/18）",
               "next": {
                 "n": "Supa",
                 "lv": "report",
@@ -2510,14 +2510,14 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）"
+              "note": "Shopify Rebellion 官方 X 發文道別，官方離隊（11/16）"
             },
             {
               "n": "Contractz",
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）",
+              "note": "Shopify Rebellion 官方 X 發文道別，官方離隊（11/16）",
               "next": {
                 "n": "Gryffinn",
                 "lv": "report",
@@ -2531,7 +2531,7 @@
               "r": "中",
               "s": "left",
               "lv": "official",
-              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）",
+              "note": "Shopify Rebellion 官方 X 發文道別，官方離隊（11/16）",
               "next": {
                 "n": "Quad",
                 "lv": "report",
@@ -2558,7 +2558,7 @@
               "r": "輔",
               "s": "left",
               "lv": "official",
-              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）",
+              "note": "Shopify Rebellion 官方 X 發文道別，官方離隊（11/16）",
               "next": {
                 "n": "Vulcan",
                 "lv": "report",
@@ -2574,7 +2574,7 @@
               "src": "Sheep，記者 LCS_Eevee 等"
             },
             {
-              "t": "官方 X 感謝名單也含教練 Damonte、FLAnalista（11/16）。",
+              "t": "官方 X 道別名單也含教練 Damonte、FLAnalista，兩位教練官方離隊（11/16）。",
               "lv": "official",
               "src": "Shopify Rebellion 官方 X"
             }
