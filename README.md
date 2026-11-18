@@ -48,3 +48,8 @@ BLG 5926660141、WBG 5937903233、TES 5449734852、iG 2099708877、JDG 617497686
 
 ## 每日 23:00 貼文素材
 排程 23:00 場更新完會跑 `python -I make_post.py 輸出資料夾`，比對今天 00:00 前最後一版 data.json，產出多圖（01.png 封面，之後每頁 6 筆異動）加 changes.txt，再由 V 寫 Threads 文案。圖與文案放 vault `03 GamePacker\近期\轉會看板貼文\日期\`，Vic 自己發。
+
+## CBLOL（Vic 11/18 加入）
+- 名單與約期：Riot 官方合約庫 Americas 分頁（gid 0），只收一軍，不收 Two-Way 與 Inactive。
+- 消息來源只看 CBLOL 官方 X（x.com/CBLOL）、各隊官方 X、Sheep（轉會追蹤頁 /cblol 分頁與 X）。
+- 尚無隊徽（Leaguepedia 圖檔 curl 會 403，需用 Chrome 取）。

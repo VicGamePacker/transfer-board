@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T08:58:00+08:00",
-  "updatedLabel": "2026/11/18 08:58（台灣時間）",
+  "updated": "2026-11-18T09:22:00+08:00",
+  "updatedLabel": "2026/11/18 09:22（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2559,6 +2559,383 @@
           "logo": "logos/tl.webp"
         }
       ]
+    },
+    {
+      "id": "CBLOL",
+      "name": "CBLOL 巴西",
+      "dataAsOf": "合約約期：Riot 官方合約庫 Americas 分頁 10/27 版，只收一軍名單。官宣：看各隊官方 X 與 Sheep Esports。",
+      "misc": [],
+      "teams": [
+        {
+          "name": "Fluxo W7M",
+          "players": [
+            {
+              "n": "Zothve",
+              "r": "上",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "curty",
+              "r": "上",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Peach",
+              "r": "野",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "hauz",
+              "r": "中",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "cody",
+              "r": "中",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "BAO",
+              "r": "下",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣",
+              "next": {
+                "n": "Brance",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-brance-set-to-join-fluxo-w7m-for-cblol-2027/en"
+              }
+            },
+            {
+              "n": "ProDelta",
+              "r": "輔",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Momochi",
+              "r": "輔",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            }
+          ],
+          "notes": [
+            {
+              "t": "報導：Sephis 離開 LOUD，將任 Fluxo W7M 總教練（Sheep）",
+              "lv": "report",
+              "src": "Sheep",
+              "url": "https://www.sheepesports.com/en/articles/sources-sephis-leaves-loud-and-is-set-to-join-fluxo-w7m-as-head-coach/en"
+            }
+          ]
+        },
+        {
+          "name": "FURIA",
+          "players": [
+            {
+              "n": "Guigo",
+              "r": "上",
+              "s": "left",
+              "lv": "official",
+              "note": "CBLOL 官方 X 發文結束篇章，與 FURIA 分開（11/18）",
+              "nlv": "official"
+            },
+            {
+              "n": "Tatu",
+              "r": "野",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            },
+            {
+              "n": "Tutsz",
+              "r": "中",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            },
+            {
+              "n": "Ayu",
+              "r": "下",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "JoJo",
+              "r": "輔",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            }
+          ]
+        },
+        {
+          "name": "LEVIATÁN",
+          "players": [
+            {
+              "n": "Devost",
+              "r": "上",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Booki",
+              "r": "野",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Enga",
+              "r": "中",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Strensh",
+              "r": "下",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Shiku",
+              "r": "輔",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            }
+          ]
+        },
+        {
+          "name": "LOS",
+          "players": [
+            {
+              "n": "Zest",
+              "r": "上",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Curse",
+              "r": "野",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            },
+            {
+              "n": "Feisty",
+              "r": "中",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Duduhh",
+              "r": "下",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            },
+            {
+              "n": "Ackerman",
+              "r": "輔",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            }
+          ]
+        },
+        {
+          "name": "LOUD",
+          "players": [
+            {
+              "n": "Xyno",
+              "r": "上",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Sinatra",
+              "r": "野",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2028
+            },
+            {
+              "n": "Kaze",
+              "r": "中",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            },
+            {
+              "n": "Mago",
+              "r": "中",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Rabelo",
+              "r": "下",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2028
+            },
+            {
+              "n": "uZent",
+              "r": "輔",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            }
+          ]
+        },
+        {
+          "name": "paiN Gaming",
+          "players": [
+            {
+              "n": "Boal",
+              "r": "上",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            },
+            {
+              "n": "Trigger",
+              "r": "下",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Marvin",
+              "r": "下",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "Kuri",
+              "r": "輔",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            }
+          ]
+        },
+        {
+          "name": "RED Canids Kalunga",
+          "players": [
+            {
+              "n": "zynts",
+              "r": "上",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "未官宣"
+            },
+            {
+              "n": "STEPZ",
+              "r": "野",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            },
+            {
+              "n": "Fuuu",
+              "r": "中",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "約滿，未官宣。報導：傳去 Vivo Keyd Stars",
+              "nlv": "report"
+            },
+            {
+              "n": "Morttheus",
+              "r": "下",
+              "s": "left",
+              "lv": "official",
+              "note": "CBLOL 官方 X 宣布 2027 回 Vivo Keyd Stars（11/18）",
+              "nlv": "official"
+            },
+            {
+              "n": "frosty",
+              "r": "輔",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            }
+          ]
+        },
+        {
+          "name": "Vivo Keyd Stars",
+          "players": [
+            {
+              "n": "Zekas",
+              "r": "上",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2028
+            },
+            {
+              "n": "Disamis",
+              "r": "野",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2028
+            },
+            {
+              "n": "Mireu",
+              "r": "中",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027,
+              "next": {
+                "n": "Fuuu",
+                "lv": "report",
+                "src": "https://www.sheepesports.com/en/articles/sources-fuuu-set-to-join-vivo-keyd-stars-for-cblol-2027/en"
+              }
+            },
+            {
+              "n": "ceo",
+              "r": "下",
+              "s": "expired",
+              "lv": "gcd",
+              "note": "約滿，未官宣",
+              "next": {
+                "n": "Morttheus",
+                "lv": "official",
+                "src": "CBLOL 官方 X",
+                "srcX": "https://x.com/CBLOL/status/2122736533392478711"
+              },
+              "nlv": "gcd"
+            },
+            {
+              "n": "scamber",
+              "r": "輔",
+              "s": "until",
+              "lv": "gcd",
+              "y": 2027
+            }
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -2611,6 +2988,11 @@
       "name": "Cool-Style",
       "url": "https://www.cool-style.com.tw/wd2/archives/1365608",
       "desc": "具名媒體整理的 LCK 離隊、加盟名單，部分項目文中未列原始出處，標報導。"
+    },
+    {
+      "name": "CBLOL 官方 X",
+      "url": "https://x.com/CBLOL",
+      "desc": "巴西賽區官方帳號，球隊官宣與選手動向，標官方。"
     }
   ],
   "channel": {
