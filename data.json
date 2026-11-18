@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T20:10:00+08:00",
-  "updatedLabel": "2026/11/18 20:10（台灣時間）",
+  "updated": "2026-11-18T20:40:00+08:00",
+  "updatedLabel": "2026/11/18 20:40（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1317,7 +1317,7 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "GAM 發布感謝圖，官方確認離隊（11/18）"
+              "note": "GAM 官方 Facebook 發 THANK YOU 圖，宣布與 Kiaya 合約終止（11/18）"
             },
             {
               "n": "Draktharr",
@@ -1354,9 +1354,9 @@
           "name": "MVK Esports",
           "notes": [
             {
-              "t": "總教練 SofM 離隊，MVK 發布感謝圖（11/18）。",
+              "t": "總教練 SofM 合約 11/18 到期離開，MVK 官方 Facebook 發文，他目前在考慮未來規劃。",
               "lv": "official",
-              "src": "MVK 官方感謝圖"
+              "src": "MVK 官方 Facebook"
             }
           ],
           "players": [
