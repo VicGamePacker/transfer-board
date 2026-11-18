@@ -129,6 +129,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
 .nx{grid-column:4;grid-row:1 / span 2;font-size:13px;line-height:1.35;min-width:0}
 .nx b{display:block;font-size:14px;word-break:break-word}
 .nx a{font-size:12px}
+.jtag{font-size:11px;font-weight:700;color:var(--joined-ink);background:var(--joined-bg);border-radius:999px;padding:1px 8px;margin-left:6px}
 .nxlab{display:none;font-size:11px;color:var(--muted)}
 @media (max-width:540px){.grid{grid-template-columns:1fr}.p,.ph{grid-template-columns:34px minmax(0,1fr) auto}.ph span:nth-child(4){display:none}.nx{grid-column:2 / 4;grid-row:auto;padding-top:2px}.nxlab{display:inline}}
 @media (max-width:760px){.controls{position:static}}
@@ -258,8 +259,21 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     });
   }
 
+  function assignJoins(team){
+    var map = new Map(), extra = [];
+    (team.joins || []).forEach(function(j){
+      var c = team.players.filter(function(p){ return !map.has(p) && p.r === j.r; });
+      var open = function(p){ return p.s === "left" || p.s === "expired" || p.s === "unknown"; };
+      var pick = c.filter(function(p){ return p.next && p.next.n === j.n; })[0] ||
+        c.filter(function(p){ return open(p) && !p.next; })[0] || c.filter(open)[0];
+      if (pick) map.set(pick, j); else extra.push(j);
+    });
+    return {map: map, extra: extra};
+  }
+
   function matchPlayer(team, p){
-    if (filter && p.s !== filter) return false;
+    if (filter === "joined") { if (!team._jm.map.has(p)) return false; }
+    else if (filter && p.s !== filter) return false;
     if (query) {
       var q = query.toLowerCase();
       if (team.name.toLowerCase().indexOf(q) < 0 && p.n.toLowerCase().indexOf(q) < 0 && !(p.next && p.next.n.toLowerCase().indexOf(q) >= 0)) return false;
@@ -284,8 +298,9 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     grid.textContent = "";
     var shown = 0;
     league.teams.forEach(function(team){
-      var ps = filter === "joined" ? [] : team.players.filter(function(p){ return matchPlayer(team, p); });
-      var js = (team.joins || []).filter(function(j){ return matchJoin(team, j); });
+      team._jm = assignJoins(team);
+      var ps = team.players.filter(function(p){ return matchPlayer(team, p); });
+      var js = team._jm.extra.filter(function(j){ return matchJoin(team, j); });
       if (!ps.length && !js.length) return;
       shown++;
       var card = el("article", "team");
@@ -294,7 +309,7 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
       if (team.logo) { var lg = el("img"); lg.src = team.logo; lg.alt = ""; lg.width = 32; lg.height = 32; lg.loading = "lazy"; tn.appendChild(lg); }
       tn.appendChild(el("span", null, team.name));
       h.appendChild(tn);
-      h.appendChild(el("small", null, (ps.length || js.length) + " 位"));
+      h.appendChild(el("small", null, (ps.length + js.length) + " 位"));
       card.appendChild(h);
       if (ps.length) { var hd = el("div", "ph"); ["位置","選手與狀態","","2027"].forEach(function(t){ hd.appendChild(el("span", null, t)); }); card.appendChild(hd); }
       var ul = el("ul", "players");
@@ -310,21 +325,23 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
         n.appendChild(document.createTextNode(p.note || ""));
         if (p.note || (p.nlv||p.lv)) li.appendChild(n);
         var stay = (p.s === "renewed" || (p.s === "until" && p.y >= 2027)) ? {n: p.n, lv: p.lv} : null;
-        var who = p.next || stay;
+        var jn = team._jm.map.get(p);
+        var who = jn || p.next || stay;
         if (who) {
           var nx = el("div", "nx");
           nx.appendChild(el("span", "nxlab", "2027："));
           nx.appendChild(el("b", null, who.n));
           nx.appendChild(tag(who.lv));
-          if (p.next && p.next.src) { var sa = el("a", null, "來源"); sa.href = p.next.src; sa.target = "_blank"; sa.rel = "noopener"; nx.appendChild(sa); }
-          if (p.next && p.next.srcX) { var xa = el("a", null, "X"); xa.href = p.next.srcX; xa.target = "_blank"; xa.rel = "noopener"; xa.style.marginLeft = "6px"; nx.appendChild(xa); }
+          if (jn) nx.appendChild(el("span", "jtag", "新加入" + (jn.from ? "，從 " + jn.from : "")));
+          var nsrc = jn ? (/^http/.test(jn.src || "") ? jn.src : "") : (p.next && p.next.src);
+          if (nsrc) { var sa = el("a", null, "來源"); sa.href = nsrc; sa.target = "_blank"; sa.rel = "noopener"; nx.appendChild(sa); }
+          if (!jn && p.next && p.next.srcX) { var xa = el("a", null, "X"); xa.href = p.next.srcX; xa.target = "_blank"; xa.rel = "noopener"; xa.style.marginLeft = "6px"; nx.appendChild(xa); }
           li.appendChild(nx);
         }
         ul.appendChild(li);
       });
       if (ps.length) card.appendChild(ul);
       if (js.length) {
-        if (ps.length) card.appendChild(el("div", "jhd", "新加入"));
         var ju = el("ul", "players");
         js.forEach(function(j){
           var li = el("li", "p joined");
