@@ -378,11 +378,11 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     renderHero();
   }
 
-  // 入站人次：Abacus 免費計數 API，同一個瀏覽分頁工作階段只加一次，失敗就不顯示
+  // 入站人次：CountAPI（mileshilliard）免費計數 API，同一個瀏覽分頁工作階段只加一次，失敗就不顯示
   function loadVisits(box, num){
     var seen = false;
     try { seen = sessionStorage.getItem("tb_visited") === "1"; } catch(e) {}
-    var base = "https://abacus.jasoncameron.dev/" + (seen ? "get" : "hit") + "/vicgamepacker-transfer-board/visits";
+    var base = "https://countapi.mileshilliard.com/api/v1/" + (seen ? "get" : "hit") + "/vicgamepacker-transfer-board-visits";
     fetch(base).then(function(r){ return r.json(); }).then(function(j){
       if (typeof j.value !== "number") return;
       num.textContent = j.value.toLocaleString("en-US");
