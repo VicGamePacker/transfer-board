@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T19:34:00+08:00",
-  "updatedLabel": "2026/11/18 19:35（台灣時間）",
+  "updated": "2026-11-18T20:10:00+08:00",
+  "updatedLabel": "2026/11/18 20:10（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -318,8 +318,22 @@
             }
           ],
           "joins": [
-            {"n": "Cuzz", "r": "野", "from": "KT", "lv": "official", "note": "DN SOOPers 官方影片宣布加入 2027 陣容（11/17）", "src": "https://www.invenglobal.com/articles/28718/cuzz-leaves-kt-returns-to-dns-after-two-years"},
-            {"n": "Ucal", "r": "中", "from": "KIWOOM DRX", "lv": "official", "note": "DN SOOPers 官方發布 Welcome Back 圖，宣布加入（11/18）"}
+            {
+              "n": "Cuzz",
+              "r": "野",
+              "from": "KT",
+              "lv": "official",
+              "note": "DN SOOPers 官方影片宣布加入 2027 陣容（11/17）",
+              "src": "https://www.invenglobal.com/articles/28718/cuzz-leaves-kt-returns-to-dns-after-two-years"
+            },
+            {
+              "n": "Ucal",
+              "r": "中",
+              "from": "KIWOOM DRX",
+              "lv": "official",
+              "note": "DN SOOPers 官方宣布加入 2027 LCK 賽季，七年後重返前身 Afreeca Freecs 體系（11/18）",
+              "src": "https://x.com/Sheep_Esports/status/2122996478595547480"
+            }
           ],
           "logo": "logos/dns.webp"
         },
@@ -362,7 +376,17 @@
               "lv": "gcd"
             }
           ],
-          "logo": "logos/bro.webp"
+          "logo": "logos/bro.webp",
+          "joins": [
+            {
+              "n": "SeTab",
+              "r": "中",
+              "from": "NS Academy（LCK CL）",
+              "lv": "official",
+              "note": "HANJIN BRION 官方宣布加入 2027 LCK 賽季（11/18）",
+              "src": "https://x.com/Sheep_Esports/status/2122985267858419974"
+            }
+          ]
         },
         {
           "name": "Nongshim RedForce",
@@ -482,7 +506,17 @@
               "note": "官方公告結束合作"
             }
           ],
-          "logo": "logos/bfx.webp"
+          "logo": "logos/bfx.webp",
+          "joins": [
+            {
+              "n": "Vincenzo",
+              "r": "野",
+              "from": "KIWOOM DRX",
+              "lv": "official",
+              "note": "BNK FEARX 官方 Welcome Back 簽約圖，兩年合約 2026.11.17 到 2028.11.20，補 Raptor 的位置（11/18）",
+              "src": "https://x.com/Sheep_Esports/status/2122963129537868093"
+            }
+          ]
         },
         {
           "name": "KIWOOM DRX",
@@ -509,18 +543,17 @@
             },
             {
               "n": "Vincenzo",
-              "r": "",
-              "s": "renewed",
-              "y": 2028,
+              "r": "野",
+              "s": "left",
               "lv": "official",
-              "note": "BNK FEARX 官方發布 Welcome Back 簽約圖，兩年合約 2026.11.17 到 2028.11.20（11/18）"
+              "note": "BNK FEARX 官方宣布 Vincenzo 加入，補 Raptor 的位置（11/18）"
             },
             {
               "n": "Ucal",
               "r": "中",
               "s": "left",
               "lv": "official",
-              "note": "DN SOOPers 官方發布 Welcome Back 圖，宣布 Ucal 加入（11/18）"
+              "note": "DN SOOPers 官方宣布 Ucal 加入 2027 陣容（11/18）"
             },
             {
               "n": "Aiming",
@@ -1520,7 +1553,7 @@
               "s": "until",
               "lv": "gcd",
               "y": 2028,
-              "note": "報導：G2 要把他下放，需要轉會費",
+              "note": "報導：G2 要把他下放，需要轉會費。報導：將加入 KC（Sheep X，11/18）",
               "nlv": "report",
               "next": {
                 "n": "Lyncas",
@@ -1655,7 +1688,12 @@
               "s": "expired",
               "lv": "gcd",
               "note": "未官宣。報導：傳加入 Fnatic",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "SkewMond",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123003786881044535"
+              }
             },
             {
               "n": "kyeahoo",
@@ -2962,7 +3000,14 @@
             }
           ],
           "joins": [
-            {"n": "Morttheus", "r": "下", "from": "RED Canids Kalunga", "lv": "official", "note": "CBLOL 官方 X 宣布（11/18）", "src": "https://x.com/CBLOL/status/2122736533392478711"}
+            {
+              "n": "Morttheus",
+              "r": "下",
+              "from": "RED Canids Kalunga",
+              "lv": "official",
+              "note": "CBLOL 官方 X 宣布（11/18）",
+              "src": "https://x.com/CBLOL/status/2122736533392478711"
+            }
           ],
           "logo": "logos/vks.webp"
         }
