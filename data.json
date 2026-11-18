@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T12:41:00+08:00",
-  "updatedLabel": "2026/11/18 12:41（台灣時間）",
+  "updated": "2026-11-18T13:05:00+08:00",
+  "updatedLabel": "2026/11/18 13:05（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -220,10 +220,9 @@
             {
               "n": "Cuzz",
               "r": "野",
-              "s": "until",
-              "y": 2027,
-              "lv": "gcd",
-              "note": "DN SOOPers 官方影片宣布 Cuzz 加入 2027 陣容，KT 尚未公告",
+              "s": "left",
+              "lv": "official",
+              "note": "KT 官方公告 Cuzz 離隊（11/17），DN SOOPers 官方宣布他加入 2027 陣容",
               "nlv": "official",
               "next": {
                 "n": "Raptor",
