@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T15:05:00+08:00",
-  "updatedLabel": "2026/11/18 15:05（台灣時間）",
+  "updated": "2026-11-18T19:34:00+08:00",
+  "updatedLabel": "2026/11/18 19:35（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -318,7 +318,8 @@
             }
           ],
           "joins": [
-            {"n": "Cuzz", "r": "野", "from": "KT", "lv": "official", "note": "DN SOOPers 官方影片宣布加入 2027 陣容（11/17）", "src": "https://www.invenglobal.com/articles/28718/cuzz-leaves-kt-returns-to-dns-after-two-years"}
+            {"n": "Cuzz", "r": "野", "from": "KT", "lv": "official", "note": "DN SOOPers 官方影片宣布加入 2027 陣容（11/17）", "src": "https://www.invenglobal.com/articles/28718/cuzz-leaves-kt-returns-to-dns-after-two-years"},
+            {"n": "Ucal", "r": "中", "from": "KIWOOM DRX", "lv": "official", "note": "DN SOOPers 官方發布 Welcome Back 圖，宣布加入（11/18）"}
           ],
           "logo": "logos/dns.webp"
         },
@@ -516,10 +517,10 @@
             },
             {
               "n": "Ucal",
-              "r": "",
-              "s": "expired",
+              "r": "中",
+              "s": "left",
               "lv": "official",
-              "note": "官方公告合約到期"
+              "note": "DN SOOPers 官方發布 Welcome Back 圖，宣布 Ucal 加入（11/18）"
             },
             {
               "n": "Aiming",
