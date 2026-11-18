@@ -2638,7 +2638,8 @@
               "src": "Sheep",
               "url": "https://www.sheepesports.com/en/articles/sources-sephis-leaves-loud-and-is-set-to-join-fluxo-w7m-as-head-coach/en"
             }
-          ]
+          ],
+          "logo": "logos/fluxo.webp"
         },
         {
           "name": "FURIA",
@@ -2679,7 +2680,8 @@
               "lv": "gcd",
               "note": "未官宣"
             }
-          ]
+          ],
+          "logo": "logos/furia.webp"
         },
         {
           "name": "LEVIATÁN",
@@ -2719,7 +2721,8 @@
               "lv": "gcd",
               "note": "未官宣"
             }
-          ]
+          ],
+          "logo": "logos/lev.webp"
         },
         {
           "name": "LOS",
@@ -2759,7 +2762,8 @@
               "lv": "gcd",
               "note": "未官宣"
             }
-          ]
+          ],
+          "logo": "logos/los.webp"
         },
         {
           "name": "LOUD",
@@ -2806,7 +2810,8 @@
               "lv": "gcd",
               "y": 2027
             }
-          ]
+          ],
+          "logo": "logos/loud.webp"
         },
         {
           "name": "paiN Gaming",
@@ -2839,7 +2844,8 @@
               "lv": "gcd",
               "note": "未官宣"
             }
-          ]
+          ],
+          "logo": "logos/pain.webp"
         },
         {
           "name": "RED Canids Kalunga",
@@ -2881,7 +2887,8 @@
               "lv": "gcd",
               "y": 2027
             }
-          ]
+          ],
+          "logo": "logos/red.webp"
         },
         {
           "name": "Vivo Keyd Stars",
@@ -2933,7 +2940,8 @@
               "lv": "gcd",
               "y": 2027
             }
-          ]
+          ],
+          "logo": "logos/vks.webp"
         }
       ]
     }
