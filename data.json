@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T23:40:00+08:00",
-  "updatedLabel": "2026/11/18 23:40（台灣時間）",
+  "updated": "2026-11-18T23:52:00+08:00",
+  "updatedLabel": "2026/11/18 23:52（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2142,15 +2142,16 @@
             {
               "n": "SamD",
               "r": "下",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "NAVI 官方 X 發 Thank You 圖，向 SamD 道別（11/18）",
               "next": {
                 "n": "Supa",
                 "lv": "report",
                 "src": "https://www.sheepesports.com/en/articles/sources-supa-set-to-join-natus-vincere-ahead-of-2027-lec-season/en",
                 "srcX": "https://x.com/Sheep_Esports/status/2120997822870806537"
-              }
+              },
+              "nlv": "official"
             },
             {
               "n": "Parus",
@@ -2507,35 +2508,37 @@
             {
               "n": "Fudge",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "left",
+              "lv": "official",
+              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）"
             },
             {
               "n": "Contractz",
               "r": "野",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）",
               "next": {
                 "n": "Gryffinn",
                 "lv": "report",
                 "src": "https://www.sheepesports.com/en/articles/sources-gryffinn-set-to-join-shopify-rebellion-ahead-of-2027-lcs-season/en",
                 "srcX": "https://x.com/Sheep_Esports/status/2122427940738883726"
-              }
+              },
+              "nlv": "official"
             },
             {
               "n": "Zinie",
               "r": "中",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）",
               "next": {
                 "n": "Quad",
                 "lv": "report",
                 "src": "https://www.sheepesports.com/en/articles/sources-quad-is-set-to-join-shopify-rebellion-for-2027/en",
                 "srcX": "https://x.com/Sheep_Esports/status/2120805886184530383"
-              }
+              },
+              "nlv": "official"
             },
             {
               "n": "Bvoy",
@@ -2553,14 +2556,15 @@
             {
               "n": "Zeyzal",
               "r": "輔",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "Shopify Rebellion 官方 X 發感謝文，名單含選手與教練，等於官方道別（11/16）",
               "next": {
                 "n": "Vulcan",
                 "lv": "report",
                 "src": "https://www.sheepesports.com/en/articles/sources-vulcan-set-to-join-shopify-rebellion-ahead-of-the-2027-season/en"
-              }
+              },
+              "nlv": "official"
             }
           ],
           "notes": [
@@ -2568,6 +2572,11 @@
               "t": "報導：Quad、Massu、Gryffinn、Vulcan 傳加入 Shopify。",
               "lv": "report",
               "src": "Sheep，記者 LCS_Eevee 等"
+            },
+            {
+              "t": "官方 X 感謝名單也含教練 Damonte、FLAnalista（11/16）。",
+              "lv": "official",
+              "src": "Shopify Rebellion 官方 X"
             }
           ],
           "logo": "logos/shopify.webp"
