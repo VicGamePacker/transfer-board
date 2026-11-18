@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T23:04:00+08:00",
-  "updatedLabel": "2026/11/17 23:04（台灣時間）",
+  "updated": "2026-11-18T08:58:00+08:00",
+  "updatedLabel": "2026/11/18 08:58（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1552,17 +1552,19 @@
             {
               "n": "Soboro",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "renewed",
+              "lv": "report",
+              "note": "報導：將與 Fnatic 續約（Sheep X，記者 LEC_Wooloo、anonimotum、i_Eros_，11/18），球隊未公告",
+              "y": 2027,
+              "nlv": "report"
             },
             {
               "n": "Razork",
               "r": "野",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。報導：傳轉往 Team Heretics",
-              "nlv": "report",
+              "s": "left",
+              "lv": "official",
+              "note": "官方公告結束合作，五年後離隊（Sheep 轉述，11/17）。報導：將去 Team Heretics",
+              "nlv": "official",
               "next": {
                 "n": "Yike",
                 "lv": "report",
@@ -1573,17 +1575,24 @@
             {
               "n": "Vladi",
               "r": "中",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。Sheep 稱已續約，隊方未公布",
-              "nlv": "report"
+              "s": "renewed",
+              "lv": "report",
+              "note": "報導：列入 Sheep 公布的 Fnatic 2027 陣容（Sheep X，11/18），球隊未公告",
+              "nlv": "report",
+              "y": 2027
             },
             {
               "n": "Upset",
               "r": "下",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Doggo",
+                "lv": "report",
+                "src": "Sheep X",
+                "srcX": "https://x.com/Sheep_Esports/status/2122781437589922105"
+              }
             },
             {
               "n": "Lospa",
@@ -1662,7 +1671,7 @@
               "s": "until",
               "lv": "gcd",
               "y": 2027,
-              "note": "報導：Vitality 開價 35 萬歐元才准其他隊談",
+              "note": "報導：Vitality 開價 35 萬歐元才准其他隊談。報導：傳加入 LYON（Sheep X，11/18）",
               "nlv": "report"
             },
             {
@@ -1675,15 +1684,16 @@
             {
               "n": "FIESTA",
               "r": "中",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "官方公告結束合作，一個賽季後離隊（Sheep 轉述，11/18）",
               "next": {
                 "n": "Guti",
                 "lv": "report",
                 "src": "https://www.sheepesports.com/en/articles/sources-guti-set-to-join-team-vitality-in-the-lec/en",
                 "srcX": "https://x.com/Sheep_Esports/status/2122360440290517327"
-              }
+              },
+              "nlv": "official"
             },
             {
               "n": "Carzzy",
@@ -2046,15 +2056,16 @@
             {
               "n": "Maynter",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "官方公告結束合作（Sheep 轉述，11/18）",
               "next": {
                 "n": "Zest",
                 "lv": "report",
                 "src": "https://www.sheepesports.com/en/articles/sources-zest-set-to-join-natus-vincere-for-lec-2027/en",
                 "srcX": "https://x.com/Sheep_Esports/status/2121369869991956832"
-              }
+              },
+              "nlv": "official"
             },
             {
               "n": "Rhilech",
@@ -2381,6 +2392,12 @@
               "t": "報導：巴西輔助 Ackerman 傳去 LYON 或 Team Liquid。",
               "lv": "report",
               "src": "Sheep"
+            },
+            {
+              "t": "報導：Naak Nako 即將加入 LYON，三年合約（Sheep X，記者 anonimotum、LEC_Wooloo、i_Eros_，11/18）",
+              "lv": "report",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2122734315457105999"
             }
           ],
           "logo": "logos/lyon.webp"
