@@ -260,19 +260,20 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
   }
 
   function assignJoins(team){
-    var map = new Map(), extra = [];
+    var map = new Map(), add = new Map(), extra = [];
     (team.joins || []).forEach(function(j){
       var c = team.players.filter(function(p){ return !map.has(p) && p.r === j.r; });
       var open = function(p){ return p.s === "left" || p.s === "expired" || p.s === "unknown"; };
       var pick = c.filter(function(p){ return p.next && p.next.n === j.n; })[0] ||
         c.filter(function(p){ return open(p) && !p.next; })[0] || c.filter(open)[0];
-      if (pick) map.set(pick, j); else extra.push(j);
+      if (pick) map.set(pick, j);
+      else { var same = team.players.filter(function(p){ return p.r === j.r; })[0]; if (same) add.set(same, (add.get(same) || []).concat(j)); else extra.push(j); }
     });
-    return {map: map, extra: extra};
+    return {map: map, add: add, extra: extra};
   }
 
   function matchPlayer(team, p){
-    if (filter === "joined") { if (!team._jm.map.has(p)) return false; }
+    if (filter === "joined") { if (!team._jm.map.has(p) && !team._jm.add.has(p)) return false; }
     else if (filter && p.s !== filter) return false;
     if (query) {
       var q = query.toLowerCase();
@@ -327,15 +328,23 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
         var stay = (p.s === "renewed" || (p.s === "until" && p.y >= 2027)) ? {n: p.n, lv: p.lv} : null;
         var jn = team._jm.map.get(p);
         var who = jn || p.next || stay;
-        if (who) {
+        var ad = team._jm.add.get(p) || [];
+        if (who || ad.length) {
           var nx = el("div", "nx");
           nx.appendChild(el("span", "nxlab", "2027："));
-          nx.appendChild(el("b", null, who.n));
-          nx.appendChild(tag(who.lv));
+          if (who) { nx.appendChild(el("b", null, who.n));
+          nx.appendChild(tag(who.lv)); }
           if (jn) nx.appendChild(el("span", "jtag", "新加入" + (jn.from ? "，從 " + jn.from : "")));
           var nsrc = jn ? (/^http/.test(jn.src || "") ? jn.src : "") : (p.next && p.next.src);
           if (nsrc) { var sa = el("a", null, "來源"); sa.href = nsrc; sa.target = "_blank"; sa.rel = "noopener"; nx.appendChild(sa); }
           if (!jn && p.next && p.next.srcX) { var xa = el("a", null, "X"); xa.href = p.next.srcX; xa.target = "_blank"; xa.rel = "noopener"; xa.style.marginLeft = "6px"; nx.appendChild(xa); }
+          ad.forEach(function(a){
+            var ab = el("div"); ab.style.marginTop = who ? "6px" : "0";
+            ab.appendChild(el("b", null, a.n)); ab.appendChild(tag(a.lv));
+            ab.appendChild(el("span", "jtag", "新加入" + (a.from ? "，從 " + a.from : "")));
+            if (/^http/.test(a.src || "")) { var ja2 = el("a", null, "來源"); ja2.href = a.src; ja2.target = "_blank"; ja2.rel = "noopener"; ja2.style.marginLeft = "6px"; ab.appendChild(ja2); }
+            nx.appendChild(ab);
+          });
           li.appendChild(nx);
         }
         ul.appendChild(li);
