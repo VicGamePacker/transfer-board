@@ -416,11 +416,17 @@ footer{padding:20px 0 48px;color:var(--muted);font-size:13px}
     var seen = false;
     try { seen = sessionStorage.getItem("tb_visited") === "1"; } catch(e) {}
     var base = "https://countapi.mileshilliard.com/api/v1/" + (seen ? "get" : "hit") + "/vicgamepacker-transfer-board-visits";
+    // 永遠顯示：API 成功就用「API 值加 visitsOffset」，失敗退回上次顯示值，再退回 data.json 的 visitsFloor
+    var floor = Number(data.visitsFloor) || 0, off = Number(data.visitsOffset) || 0;
+    function show(n){ num.textContent = Math.max(n, floor).toLocaleString("en-US"); box.hidden = false; }
+    var last = 0;
+    try { last = Number(localStorage.getItem("tb_visits_last")) || 0; } catch(e) {}
+    show(last);
     fetch(base).then(function(r){ return r.json(); }).then(function(j){
       if (typeof j.value !== "number") return;
-      num.textContent = j.value.toLocaleString("en-US");
-      box.hidden = false;
-      try { sessionStorage.setItem("tb_visited", "1"); } catch(e) {}
+      var n = j.value + off;
+      show(n);
+      try { localStorage.setItem("tb_visits_last", String(Math.max(n, floor))); sessionStorage.setItem("tb_visited", "1"); } catch(e) {}
     }).catch(function(){});
   }
 
