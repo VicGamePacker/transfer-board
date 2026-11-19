@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T20:46:00+08:00",
-  "updatedLabel": "2026/11/19 20:46（台灣時間）",
+  "updated": "2026-11-19T21:43:00+08:00",
+  "updatedLabel": "2026/11/19 21:43（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -203,16 +203,18 @@
             {
               "n": "ShowMaker",
               "r": "中",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "renewed",
+              "lv": "official",
+              "note": "官方宣布續約到 2027（Sheep 轉述，11/19）",
+              "y": 2027
             },
             {
               "n": "Smash",
               "r": "下",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "renewed",
+              "lv": "official",
+              "note": "官方宣布與總教練 cvMax 一同續約到 2027（Sheep 轉述，11/19）",
+              "y": 2027
             },
             {
               "n": "Career",
