@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T00:07:00+08:00",
-  "updatedLabel": "2026/11/19 00:07（台灣時間）",
+  "updated": "2026-11-19T10:13:00+08:00",
+  "updatedLabel": "2026/11/19 10:13（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -22,7 +22,12 @@
               "r": "上",
               "s": "expired",
               "lv": "official",
-              "note": "Gen.G 官方公告合約已到期，去留未公布"
+              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳加入 HLE（Sheep X，11/18）",
+              "next": {
+                "n": "Siwoo",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123234803697000864"
+              }
             },
             {
               "n": "Canyon",
@@ -70,7 +75,12 @@
               "r": "上",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Zeus",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123119301636825115"
+              }
             },
             {
               "n": "Oner",
@@ -109,17 +119,21 @@
             {
               "n": "Zeus",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。11/2 有報導說他拒絕續約，HLE 表示還在談",
-              "nlv": "report"
+              "s": "left",
+              "lv": "official",
+              "note": "HLE 官方宣布結束合作（Sheep 轉述，11/19）。報導：傳回 T1",
+              "next": {
+                "n": "Kiin",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123120313340694912"
+              }
             },
             {
               "n": "Kanavi",
               "r": "野",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "left",
+              "lv": "official",
+              "note": "HLE 官方宣布結束合作（Sheep 轉述，11/19）"
             },
             {
               "n": "Zeka",
@@ -161,7 +175,9 @@
               "r": "上",
               "s": "until",
               "y": 2027,
-              "lv": "gcd"
+              "lv": "gcd",
+              "note": "報導：將加入 Gen.G（Sheep X，11/19）",
+              "nlv": "report"
             },
             {
               "n": "Lucid",
@@ -468,7 +484,7 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作"
+              "note": "官方公告結束合作。報導：將加入 SR（Sheep X，11/18）"
             },
             {
               "n": "Raptor",
@@ -1545,7 +1561,12 @@
               "s": "expired",
               "lv": "gcd",
               "note": "未官宣。報導：口頭協議加入 MKOI",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Rooster",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123119760187797903"
+              }
             },
             {
               "n": "SkewMond",
@@ -1685,10 +1706,9 @@
             {
               "n": "Yike",
               "r": "野",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。報導：傳加入 Fnatic",
-              "nlv": "report",
+              "s": "left",
+              "lv": "official",
+              "note": "KC 官方宣布結束合作（Sheep 轉述，11/18）。報導：傳加入 Fnatic",
               "next": {
                 "n": "SkewMond",
                 "lv": "report",
@@ -1737,7 +1757,12 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/11），報導：去 G2"
+              "note": "官方公告離隊（11/11），報導：去 G2",
+              "next": {
+                "n": "Sheo",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123132829047406775"
+              }
             },
             {
               "n": "FIESTA",
@@ -2073,14 +2098,14 @@
               "r": "上",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣。報導：將加入 G2（Sheep X，11/18）"
             },
             {
               "n": "Sheo",
               "r": "野",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣。報導：將加入 Vitality（Sheep X，11/18）"
             },
             {
               "n": "nuc",
@@ -2439,9 +2464,10 @@
             {
               "n": "Berserker",
               "r": "下",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "renewed",
+              "lv": "report",
+              "note": "報導：將與 LYON 續約，球隊未公告（Sheep X，11/18）",
+              "y": 2027
             },
             {
               "n": "Isles",
@@ -2515,7 +2541,12 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "Shopify Rebellion 官方 X 發文道別，官方離隊（11/16）"
+              "note": "Shopify Rebellion 官方 X 發文道別，官方離隊（11/16）",
+              "next": {
+                "n": "Clear",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123157502200062042"
+              }
             },
             {
               "n": "Contractz",
@@ -2625,7 +2656,12 @@
               "s": "expired",
               "lv": "gcd",
               "note": "未官宣。報導：離開 TL 去 C9，結束八年",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Ackerman",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123178602992992488"
+              }
             }
           ],
           "logo": "logos/tl.webp"
@@ -2832,7 +2868,7 @@
               "r": "輔",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣。報導：將加入 Team Liquid（Sheep X，11/18）"
             }
           ],
           "logo": "logos/los.webp"
