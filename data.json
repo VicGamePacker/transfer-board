@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T19:02:00+08:00",
-  "updatedLabel": "2026/11/19 19:02（台灣時間）",
+  "updated": "2026-11-19T20:46:00+08:00",
+  "updatedLabel": "2026/11/19 20:46（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -311,6 +311,11 @@
               "t": "官方影片宣布 Cuzz 加入 2027 陣容（DN SOOPers 官方，11/17）",
               "lv": "official",
               "src": "DN SOOPers 官方影片"
+            },
+            {
+              "t": "打野 Pyosik 轉隊加入 Nongshim RedForce（官方，Sheep 轉述，11/19）。",
+              "lv": "official",
+              "src": "Sheep X"
             }
           ],
           "players": [
@@ -515,6 +520,22 @@
               "lv": "official",
               "note": "NS RedForce 官方 X 公告 Deft 簽約成為新 ADC，11/19 完成兵役（11/19）",
               "src": "https://x.com/NS_RedForce/status/2123357741892678032"
+            },
+            {
+              "n": "Pyosik",
+              "r": "野",
+              "from": "DN SOOPers",
+              "lv": "official",
+              "note": "NS RedForce 官方宣布加入 2027 陣容，與 Kingen、Deft 重聚（Sheep 轉述，11/19）",
+              "src": "https://x.com/Sheep_Esports/status/2123376959186952490"
+            },
+            {
+              "n": "Andil",
+              "r": "輔",
+              "from": "KIWOOM DRX",
+              "lv": "official",
+              "note": "NS RedForce 官方宣布加入 2027 陣容（Sheep 轉述，11/19）",
+              "src": "https://x.com/Sheep_Esports/status/2123373804600672725"
             }
           ]
         },
@@ -623,9 +644,9 @@
             {
               "n": "Andil",
               "r": "",
-              "s": "expired",
+              "s": "left",
               "lv": "official",
-              "note": "官方公告合約到期"
+              "note": "NS RedForce 官方宣布 Andil 加入 2027 陣容（Sheep 轉述，11/19）"
             },
             {
               "n": "AKaJe",
