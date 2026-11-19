@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T17:22:00+08:00",
-  "updatedLabel": "2026/11/19 17:22（台灣時間）",
+  "updated": "2026-11-19T18:22:00+08:00",
+  "updatedLabel": "2026/11/19 18:22（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -292,7 +292,17 @@
               }
             }
           ],
-          "logo": "logos/kt.webp"
+          "logo": "logos/kt.webp",
+          "joins": [
+            {
+              "n": "Raptor",
+              "r": "野",
+              "from": "BNK FEARX",
+              "lv": "official",
+              "note": "KT 官方宣布 Raptor 擔任 2027 賽季打野（Sheep 轉述，11/19）",
+              "src": "https://x.com/Sheep_Esports/status/2123360681009234251"
+            }
+          ]
         },
         {
           "name": "DN SOOPers",
@@ -363,6 +373,14 @@
               "lv": "official",
               "note": "DN SOOPers 官方宣布加入 2027 LCK 賽季，七年後重返前身 Afreeca Freecs 體系（11/18）",
               "src": "https://x.com/Sheep_Esports/status/2122996478595547480"
+            },
+            {
+              "n": "Bluffing",
+              "r": "輔",
+              "from": "HLE Challengers（LCK CL）",
+              "lv": "official",
+              "note": "DN SOOPers 官方宣布 Bluffing 擔任 2027 賽季輔助，17 歲首個 LCK 賽季（Sheep 轉述，11/19）",
+              "src": "https://x.com/Sheep_Esports/status/2123343743541477692"
             }
           ],
           "logo": "logos/dns.webp"
@@ -488,7 +506,17 @@
               "note": "官方公告結束合作，成為自由人（11/17）"
             }
           ],
-          "logo": "logos/ns.webp"
+          "logo": "logos/ns.webp",
+          "joins": [
+            {
+              "n": "Deft",
+              "r": "下",
+              "from": "退伍",
+              "lv": "official",
+              "note": "NS RedForce 官方 X 公告 Deft 簽約成為新 ADC，11/19 完成兵役（11/19）",
+              "src": "https://x.com/NS_RedForce/status/2123357741892678032"
+            }
+          ]
         },
         {
           "name": "BNK FEARX",
@@ -505,7 +533,7 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作"
+              "note": "官方公告結束合作，已官方加入 KT（11/19）"
             },
             {
               "n": "VicLa",
@@ -2210,6 +2238,12 @@
               "t": "報導：Supa 當 AD、CBLOL 冠軍上路 Zest 加入。",
               "lv": "report",
               "src": "Sheep"
+            },
+            {
+              "t": "報導：中路 Karis 即將加入 NAVI 參加 2027 LEC（Sheep X，11/19）",
+              "lv": "report",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2123358739495288844"
             }
           ],
           "logo": "logos/navi.webp"
@@ -2416,7 +2450,12 @@
               "s": "expired",
               "lv": "gcd",
               "note": "未官宣。報導：傳加入 Shopify 當中路",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Hwichan",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123275796793921907"
+              }
             },
             {
               "n": "Massu",
