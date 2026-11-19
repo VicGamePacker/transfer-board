@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T18:22:00+08:00",
-  "updatedLabel": "2026/11/19 18:22（台灣時間）",
+  "updated": "2026-11-19T19:02:00+08:00",
+  "updatedLabel": "2026/11/19 19:02（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2320,6 +2320,12 @@
               "t": "報導：C9 2027 定下 Blaber、Loki、Yeon、CoreJJ，上路未定。",
               "lv": "report",
               "src": "Sheep，11/12"
+            },
+            {
+              "t": "報導：上路 Frog 即將加入 C9 參加 2027 LCS，他 2026 年效力 KIWOOM DRX（Sheep X，11/19）",
+              "lv": "report",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2123366447271612641"
             }
           ],
           "logo": "logos/c9.webp"
