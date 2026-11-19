@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T10:18:00+08:00",
-  "updatedLabel": "2026/11/19 10:18（台灣時間）",
+  "updated": "2026-11-19T10:28:00+08:00",
+  "updatedLabel": "2026/11/19 10:28（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -129,7 +129,7 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "HLE 官方宣布結束合作（Sheep 轉述，11/19）。報導：傳回 T1",
+              "note": "HLE 官方 X 宣布合約結束（11/19）。報導：傳回 T1",
               "next": {
                 "n": "Kiin",
                 "lv": "report",
@@ -141,7 +141,7 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "HLE 官方宣布結束合作（Sheep 轉述，11/19）"
+              "note": "HLE 官方 X 宣布合約結束，感謝他本季擔任隊長（11/19）"
             },
             {
               "n": "Zeka",
@@ -172,6 +172,12 @@
               "lv": "official",
               "src": "HLE 官方 Instagram",
               "url": "https://www.instagram.com/p/Df108UbTthM/"
+            },
+            {
+              "t": "Homme 總教練、SIN 教練合約終止，HLE 官方 X 發文感謝（11/17）。",
+              "lv": "official",
+              "src": "HLE 官方 X",
+              "url": "https://x.com/hleofficial/status/2122480194363822104"
             }
           ]
         },
