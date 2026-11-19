@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T10:52:00+08:00",
-  "updatedLabel": "2026/11/19 10:52（台灣時間）",
+  "updated": "2026-11-19T17:16:00+08:00",
+  "updatedLabel": "2026/11/19 17:16（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -81,9 +81,9 @@
             {
               "n": "Doran",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "T1 官方 YouTube 發布 Thank you Doran，宣布合作結束，感謝他世界賽三連霸（11/19）",
               "next": {
                 "n": "Zeus",
                 "lv": "report",
