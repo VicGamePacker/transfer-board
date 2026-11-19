@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T10:13:00+08:00",
-  "updatedLabel": "2026/11/19 10:13（台灣時間）",
+  "updated": "2026-11-19T10:18:00+08:00",
+  "updatedLabel": "2026/11/19 10:18（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -58,7 +58,15 @@
               "lv": "gcd"
             }
           ],
-          "logo": "logos/gen-g.webp"
+          "logo": "logos/gen-g.webp",
+          "notes": [
+            {
+              "t": "總教練 Jerry 合約終止，Gen.G 官方 X 發文感謝（11/17）。",
+              "lv": "official",
+              "src": "Gen.G 官方 X",
+              "url": "https://x.com/GenG"
+            }
+          ]
         },
         {
           "name": "T1",
