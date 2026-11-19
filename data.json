@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T21:58:00+08:00",
-  "updatedLabel": "2026/11/19 21:58（台灣時間）",
+  "updated": "2026-11-19T22:56:00+08:00",
+  "updatedLabel": "2026/11/19 22:56（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1736,10 +1736,9 @@
             {
               "n": "Lospa",
               "r": "輔",
-              "s": "until",
-              "lv": "gcd",
-              "y": 2027,
-              "note": "報導：口頭協議轉往 SK",
+              "s": "left",
+              "lv": "official",
+              "note": "Fnatic 官方宣布結束合作（Sheep 轉述，11/19）。報導：口頭協議轉往 SK",
               "nlv": "report",
               "next": {
                 "n": "Labrov",
@@ -1861,7 +1860,13 @@
               "r": "輔",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/16）"
+              "note": "官方公告離隊（11/16）",
+              "next": {
+                "n": "Targamas",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123425961056358704"
+              },
+              "nlv": "report"
             }
           ],
           "notes": [
