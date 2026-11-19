@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T22:56:00+08:00",
-  "updatedLabel": "2026/11/19 22:56（台灣時間）",
+  "updated": "2026-11-20T06:43:00+08:00",
+  "updatedLabel": "2026/11/20 06:43（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1833,7 +1833,7 @@
               "r": "中",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作，一個賽季後離隊（Sheep 轉述，11/18）",
+              "note": "官方公告結束合作，一個賽季後離隊（Sheep 轉述，11/18）。報導：轉往 LØS（CBLOL，Sheep X，11/20）",
               "next": {
                 "n": "Guti",
                 "lv": "report",
@@ -2484,7 +2484,12 @@
               "lv": "gcd",
               "y": 2027,
               "note": "報導：傳加入 Shopify 當打野",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Yukino",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123468848993325304"
+              }
             },
             {
               "n": "Quad",
@@ -2505,7 +2510,12 @@
               "s": "expired",
               "lv": "gcd",
               "note": "未官宣。報導：傳加入 Shopify",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Zven",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123468848993325304"
+              }
             },
             {
               "n": "Cryogen",
@@ -2520,6 +2530,12 @@
               "t": "報導：Cryogen 留 FlyQuest。",
               "lv": "report",
               "src": "Sheep，11/16"
+            },
+            {
+              "t": "報導：Sheep 公布 2027 陣容為 Zamudo、Yukino、Hwichan、Zven、Cryogen。球隊官方 X（11/19）表示週一前不會有陣容異動，以上均未官宣。",
+              "lv": "report",
+              "src": "Sheep X，11/20",
+              "url": "https://x.com/Sheep_Esports/status/2123468848993325304"
             }
           ],
           "logo": "logos/fly.webp"
@@ -2949,7 +2965,12 @@
               "r": "中",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "FIESTA",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123503767232651718"
+              }
             },
             {
               "n": "Duduhh",
@@ -2966,7 +2987,17 @@
               "note": "未官宣。報導：將加入 Team Liquid（Sheep X，11/18）"
             }
           ],
-          "logo": "logos/los.webp"
+          "logo": "logos/los.webp",
+          "joins": [
+            {
+              "n": "FIESTA",
+              "r": "中",
+              "from": "Vitality",
+              "lv": "report",
+              "note": "報導：加入 LØS 出戰 2027 CBLOL（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123503767232651718"
+            }
+          ]
         },
         {
           "name": "LOUD",
