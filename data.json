@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T21:43:00+08:00",
-  "updatedLabel": "2026/11/19 21:43（台灣時間）",
+  "updated": "2026-11-19T21:58:00+08:00",
+  "updatedLabel": "2026/11/19 21:58（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2261,15 +2261,19 @@
               "t": "報導：Supa 當 AD、CBLOL 冠軍上路 Zest 加入。",
               "lv": "report",
               "src": "Sheep"
-            },
-            {
-              "t": "報導：中路 Karis 即將加入 NAVI 參加 2027 LEC（Sheep X，11/19）",
-              "lv": "report",
-              "src": "Sheep X",
-              "url": "https://x.com/Sheep_Esports/status/2123358739495288844"
             }
           ],
-          "logo": "logos/navi.webp"
+          "logo": "logos/navi.webp",
+          "joins": [
+            {
+              "n": "Karis",
+              "r": "中",
+              "from": "Team WE",
+              "lv": "report",
+              "note": "報導：即將加入 NAVI 參加 2027 LEC，球隊未公告（Sheep X，11/19）",
+              "src": "https://x.com/Sheep_Esports/status/2123358739495288844"
+            }
+          ]
         }
       ]
     },
@@ -2343,15 +2347,19 @@
               "t": "報導：C9 2027 定下 Blaber、Loki、Yeon、CoreJJ，上路未定。",
               "lv": "report",
               "src": "Sheep，11/12"
-            },
-            {
-              "t": "報導：上路 Frog 即將加入 C9 參加 2027 LCS，他 2026 年效力 KIWOOM DRX（Sheep X，11/19）",
-              "lv": "report",
-              "src": "Sheep X",
-              "url": "https://x.com/Sheep_Esports/status/2123366447271612641"
             }
           ],
-          "logo": "logos/c9.webp"
+          "logo": "logos/c9.webp",
+          "joins": [
+            {
+              "n": "Frog",
+              "r": "上",
+              "from": "KIWOOM DRX",
+              "lv": "report",
+              "note": "報導：即將加入 C9 參加 2027 LCS，球隊未公告（Sheep X，11/19）",
+              "src": "https://x.com/Sheep_Esports/status/2123366447271612641"
+            }
+          ]
         },
         {
           "name": "Dignitas",
