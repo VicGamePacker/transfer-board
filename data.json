@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T10:26:00+08:00",
-  "updatedLabel": "2026/11/20 10:26（台灣時間）",
+  "updated": "2026-11-20T13:20:00+08:00",
+  "updatedLabel": "2026/11/20 13:20（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -22,7 +22,7 @@
               "r": "上",
               "s": "expired",
               "lv": "official",
-              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳加入 HLE（Sheep X，11/18）",
+              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳加入 HLE（Sheep X，11/18）；國民日報另報導簽 1 年（未官宣）",
               "next": {
                 "n": "Siwoo",
                 "lv": "report",
@@ -34,7 +34,7 @@
               "r": "野",
               "s": "expired",
               "lv": "official",
-              "note": "Gen.G 官方公告合約已到期，去留未公布"
+              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）"
             },
             {
               "n": "Chovy",
@@ -141,7 +141,12 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "HLE 官方 X 宣布合約結束，感謝他本季擔任隊長（11/19）"
+              "note": "HLE 官方 X 宣布合約結束，感謝他本季擔任隊長（11/19）",
+              "next": {
+                "n": "Canyon",
+                "lv": "report",
+                "src": "https://www.strafe.com/news/read/kiin-and-canyon-reportedly-sign-with-hanwha-life-for-the-2027-lck-season/"
+              }
             },
             {
               "n": "Zeka",
