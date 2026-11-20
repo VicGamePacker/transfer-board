@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T17:15:00+08:00",
-  "updatedLabel": "2026/11/20 17:15（台灣時間）",
+  "updated": "2026-11-20T20:36:00+08:00",
+  "updatedLabel": "2026/11/20 20:36（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -111,7 +111,7 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "T1 官方 X 發 Thank you Doran，宣布合作結束，感謝他一同拿下世界賽三連霸（11/19）",
+              "note": "T1 官方 X 發 Thank you Doran，宣布合作結束，感謝他一同拿下世界賽三連霸（11/19）。Dplus KIA 官方宣布 Doran 加入 2027（Sheep 轉述，11/20）",
               "next": {
                 "n": "Zeus",
                 "lv": "report",
@@ -169,7 +169,7 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "HLE 官方 X 宣布合約結束，感謝他本季擔任隊長（11/19）",
+              "note": "HLE 官方 X 宣布合約結束，感謝他本季擔任隊長（11/19）。Dplus KIA 官方宣布他加入 2027（Sheep 轉述，11/20）",
               "next": {
                 "n": "Canyon",
                 "lv": "report",
@@ -221,11 +221,16 @@
             {
               "n": "Siwoo",
               "r": "上",
-              "s": "until",
+              "s": "left",
               "y": 2027,
-              "lv": "gcd",
-              "note": "報導：將加入 Gen.G（Sheep X，11/19）",
-              "nlv": "report"
+              "lv": "official",
+              "note": "官方公告結束合作（Sheep 轉述，11/20）。報導：將加入 Gen.G（Sheep X，11/19）",
+              "nlv": "report",
+              "next": {
+                "n": "Doran",
+                "lv": "official",
+                "srcX": "https://x.com/Sheep_Esports/status/2123748080994414982"
+              }
             },
             {
               "n": "Lucid",
@@ -233,7 +238,12 @@
               "s": "until",
               "y": 2027,
               "lv": "gcd",
-              "note": "報導：即將加入 Kiwoom DRX，Sheep 引述 Inven（Sheep X，11/20）"
+              "note": "報導：即將加入 Kiwoom DRX，Sheep 引述 Inven（Sheep X，11/20）",
+              "next": {
+                "n": "Kanavi",
+                "lv": "official",
+                "srcX": "https://x.com/Sheep_Esports/status/2123749806149693858"
+              }
             },
             {
               "n": "ShowMaker",
@@ -265,6 +275,24 @@
               "t": "二軍 DK Challengers 官方公告 Loopy、Garden、Wayne 離隊（他們剛在亞洲大師賽 2026 決賽 3 比 1 贏 T1 學院）。",
               "lv": "official",
               "src": "Sheep X，11/17 12:15"
+            }
+          ],
+          "joins": [
+            {
+              "n": "Doran",
+              "r": "上",
+              "from": "T1",
+              "lv": "official",
+              "note": "Dplus KIA 官方宣布加入 2027 LCK，2025 世界冠軍，職業生涯第七個組織（Sheep 轉述，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123748080994414982"
+            },
+            {
+              "n": "Kanavi",
+              "r": "野",
+              "from": "Hanwha Life Esports",
+              "lv": "official",
+              "note": "Dplus KIA 官方宣布加入 2027 LCK，LCK 2026 全明星第一隊（Sheep 轉述，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123749806149693858"
             }
           ]
         },
@@ -324,8 +352,9 @@
               "note": "官方公告合約結束，成為自由球員",
               "next": {
                 "n": "Kellin",
-                "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-raptor-kellin-and-taeyoon-expected-to-join-kt-rolster-for-lck-2027/en"
+                "lv": "official",
+                "src": "https://www.sheepesports.com/en/articles/sources-raptor-kellin-and-taeyoon-expected-to-join-kt-rolster-for-lck-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2123721774613594147"
               }
             }
           ],
@@ -338,6 +367,13 @@
               "lv": "official",
               "note": "KT 官方宣布 Raptor 擔任 2027 賽季打野（Sheep 轉述，11/19）",
               "src": "https://x.com/Sheep_Esports/status/2123360681009234251"
+            },
+            {
+              "n": "Kellin",
+              "r": "輔",
+              "lv": "official",
+              "note": "KT 官方宣布加入 2027 LCK，簽 2 年約，職業生涯第六支隊伍（Sheep 轉述，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123721774613594147"
             }
           ]
         },
@@ -1931,7 +1967,7 @@
               "r": "輔",
               "s": "left",
               "lv": "official",
-              "note": "官方公告離隊（11/16）",
+              "note": "官方公告離隊（11/16）。報導：將加入 Shifters（Sheep X，11/20）",
               "next": {
                 "n": "Targamas",
                 "lv": "report",
@@ -2253,7 +2289,12 @@
               "r": "中",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Kamiloo",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123717937999802613"
+              }
             },
             {
               "n": "Paduck",
@@ -2272,7 +2313,12 @@
               "r": "輔",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Fleshy",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123735192623775933"
+              }
             }
           ],
           "notes": [
@@ -2282,7 +2328,32 @@
               "src": "Sheep，11/17 07:32，記者 LEC_Wooloo"
             }
           ],
-          "logo": "logos/shf.webp"
+          "logo": "logos/shf.webp",
+          "joins": [
+            {
+              "n": "Fleshy",
+              "r": "輔",
+              "from": "Team Vitality",
+              "lv": "report",
+              "note": "報導：即將加入 Shifters，球隊未公告（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123735192623775933"
+            },
+            {
+              "n": "Kamiloo",
+              "r": "中",
+              "lv": "report",
+              "note": "報導：明年與 Shifters 重返 LEC，球隊未公告（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123717937999802613"
+            },
+            {
+              "n": "SamD",
+              "r": "下",
+              "from": "Natus Vincere",
+              "lv": "report",
+              "note": "報導：即將加入 Shifters，球隊未公告（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123706038511608261"
+            }
+          ]
         },
         {
           "name": "Natus Vincere",
