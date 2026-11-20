@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T13:35:00+08:00",
-  "updatedLabel": "2026/11/20 13:35（台灣時間）",
+  "updated": "2026-11-20T13:36:00+08:00",
+  "updatedLabel": "2026/11/20 13:36（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -34,7 +34,7 @@
               "r": "野",
               "s": "expired",
               "lv": "official",
-              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）"
+              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）；Sheep X（11/20）報導 Canyon 即將加入 HLE，Gen.G 正在找打野替補"
             },
             {
               "n": "Chovy",
@@ -55,7 +55,13 @@
               "r": "輔",
               "s": "until",
               "y": 2027,
-              "lv": "gcd"
+              "lv": "gcd",
+              "next": {
+                "n": "Cloud",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123620394230001804"
+              },
+              "note": "報導：獲准與其他 LCK 球隊談（Sheep X，11/20）"
             }
           ],
           "logo": "logos/gen-g.webp",
@@ -77,6 +83,16 @@
               "lv": "official",
               "src": "Gen.G 官方 X",
               "url": "https://x.com/GenG/status/2122480083319308699"
+            }
+          ],
+          "joins": [
+            {
+              "n": "Cloud",
+              "r": "輔",
+              "from": "T1 Academy（LCK CL）",
+              "lv": "report",
+              "note": "報導：LCK CL MVP，即將加入 Gen.G 擔任 2027 輔助，球隊未公告（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123620394230001804"
             }
           ]
         },
@@ -157,7 +173,8 @@
               "next": {
                 "n": "Canyon",
                 "lv": "report",
-                "src": "https://www.strafe.com/news/read/kiin-and-canyon-reportedly-sign-with-hanwha-life-for-the-2027-lck-season/"
+                "src": "https://www.strafe.com/news/read/kiin-and-canyon-reportedly-sign-with-hanwha-life-for-the-2027-lck-season/",
+                "srcX": "https://x.com/Sheep_Esports/status/2123632122627776775"
               }
             },
             {
@@ -566,7 +583,12 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作。報導：將加入 SR（Sheep X，11/18）"
+              "note": "官方公告結束合作。報導：將加入 SR（Sheep X，11/18）",
+              "next": {
+                "n": "Thanatos",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123647159606075476"
+              }
             },
             {
               "n": "Raptor",
@@ -613,6 +635,14 @@
               "lv": "official",
               "note": "BNK FEARX 官方 X 宣布 Vincenzo 重新加入，合約到 2028 年，補 Raptor 的位置（11/18）",
               "src": "https://x.com/BNKFEARXLoL/status/2122963019109945538"
+            },
+            {
+              "n": "Thanatos",
+              "r": "上",
+              "from": "Cloud9",
+              "lv": "report",
+              "note": "報導：即將加入 BNK FEARX 參加 2027 LCK，球隊未公告（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123647159606075476"
             }
           ]
         },
@@ -2320,7 +2350,13 @@
               "r": "上",
               "s": "until",
               "lv": "gcd",
-              "y": 2028
+              "y": 2028,
+              "next": {
+                "n": "Frog",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123454429730852928"
+              },
+              "note": "報導：將加入 BNK FEARX（Sheep X，11/20）；C9 傳由 Frog 接上路，與合約庫寫的 2028 矛盾"
             },
             {
               "n": "Blaber",
@@ -2367,7 +2403,7 @@
           ],
           "notes": [
             {
-              "t": "報導：C9 2027 定下 Blaber、Loki、Yeon、CoreJJ，上路未定。",
+              "t": "報導：Sheep 公布 C9 2027 陣容為 Frog、Blaber、Loki、Yeon、CoreJJ，均未官宣（Sheep X，11/19）。",
               "lv": "report",
               "src": "Sheep，11/12"
             }
@@ -2742,6 +2778,12 @@
               "t": "官方 X 道別名單也含教練 Damonte、FLAnalista，兩位教練官方離隊（11/16）。",
               "lv": "official",
               "src": "Shopify Rebellion 官方 X"
+            },
+            {
+              "t": "報導：總教練 Reapered 傳回北美擔任 Shopify 總教練，球隊未公告（Sheep X，11/20）。",
+              "lv": "report",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2123633514587566116"
             }
           ],
           "logo": "logos/shopify.webp"
