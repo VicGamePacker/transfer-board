@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T16:20:00+08:00",
-  "updatedLabel": "2026/11/20 16:20（台灣時間）",
+  "updated": "2026-11-20T17:15:00+08:00",
+  "updatedLabel": "2026/11/20 17:15（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2260,7 +2260,12 @@
               "r": "下",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "SamD",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123706038511608261"
+              }
             },
             {
               "n": "Stend",
