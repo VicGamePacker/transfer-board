@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T06:43:00+08:00",
-  "updatedLabel": "2026/11/20 06:43（台灣時間）",
+  "updated": "2026-11-20T10:26:00+08:00",
+  "updatedLabel": "2026/11/20 10:26（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1295,8 +1295,9 @@
           ],
           "notes": [
             {
-              "t": "主帥 Chawy 的合約也到期（官方公告，台灣時間 09:25）。",
-              "lv": "official"
+              "t": "教練 Chawy、Wulala 的合約也到期（CFO 官方 Facebook，11/17 上午 9:00，共 5 位選手與 2 位教練）。",
+              "lv": "official",
+              "src": "CFO 官方 Facebook"
             }
           ],
           "logo": "logos/cfo.webp"
@@ -1418,8 +1419,8 @@
               "n": "Artemis",
               "r": "下",
               "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "lv": "official",
+              "note": "GAM 官方 Facebook（11/19）貼出 Artemis 最後一場直播圖卡，寫明合約今天結束（越南語），尚未見正式離隊或續約公告"
             },
             {
               "n": "Taki",
