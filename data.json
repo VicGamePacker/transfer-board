@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T13:36:00+08:00",
-  "updatedLabel": "2026/11/20 13:36（台灣時間）",
+  "updated": "2026-11-20T16:20:00+08:00",
+  "updatedLabel": "2026/11/20 16:20（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -232,7 +232,8 @@
               "r": "野",
               "s": "until",
               "y": 2027,
-              "lv": "gcd"
+              "lv": "gcd",
+              "note": "報導：即將加入 Kiwoom DRX，Sheep 引述 Inven（Sheep X，11/20）"
             },
             {
               "n": "ShowMaker",
@@ -613,9 +614,9 @@
               "note": "官方公告結束合作",
               "next": {
                 "n": "Noah",
-                "lv": "report",
+                "lv": "official",
                 "src": "https://www.sheepesports.com/en/articles/sources-noah-set-to-join-bnk-fearx-ahead-of-2027-lck-season/en",
-                "srcX": "https://x.com/Sheep_Esports/status/2120899063201849565"
+                "srcX": "https://x.com/Sheep_Esports/status/2123688881136562530"
               }
             },
             {
@@ -643,6 +644,13 @@
               "lv": "report",
               "note": "報導：即將加入 BNK FEARX 參加 2027 LCK，球隊未公告（Sheep X，11/20）",
               "src": "https://x.com/Sheep_Esports/status/2123647159606075476"
+            },
+            {
+              "n": "Noah",
+              "r": "下",
+              "lv": "official",
+              "note": "官方：Sheep 轉發 Noah 加入 BNK FEARX 參加 2027 LCK，自歐洲返回（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123688881136562530"
             }
           ]
         },
@@ -674,7 +682,12 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "BNK FEARX 官方宣布 Vincenzo 加入，補 Raptor 的位置（11/18）"
+              "note": "BNK FEARX 官方宣布 Vincenzo 加入，補 Raptor 的位置（11/18）",
+              "next": {
+                "n": "Lucid",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123662452436980087"
+              }
             },
             {
               "n": "Ucal",
@@ -712,7 +725,17 @@
               "lv": "gcd"
             }
           ],
-          "logo": "logos/drx.webp"
+          "logo": "logos/drx.webp",
+          "joins": [
+            {
+              "n": "Lucid",
+              "r": "野",
+              "from": "Dplus KIA",
+              "lv": "report",
+              "note": "報導：即將加入 Kiwoom DRX，Sheep 引述 Inven，球隊未公告（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123662452436980087"
+            }
+          ]
         }
       ]
     },
