@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T20:36:00+08:00",
-  "updatedLabel": "2026/11/20 20:36（台灣時間）",
+  "updated": "2026-11-21T01:37:00+08:00",
+  "updatedLabel": "2026/11/21 01:37（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -531,6 +531,12 @@
               "t": "Deft 11/18 退伍（兵役，不是職業退役）。傳加入農心，農心人員稱已確定但尚未公布。",
               "lv": "report",
               "src": "Wikitree"
+            },
+            {
+              "t": "教練 Lyn 官方宣布加入教練團，曾是 Gen.G 教練團成員（Sheep 轉述，11/20）。",
+              "lv": "official",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2123785178275619264"
             }
           ],
           "players": [
@@ -1830,9 +1836,9 @@
             {
               "n": "Upset",
               "r": "下",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣",
+              "s": "left",
+              "lv": "official",
+              "note": "Fnatic 官方 X 宣布結束合作，第二段兩年任期結束（11/20）。報導：Doggo 接下路",
               "next": {
                 "n": "Doggo",
                 "lv": "report",
@@ -1909,7 +1915,15 @@
               "y": 2027
             }
           ],
-          "logo": "logos/kc.webp"
+          "logo": "logos/kc.webp",
+          "notes": [
+            {
+              "t": "總教練 Reapered 官方宣布分道揚鑣，KC 官方 X 發文感謝（11/20）。",
+              "lv": "official",
+              "src": "KC 官方 X（Sheep 轉述）",
+              "url": "https://x.com/Sheep_Esports/status/2123766739590914174"
+            }
+          ]
         },
         {
           "name": "Team Vitality",
@@ -2119,6 +2133,12 @@
               "t": "助教 Alphari 官方離隊（11/16）。報導：MKOI 2027 定下 BrokenBlade、Elyoya、Jojopyun、Carzzy、Alvaro。",
               "lv": "report",
               "src": "Sheep，11/11"
+            },
+            {
+              "t": "報導：助理教練 Independent 即將續約，MKOI 2027 教練團定案，球隊未公告（Sheep X，11/20）。",
+              "lv": "report",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2123803575063069184"
             }
           ],
           "logo": "logos/koi.webp"
