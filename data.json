@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T01:37:00+08:00",
-  "updatedLabel": "2026/11/21 01:37（台灣時間）",
+  "updated": "2026-11-21T12:37:00+08:00",
+  "updatedLabel": "2026/11/21 12:37（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2295,7 +2295,12 @@
               "r": "上",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣。報導：將加入 G2（Sheep X，11/18）"
+              "note": "未官宣。報導：將加入 G2（Sheep X，11/18）",
+              "next": {
+                "n": "Adam",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123883682662375820"
+              }
             },
             {
               "n": "Sheo",
@@ -2372,6 +2377,13 @@
               "lv": "report",
               "note": "報導：即將加入 Shifters，球隊未公告（Sheep X，11/20）",
               "src": "https://x.com/Sheep_Esports/status/2123706038511608261"
+            },
+            {
+              "n": "Adam",
+              "r": "上",
+              "lv": "report",
+              "note": "報導：以單上路選手與陣容建構者身份重返 Shifters，球隊正找打野（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123883682662375820"
             }
           ]
         },
@@ -3255,10 +3267,24 @@
               "r": "輔",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Trymbi",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2123869036316344654"
+              }
             }
           ],
-          "logo": "logos/pain.webp"
+          "logo": "logos/pain.webp",
+          "joins": [
+            {
+              "n": "Trymbi",
+              "r": "輔",
+              "lv": "report",
+              "note": "報導：口頭協議加入 paiN Gaming 參加 2027 CBLOL，與前隊友 Boal 重聚，球隊未公告（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2123869036316344654"
+            }
+          ]
         },
         {
           "name": "RED Canids Kalunga",
