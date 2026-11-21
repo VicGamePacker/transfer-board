@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T12:37:00+08:00",
-  "updatedLabel": "2026/11/21 12:37（台灣時間）",
+  "updated": "2026-11-21T23:17:00+08:00",
+  "updatedLabel": "2026/11/21 23:17（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -103,6 +103,12 @@
               "t": "Roach 將回 T1 擔任 2027 總教練，T1 尚未公布。",
               "lv": "report",
               "src": "Inven，Sheep 轉述"
+            },
+            {
+              "t": "總教練 kkOma、臨時總教練 Tom、教練 Mata 官方分道揚鑣，T1 官方 X 發文感謝，kkOma 因個人原因無限期休假（11/21）。",
+              "lv": "official",
+              "src": "T1 官方 X（Sheep 轉述）",
+              "url": "https://x.com/Sheep_Esports/status/2124069962692055103"
             }
           ],
           "players": [
@@ -1626,9 +1632,9 @@
             {
               "n": "Bie",
               "r": "輔",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "left",
+              "lv": "official",
+              "note": "Team Secret Whales 官方 Facebook 宣布 Bie 退役，九年職業生涯結束（Sheep 轉述，11/21）"
             }
           ],
           "logo": "logos/tsw.webp"
