@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T12:37:00+08:00",
-  "updatedLabel": "2026/11/22 12:37（台灣時間）",
+  "updated": "2026-11-23T01:58:00+08:00",
+  "updatedLabel": "2026/11/23 01:58（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -782,6 +782,13 @@
               "lv": "report",
               "note": "報導：即將加入 Kiwoom DRX，Sheep 引述 Inven，球隊未公告（Sheep X，11/20）",
               "src": "https://x.com/Sheep_Esports/status/2123662452436980087"
+            },
+            {
+              "n": "Haetae",
+              "r": "上",
+              "lv": "report",
+              "note": "報導：上路新秀即將加入 Kiwoom DRX 參加 2027 LCK，球隊未公告（Sheep X，11/22）",
+              "src": "https://x.com/Sheep_Esports/status/2124517963793305978"
             }
           ]
         }
@@ -2406,6 +2413,12 @@
               "t": "報導：Shifters 已開始休賽期運作，正與選手及經紀人接觸。",
               "lv": "report",
               "src": "Sheep，11/17 07:32，記者 LEC_Wooloo"
+            },
+            {
+              "t": "報導：傳奇輔助 Edward（GoSu Pepper）將任 Shifters 總教練，重返 LEC，球隊未公告（Sheep X，11/22）。",
+              "lv": "report",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2124515134009942072"
             }
           ],
           "logo": "logos/shf.webp",
