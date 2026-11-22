@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T23:17:00+08:00",
-  "updatedLabel": "2026/11/21 23:17（台灣時間）",
+  "updated": "2026-11-22T11:29:00+08:00",
+  "updatedLabel": "2026/11/22 11:29（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1941,7 +1941,12 @@
               "lv": "gcd",
               "y": 2027,
               "note": "報導：Vitality 開價 35 萬歐元才准其他隊談。報導：傳加入 LYON（Sheep X，11/18）",
-              "nlv": "report"
+              "nlv": "report",
+              "next": {
+                "n": "Gakgos",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2124270359155450334"
+              }
             },
             {
               "n": "Lyncas",
@@ -2001,9 +2006,53 @@
               "t": "報導：Jopa 口頭協議當 Vitality 的 AD。",
               "lv": "report",
               "src": "Sheep，11/13"
+            },
+            {
+              "t": "報導：Sheep 公布 Vitality 2027 陣容為 Gakgos、Sheo、Guti、Jopa、Targamas，球隊未公告（11/22）。",
+              "lv": "report",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2124290506528301386"
             }
           ],
-          "logo": "logos/vit.webp"
+          "logo": "logos/vit.webp",
+          "joins": [
+            {
+              "n": "Gakgos",
+              "r": "上",
+              "lv": "report",
+              "note": "報導：即將加入 Vitality，土耳其上路，首次打 LEC，球隊未公告（Sheep X，11/22）",
+              "src": "https://x.com/Sheep_Esports/status/2124270359155450334"
+            },
+            {
+              "n": "Sheo",
+              "r": "野",
+              "from": "Shifters",
+              "lv": "report",
+              "note": "Sheep 公布的 Vitality 2027 陣容，球隊未公告（Sheep X，11/22）",
+              "src": "https://x.com/Sheep_Esports/status/2124290506528301386"
+            },
+            {
+              "n": "Guti",
+              "r": "中",
+              "lv": "report",
+              "note": "Sheep 公布的 Vitality 2027 陣容，球隊未公告（Sheep X，11/22）",
+              "src": "https://x.com/Sheep_Esports/status/2124290506528301386"
+            },
+            {
+              "n": "Jopa",
+              "r": "下",
+              "lv": "report",
+              "note": "Sheep 公布的 Vitality 2027 陣容，球隊未公告（Sheep X，11/22）",
+              "src": "https://x.com/Sheep_Esports/status/2124290506528301386"
+            },
+            {
+              "n": "Targamas",
+              "r": "輔",
+              "lv": "report",
+              "note": "Sheep 公布的 Vitality 2027 陣容，球隊未公告（Sheep X，11/22）",
+              "src": "https://x.com/Sheep_Esports/status/2124290506528301386"
+            }
+          ]
         },
         {
           "name": "SK Gaming",
