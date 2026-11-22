@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T11:29:00+08:00",
-  "updatedLabel": "2026/11/22 11:29（台灣時間）",
+  "updated": "2026-11-22T12:37:00+08:00",
+  "updatedLabel": "2026/11/22 12:37（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -1536,9 +1536,9 @@
             {
               "n": "Artemis",
               "r": "下",
-              "s": "expired",
+              "s": "left",
               "lv": "official",
-              "note": "GAM 官方 Facebook（11/19）貼出 Artemis 最後一場直播圖卡，寫明合約今天結束（越南語），尚未見正式離隊或續約公告"
+              "note": "GAM 官方 Facebook 11/19 公告合約結束，官方宣布離隊（LCP 11/19~21 彙整）"
             },
             {
               "n": "Taki",
@@ -1645,9 +1645,9 @@
             {
               "n": "Momo",
               "r": "上",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣"
+              "s": "left",
+              "lv": "official",
+              "note": "官方宣布離隊（LCP 11/19~21 彙整）"
             },
             {
               "n": "Citrus",
