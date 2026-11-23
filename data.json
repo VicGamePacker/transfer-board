@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T01:58:00+08:00",
-  "updatedLabel": "2026/11/23 01:58（台灣時間）",
+  "updated": "2026-11-23T19:51:00+08:00",
+  "updatedLabel": "2026/11/23 19:51（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -200,9 +200,10 @@
             {
               "n": "Delight",
               "r": "輔",
-              "s": "until",
-              "y": 2027,
-              "lv": "gcd"
+              "s": "left",
+              "lv": "official",
+              "note": "HLE 官方宣布結束合作，三個賽季後離隊（Sheep 轉述，11/23）。官方宣布加入 Dplus KIA",
+              "next": null
             }
           ],
           "logo": "logos/hle.webp",
@@ -270,9 +271,14 @@
             {
               "n": "Career",
               "r": "輔",
-              "s": "until",
-              "y": 2027,
-              "lv": "gcd"
+              "s": "left",
+              "lv": "official",
+              "note": "Dplus KIA 官方宣布結束合作（Sheep 轉述，11/23）",
+              "next": {
+                "n": "Delight",
+                "lv": "official",
+                "srcX": "https://x.com/Sheep_Esports/status/2124829356396838970"
+              }
             }
           ],
           "logo": "logos/dk.webp",
@@ -299,6 +305,14 @@
               "lv": "official",
               "note": "Dplus KIA 官方宣布加入 2027 LCK，LCK 2026 全明星第一隊（Sheep 轉述，11/20）",
               "src": "https://x.com/Sheep_Esports/status/2123749806149693858"
+            },
+            {
+              "n": "Delight",
+              "r": "輔",
+              "from": "Hanwha Life Esports",
+              "lv": "official",
+              "note": "Dplus KIA 官方宣布 Delight 加入 2027 LCK，與 Kanavi 重聚（Sheep 轉述，11/23）",
+              "src": "https://x.com/Sheep_Esports/status/2124829356396838970"
             }
           ]
         },
