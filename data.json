@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T19:51:00+08:00",
-  "updatedLabel": "2026/11/23 19:51（台灣時間）",
+  "updated": "2026-11-24T01:45:00+08:00",
+  "updatedLabel": "2026/11/24 01:45（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -20,9 +20,9 @@
             {
               "n": "Kiin",
               "r": "上",
-              "s": "expired",
+              "s": "left",
               "lv": "official",
-              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳加入 HLE（Sheep X，11/18）；國民日報另報導簽 1 年（未官宣）",
+              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳加入 HLE（Sheep X，11/18）；國民日報另報導簽 1 年（未官宣）",
               "next": {
                 "n": "Siwoo",
                 "lv": "report",
@@ -32,9 +32,9 @@
             {
               "n": "Canyon",
               "r": "野",
-              "s": "expired",
+              "s": "left",
               "lv": "official",
-              "note": "Gen.G 官方公告合約已到期，去留未公布。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）；Sheep X（11/20）報導 Canyon 即將加入 HLE，Gen.G 正在找打野替補"
+              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）；Sheep X（11/20）報導 Canyon 即將加入 HLE，Gen.G 正在找打野替補"
             },
             {
               "n": "Chovy",
@@ -83,6 +83,12 @@
               "lv": "official",
               "src": "Gen.G 官方 X",
               "url": "https://x.com/GenG/status/2122480083319308699"
+            },
+            {
+              "t": "Kiin、Canyon 離隊，Gen.G 官方 X 另發感謝文（11/20）。",
+              "lv": "official",
+              "src": "Gen.G 官方 X",
+              "url": "https://x.com/GenG/status/2123721307070337267"
             }
           ],
           "joins": [
@@ -219,6 +225,12 @@
               "lv": "official",
               "src": "HLE 官方 X",
               "url": "https://x.com/hleofficial/status/2122480194363822104"
+            },
+            {
+              "t": "Sonstar（原 KT 教練）加入 2027 教練團隊，Life（前選手）首次任教練，皆官方宣布（Sheep 轉述，11/23）。",
+              "lv": "official",
+              "src": "Sheep X",
+              "url": "https://x.com/Sheep_Esports/status/2124833215210799181"
             }
           ]
         },
@@ -1776,10 +1788,9 @@
             {
               "n": "SkewMond",
               "r": "野",
-              "s": "until",
-              "lv": "gcd",
-              "y": 2028,
-              "note": "報導：G2 要把他下放，需要轉會費。報導：將加入 KC（Sheep X，11/18）",
+              "s": "left",
+              "lv": "official",
+              "note": "G2 官方宣布分道揚鑣，兩年後離隊（Sheep 轉述，11/23）。KC 官方宣布加入",
               "nlv": "report",
               "next": {
                 "n": "Lyncas",
@@ -1915,9 +1926,10 @@
               "note": "KC 官方宣布結束合作（Sheep 轉述，11/18）。報導：傳加入 Fnatic",
               "next": {
                 "n": "SkewMond",
-                "lv": "report",
-                "srcX": "https://x.com/Sheep_Esports/status/2123003786881044535"
-              }
+                "lv": "official",
+                "srcX": "https://x.com/Sheep_Esports/status/2124890860579856563"
+              },
+              "nlv": "official"
             },
             {
               "n": "kyeahoo",
@@ -1949,6 +1961,16 @@
               "lv": "official",
               "src": "KC 官方 X（Sheep 轉述）",
               "url": "https://x.com/Sheep_Esports/status/2123766739590914174"
+            }
+          ],
+          "joins": [
+            {
+              "n": "SkewMond",
+              "r": "野",
+              "from": "G2 Esports",
+              "lv": "official",
+              "note": "KC 官方宣布 SkewMond 加入 2027 LEC，法國打野（Sheep 轉述，11/23）",
+              "src": "https://x.com/Sheep_Esports/status/2124890860579856563"
             }
           ]
         },
@@ -3048,7 +3070,17 @@
               }
             }
           ],
-          "logo": "logos/tl.webp"
+          "logo": "logos/tl.webp",
+          "joins": [
+            {
+              "n": "Ackerman",
+              "r": "輔",
+              "from": "LOS",
+              "lv": "report",
+              "note": "報導：將加入 Team Liquid 參加 2027 LCS，球隊未公告（Sheep X，11/23）",
+              "src": "https://x.com/Sheep_Esports/status/2124902385831362902"
+            }
+          ]
         }
       ]
     },
@@ -3255,9 +3287,9 @@
             {
               "n": "Ackerman",
               "r": "輔",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。報導：將加入 Team Liquid（Sheep X，11/18）"
+              "s": "left",
+              "lv": "official",
+              "note": "LOS 官方宣布結束合作（Sheep 轉述，11/23）。報導：將加入 Team Liquid（Sheep X）"
             }
           ],
           "logo": "logos/los.webp",
@@ -3365,6 +3397,14 @@
               "lv": "report",
               "note": "報導：口頭協議加入 paiN Gaming 參加 2027 CBLOL，與前隊友 Boal 重聚，球隊未公告（Sheep X，11/20）",
               "src": "https://x.com/Sheep_Esports/status/2123869036316344654"
+            }
+          ],
+          "notes": [
+            {
+              "t": "下路 Hena 在 Instagram 宣布從職業退役（Sheep 轉述，11/23）。",
+              "lv": "official",
+              "src": "Hena Instagram（Sheep 轉述）",
+              "url": "https://x.com/Sheep_Esports/status/2124915635540881896"
             }
           ]
         },
