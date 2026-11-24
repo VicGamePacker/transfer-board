@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T18:59:00+08:00",
-  "updatedLabel": "2026/11/24 18:59（台灣時間）",
+  "updated": "2026-11-24T20:31:00+08:00",
+  "updatedLabel": "2026/11/24 20:31（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -185,7 +185,17 @@
               "lv": "gcd"
             }
           ],
-          "logo": "logos/t1.webp"
+          "logo": "logos/t1.webp",
+          "joins": [
+            {
+              "n": "Zeus",
+              "r": "上",
+              "from": "Hanwha Life Esports",
+              "lv": "report",
+              "note": "報導：與 T1 達成三年合約，擔任先發上路，T1 尚未公告（Sheep X，11/19）。T1 11/25 18:00（台灣）有總教練就任活動",
+              "src": "https://x.com/Sheep_Esports/status/2123119301636825115"
+            }
+          ]
         },
         {
           "name": "Hanwha Life Esports",
