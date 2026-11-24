@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T18:20:00+08:00",
-  "updatedLabel": "2026/11/24 18:20（台灣時間）",
+  "updated": "2026-11-24T18:59:00+08:00",
+  "updatedLabel": "2026/11/24 18:59（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -136,6 +136,11 @@
               "lv": "official",
               "src": "T1 官方 X",
               "url": "https://x.com/T1LoL/status/2125124759822233626"
+            },
+            {
+              "t": "T1 官方公告 2027 T1 Announcement：11/25（三）韓國時間晚上 7 點（台灣 18:00），在 T1 BASE CAMP 江南店舉行總教練就任介紹、特別活動、記者會，SOOP T1esports 頻道直播，記者會不直播。",
+              "lv": "official",
+              "src": "T1 官方公告圖"
             }
           ],
           "players": [
