@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T08:20:00+08:00",
-  "updatedLabel": "2026/11/24 08:20（台灣時間）",
+  "updated": "2026-11-24T16:52:00+08:00",
+  "updatedLabel": "2026/11/24 16:52（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -106,15 +106,16 @@
           "name": "T1",
           "notes": [
             {
-              "t": "Roach 將回 T1 擔任 2027 總教練，T1 尚未公布。",
-              "lv": "report",
-              "src": "Inven，Sheep 轉述"
-            },
-            {
               "t": "總教練 kkOma、臨時總教練 Tom、教練 Mata 官方分道揚鑣，T1 官方 X 發文感謝，kkOma 因個人原因無限期休假（11/21）。",
               "lv": "official",
               "src": "T1 官方 X（Sheep 轉述）",
               "url": "https://x.com/Sheep_Esports/status/2124069962692055103"
+            },
+            {
+              "t": "T1 官方 X 宣布 2027 教練團：Roach 回任總教練，Easyhoon 續約，UmTi（嚴成鉉）新加入（11/24）。",
+              "lv": "official",
+              "src": "T1 官方 X",
+              "url": "https://x.com/T1LoL/status/2125124759822233626"
             }
           ],
           "players": [
@@ -1390,6 +1391,17 @@
             }
           ],
           "logo": "logos/edg.webp"
+        },
+        {
+          "name": "ThunderTalk Gaming",
+          "players": [],
+          "notes": [
+            {
+              "t": "LPL 2027 隊伍名單（Sheep 轉會頁）列有 TT，陣容尚未建檔。",
+              "lv": "report",
+              "src": "Sheep Esports"
+            }
+          ]
         }
       ]
     },
@@ -1760,6 +1772,17 @@
             }
           ],
           "logo": "logos/shg.webp"
+        },
+        {
+          "name": "Saigon Warriors",
+          "players": [],
+          "notes": [
+            {
+              "t": "LCP 2027 升降級賽 11/13 以 3-1 擊敗 DFM，取得 2027 年 LCP 席位。陣容尚未建檔。",
+              "lv": "report",
+              "src": "Liquipedia"
+            }
+          ]
         }
       ]
     },
@@ -2725,7 +2748,8 @@
               "r": "野",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣。報導：將加入 OpTic Gaming（Sheep X，11/20）",
+              "nlv": "report"
             },
             {
               "n": "Callme",
@@ -3091,6 +3115,35 @@
               "lv": "report",
               "note": "報導：將加入 Team Liquid 參加 2027 LCS，球隊未公告（Sheep X，11/23）",
               "src": "https://x.com/Sheep_Esports/status/2124902385831362902"
+            }
+          ]
+        },
+        {
+          "name": "OpTic Gaming",
+          "players": [],
+          "notes": [
+            {
+              "t": "2027 以合作團隊身分加入 LCS，取代 Dignitas（Riot 與 OpTic 11/16 宣布）。目前只有報導的兩人，上路、下路、輔助未公布。",
+              "lv": "official",
+              "src": "Sheep X，11/17"
+            }
+          ],
+          "joins": [
+            {
+              "n": "KryRa",
+              "r": "野",
+              "from": "Disguised",
+              "lv": "report",
+              "note": "報導：加入 OpTic，是第一位確定的選手（Sheep X，11/20）",
+              "src": "https://x.com/Sheep_Esports/status/2124569526092349679"
+            },
+            {
+              "n": "Toasty",
+              "r": "中",
+              "from": "G2 NORD",
+              "lv": "report",
+              "note": "報導：加入 OpTic（Sheep）",
+              "src": "https://www.sheepesports.com/en/articles/sources-toasty-set-to-join-optic-gaming-in-the-lcs/en"
             }
           ]
         }
