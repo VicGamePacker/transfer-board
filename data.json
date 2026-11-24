@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T01:45:00+08:00",
-  "updatedLabel": "2026/11/24 01:45（台灣時間）",
+  "updated": "2026-11-24T08:20:00+08:00",
+  "updatedLabel": "2026/11/24 08:20（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2064,7 +2064,8 @@
               "r": "上",
               "lv": "report",
               "note": "報導：即將加入 Vitality，土耳其上路，首次打 LEC，球隊未公告（Sheep X，11/22）",
-              "src": "https://x.com/Sheep_Esports/status/2124270359155450334"
+              "src": "https://x.com/Sheep_Esports/status/2124270359155450334",
+              "from": "FlyQuest"
             },
             {
               "n": "Sheo",
@@ -2764,7 +2765,8 @@
                 "lv": "report",
                 "src": "https://www.sheepesports.com/en/articles/sources-zamudo-set-to-join-flyquest-for-lcs-2027/en",
                 "srcX": "https://x.com/Sheep_Esports/status/2122471665267527691"
-              }
+              },
+              "note": "報導：即將加入 Team Vitality 打 2027 LEC（Sheep X，11/22）"
             },
             {
               "n": "Gryffinn",
@@ -2783,9 +2785,9 @@
             {
               "n": "Quad",
               "r": "中",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。報導：傳加入 Shopify 當中路",
+              "s": "left",
+              "lv": "official",
+              "note": "FlyQuest 官方宣布結束合作（Sheep 轉述，11/24）。報導：將加入 Shopify Rebellion（Sheep X）",
               "nlv": "report",
               "next": {
                 "n": "Hwichan",
@@ -3021,7 +3023,17 @@
               "url": "https://x.com/Sheep_Esports/status/2123633514587566116"
             }
           ],
-          "logo": "logos/shopify.webp"
+          "logo": "logos/shopify.webp",
+          "joins": [
+            {
+              "n": "Quad",
+              "r": "中",
+              "from": "FlyQuest",
+              "lv": "report",
+              "note": "報導：將加入 Shopify Rebellion 參加 2027 LCS，球隊未公告（Sheep X，11/24）",
+              "src": "https://x.com/Sheep_Esports/status/2125020574342668567"
+            }
+          ]
         },
         {
           "name": "Team Liquid",
