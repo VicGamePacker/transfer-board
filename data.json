@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T16:52:00+08:00",
-  "updatedLabel": "2026/11/24 16:52（台灣時間）",
+  "updated": "2026-11-24T17:14:00+08:00",
+  "updatedLabel": "2026/11/24 17:14（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -34,7 +34,7 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）；Sheep X（11/20）報導 Canyon 即將加入 HLE，Gen.G 正在找打野替補"
+              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）；Sheep X（11/20）報導 Canyon 即將加入 HLE，Gen.G 正在找打野替補。HLE 官方 X 宣布加入（11/24）"
             },
             {
               "n": "Chovy",
@@ -185,9 +185,8 @@
               "note": "HLE 官方 X 宣布合約結束，感謝他本季擔任隊長（11/19）。Dplus KIA 官方宣布他加入 2027（Sheep 轉述，11/20）",
               "next": {
                 "n": "Canyon",
-                "lv": "report",
-                "src": "https://www.strafe.com/news/read/kiin-and-canyon-reportedly-sign-with-hanwha-life-for-the-2027-lck-season/",
-                "srcX": "https://x.com/Sheep_Esports/status/2123632122627776775"
+                "lv": "official",
+                "srcX": "https://x.com/HLEofficial/status/2125153445934219775"
               }
             },
             {
@@ -232,6 +231,16 @@
               "lv": "official",
               "src": "Sheep X",
               "url": "https://x.com/Sheep_Esports/status/2124833215210799181"
+            }
+          ],
+          "joins": [
+            {
+              "n": "Canyon",
+              "r": "野",
+              "from": "Gen.G",
+              "lv": "official",
+              "note": "HLE 官方 X 宣布 Canyon 以打野身分加入 2027（11/24）",
+              "src": "https://x.com/HLEofficial/status/2125153445934219775"
             }
           ]
         },
