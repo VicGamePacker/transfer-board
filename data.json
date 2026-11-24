@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T17:14:00+08:00",
-  "updatedLabel": "2026/11/24 17:14（台灣時間）",
+  "updated": "2026-11-24T18:20:00+08:00",
+  "updatedLabel": "2026/11/24 18:20（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -22,11 +22,11 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳加入 HLE（Sheep X，11/18）；國民日報另報導簽 1 年（未官宣）",
+              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳加入 HLE（Sheep X，11/18）；國民日報另報導簽 1 年（未官宣）。Gen.G 官方宣布 Siwoo 加入（11/24）",
               "next": {
                 "n": "Siwoo",
-                "lv": "report",
-                "srcX": "https://x.com/Sheep_Esports/status/2123234803697000864"
+                "lv": "official",
+                "srcX": "https://x.com/GenG/status/2125167546345439402"
               }
             },
             {
@@ -34,7 +34,12 @@
               "r": "野",
               "s": "left",
               "lv": "official",
-              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）；Sheep X（11/20）報導 Canyon 即將加入 HLE，Gen.G 正在找打野替補。HLE 官方 X 宣布加入（11/24）"
+              "note": "Gen.G 官方 X 發文感謝，宣布結束旅程（11/20）。報導：傳與 HLE 簽 1 年，附第 2 年選手選擇權（韓國國民日報，未官宣，11/18）；Sheep X（11/20）報導 Canyon 即將加入 HLE，Gen.G 正在找打野替補。HLE 官方 X 宣布加入（11/24）",
+              "next": {
+                "n": "Sharvel",
+                "lv": "official",
+                "srcX": "https://x.com/GenG/status/2125167793427394789"
+              }
             },
             {
               "n": "Chovy",
@@ -53,15 +58,14 @@
             {
               "n": "Duro",
               "r": "輔",
-              "s": "until",
-              "y": 2027,
-              "lv": "gcd",
+              "s": "left",
+              "lv": "official",
               "next": {
                 "n": "Cloud",
-                "lv": "report",
-                "srcX": "https://x.com/Sheep_Esports/status/2123620394230001804"
+                "lv": "official",
+                "srcX": "https://x.com/GenG/status/2125168045203333318"
               },
-              "note": "報導：獲准與其他 LCK 球隊談（Sheep X，11/20）"
+              "note": "Gen.G 官方 X 發 Thank you Duro，宣布合作結束（11/24）。Gen.G 官方宣布 Cloud 加入"
             }
           ],
           "logo": "logos/gen-g.webp",
@@ -96,9 +100,25 @@
               "n": "Cloud",
               "r": "輔",
               "from": "T1 Academy（LCK CL）",
-              "lv": "report",
-              "note": "報導：LCK CL MVP，即將加入 Gen.G 擔任 2027 輔助，球隊未公告（Sheep X，11/20）",
-              "src": "https://x.com/Sheep_Esports/status/2123620394230001804"
+              "lv": "official",
+              "note": "Gen.G 官方 X 宣布 Cloud 加入（11/24）",
+              "src": "https://x.com/GenG/status/2125168045203333318"
+            },
+            {
+              "n": "Siwoo",
+              "r": "上",
+              "from": "Dplus KIA",
+              "lv": "official",
+              "note": "Gen.G 官方 X 宣布 Siwoo 加入，他生日當天（11/24）",
+              "src": "https://x.com/GenG/status/2125167546345439402"
+            },
+            {
+              "n": "Sharvel",
+              "r": "野",
+              "from": "DN SOOPers",
+              "lv": "official",
+              "note": "Gen.G 官方 X 宣布 Sharvel（Danwoo Kim）加入，補 Canyon 的位置（11/24）",
+              "src": "https://x.com/GenG/status/2125167793427394789"
             }
           ]
         },
