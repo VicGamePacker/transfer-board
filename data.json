@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T19:12:26+08:00",
-  "updatedLabel": "2026/11/25 19:12（台灣時間）",
+  "updated": "2026-11-25T19:16:00+08:00",
+  "updatedLabel": "2026/11/25 19:16（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -417,8 +417,9 @@
               "note": "官方公告合約結束，成為自由球員",
               "next": {
                 "n": "Taeyoon",
-                "lv": "report",
-                "src": "https://www.sheepesports.com/en/articles/sources-raptor-kellin-and-taeyoon-expected-to-join-kt-rolster-for-lck-2027/en"
+                "lv": "official",
+                "src": "https://www.sheepesports.com/en/articles/sources-raptor-kellin-and-taeyoon-expected-to-join-kt-rolster-for-lck-2027/en",
+                "srcX": "https://x.com/Sheep_Esports/status/2125527055127208266"
               }
             },
             {
@@ -444,6 +445,14 @@
               "lv": "official",
               "note": "KT 官方宣布 Raptor 擔任 2027 賽季打野（Sheep 轉述，11/19）",
               "src": "https://x.com/Sheep_Esports/status/2123360681009234251"
+            },
+            {
+              "n": "Taeyoon",
+              "r": "下",
+              "from": "BNK FEARX",
+              "lv": "official",
+              "note": "KT 官方宣布 Taeyoon 加入 2027 LCK 賽季，職業生涯第五支 LCK 隊伍（Sheep 轉述，11/25）",
+              "src": "https://x.com/Sheep_Esports/status/2125527055127208266"
             },
             {
               "n": "Kellin",
@@ -730,7 +739,7 @@
               "r": "下",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作",
+              "note": "官方公告結束合作。KT 官方宣布 Taeyoon 加入 2027（Sheep 轉述，11/25）",
               "next": {
                 "n": "Noah",
                 "lv": "official",
