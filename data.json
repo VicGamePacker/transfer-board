@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T20:31:00+08:00",
-  "updatedLabel": "2026/11/24 20:31（台灣時間）",
+  "updated": "2026-11-25T17:13:24+08:00",
+  "updatedLabel": "2026/11/25 17:13（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -703,11 +703,11 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "官方公告結束合作。報導：將加入 SR（Sheep X，11/18）",
+              "note": "官方公告結束合作，上路由 Thanatos 接替（BNK FEARX 官方 X，11/25）",
               "next": {
                 "n": "Thanatos",
-                "lv": "report",
-                "srcX": "https://x.com/Sheep_Esports/status/2123647159606075476"
+                "lv": "official",
+                "src": "https://x.com/BNKFEARXLoL/status/2125499742805266442"
               }
             },
             {
@@ -760,9 +760,9 @@
               "n": "Thanatos",
               "r": "上",
               "from": "Cloud9",
-              "lv": "report",
-              "note": "報導：即將加入 BNK FEARX 參加 2027 LCK，球隊未公告（Sheep X，11/20）",
-              "src": "https://x.com/Sheep_Esports/status/2123647159606075476"
+              "lv": "official",
+              "note": "BNK FEARX 官方 X 宣布 Thanatos 加入，合約到 2028 年（11/25）",
+              "src": "https://x.com/BNKFEARXLoL/status/2125499742805266442"
             },
             {
               "n": "Noah",
@@ -2651,15 +2651,15 @@
             {
               "n": "Thanatos",
               "r": "上",
-              "s": "until",
-              "lv": "gcd",
-              "y": 2028,
+              "s": "left",
+              "lv": "official",
               "next": {
                 "n": "Frog",
                 "lv": "report",
                 "srcX": "https://x.com/Sheep_Esports/status/2123454429730852928"
               },
-              "note": "報導：將加入 BNK FEARX（Sheep X，11/20）；C9 傳由 Frog 接上路，與合約庫寫的 2028 矛盾"
+              "note": "BNK FEARX 官方宣布 Thanatos 加入（11/25），C9 尚未公告離隊。C9 傳由 Frog 接上路（報導）",
+              "nlv": "report"
             },
             {
               "n": "Blaber",
