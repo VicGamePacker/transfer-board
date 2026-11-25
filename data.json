@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T17:13:24+08:00",
-  "updatedLabel": "2026/11/25 17:13（台灣時間）",
+  "updated": "2026-11-25T19:12:26+08:00",
+  "updatedLabel": "2026/11/25 19:12（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -152,8 +152,8 @@
               "note": "T1 官方 X 發 Thank you Doran，宣布合作結束，感謝他一同拿下世界賽三連霸（11/19）。Dplus KIA 官方宣布 Doran 加入 2027（Sheep 轉述，11/20）",
               "next": {
                 "n": "Zeus",
-                "lv": "report",
-                "srcX": "https://x.com/Sheep_Esports/status/2123119301636825115"
+                "lv": "official",
+                "src": "https://x.com/T1LoL/status/2125533615476150694"
               }
             },
             {
@@ -191,9 +191,9 @@
               "n": "Zeus",
               "r": "上",
               "from": "Hanwha Life Esports",
-              "lv": "report",
-              "note": "報導：與 T1 達成三年合約，擔任先發上路，T1 尚未公告（Sheep X，11/19）。T1 11/25 18:00（台灣）有總教練就任活動",
-              "src": "https://x.com/Sheep_Esports/status/2123119301636825115"
+              "lv": "official",
+              "note": "T1 官方 X 宣布 Zeus 回歸，合約到 2029 年（11/25）",
+              "src": "https://x.com/T1LoL/status/2125533615476150694"
             }
           ]
         },
@@ -205,7 +205,7 @@
               "r": "上",
               "s": "left",
               "lv": "official",
-              "note": "HLE 官方 X 宣布合約結束（11/19）。報導：傳回 T1",
+              "note": "HLE 官方 X 宣布合約結束（11/19）。T1 官方宣布回歸 T1（11/25）",
               "next": {
                 "n": "Kiin",
                 "lv": "report",
