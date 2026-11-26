@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T19:16:00+08:00",
-  "updatedLabel": "2026/11/25 19:16（台灣時間）",
+  "updated": "2026-11-26T17:31:22+08:00",
+  "updatedLabel": "2026/11/26 17:31（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -2875,9 +2875,9 @@
             {
               "n": "Massu",
               "r": "下",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。報導：傳加入 Shopify",
+              "s": "left",
+              "lv": "official",
+              "note": "FlyQuest 官方宣布結束合作（Sheep 官方轉發，11/25）。報導：將加入 Shopify",
               "nlv": "report",
               "next": {
                 "n": "Zven",
@@ -3148,9 +3148,9 @@
             {
               "n": "CoreJJ",
               "r": "輔",
-              "s": "expired",
-              "lv": "gcd",
-              "note": "未官宣。報導：離開 TL 去 C9，結束八年",
+              "s": "left",
+              "lv": "official",
+              "note": "Team Liquid 官方宣布結束合作，八年後離隊（Sheep 官方轉發，11/26）。報導：將加入 C9",
               "nlv": "report",
               "next": {
                 "n": "Ackerman",
