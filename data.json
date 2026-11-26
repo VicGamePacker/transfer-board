@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T17:31:22+08:00",
-  "updatedLabel": "2026/11/26 17:31（台灣時間）",
+  "updated": "2026-11-26T20:38:20+08:00",
+  "updatedLabel": "2026/11/26 20:38（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -208,9 +208,10 @@
               "note": "HLE 官方 X 宣布合約結束（11/19）。T1 官方宣布回歸 T1（11/25）",
               "next": {
                 "n": "Kiin",
-                "lv": "report",
-                "srcX": "https://x.com/Sheep_Esports/status/2123120313340694912"
-              }
+                "lv": "official",
+                "src": "https://x.com/HLEofficial/status/2125877587075588343"
+              },
+              "nlv": "official"
             },
             {
               "n": "Kanavi",
@@ -276,6 +277,14 @@
               "lv": "official",
               "note": "HLE 官方 X 宣布 Canyon 以打野身分加入 2027（11/24）",
               "src": "https://x.com/HLEofficial/status/2125153445934219775"
+            },
+            {
+              "n": "Kiin",
+              "r": "上",
+              "from": "Gen.G",
+              "lv": "official",
+              "note": "HLE 官方 X 宣布 Kiin 以上單身分加入 2027（11/26）",
+              "src": "https://x.com/HLEofficial/status/2125877587075588343"
             }
           ]
         },
