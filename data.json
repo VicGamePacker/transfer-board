@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T20:38:20+08:00",
-  "updatedLabel": "2026/11/26 20:38（台灣時間）",
+  "updated": "2026-11-28T18:06:57+08:00",
+  "updatedLabel": "2026/11/28 18:06（台灣時間）",
   "leagues": [
     {
       "id": "LCK",
@@ -245,7 +245,11 @@
               "s": "left",
               "lv": "official",
               "note": "HLE 官方宣布結束合作，三個賽季後離隊（Sheep 轉述，11/23）。官方宣布加入 Dplus KIA",
-              "next": null
+              "next": {
+                "n": "Career",
+                "lv": "official",
+                "srcX": "https://x.com/Sheep_Esports/status/2126591323407069450"
+              }
             }
           ],
           "logo": "logos/hle.webp",
@@ -267,6 +271,11 @@
               "lv": "official",
               "src": "Sheep X",
               "url": "https://x.com/Sheep_Esports/status/2124833215210799181"
+            },
+            {
+              "t": "官方 2027 陣容：Kiin、Canyon、Zeka、Gumayusi、Career（Sheep 官方轉發，11/28）。",
+              "lv": "official",
+              "url": "https://x.com/Sheep_Esports/status/2126616752725340550"
             }
           ],
           "joins": [
@@ -285,6 +294,14 @@
               "lv": "official",
               "note": "HLE 官方 X 宣布 Kiin 以上單身分加入 2027（11/26）",
               "src": "https://x.com/HLEofficial/status/2125877587075588343"
+            },
+            {
+              "n": "Career",
+              "r": "輔",
+              "from": "Dplus KIA",
+              "lv": "official",
+              "note": "官方：Sheep 轉發 HLE 宣布 Career 加入，2026 EWC 冠軍輔助（11/28）",
+              "src": "https://x.com/Sheep_Esports/status/2126591323407069450"
             }
           ]
         },
@@ -2832,10 +2849,24 @@
               "r": "輔",
               "s": "expired",
               "lv": "gcd",
-              "note": "未官宣"
+              "note": "未官宣",
+              "next": {
+                "n": "Mixtsure",
+                "lv": "report",
+                "srcX": "https://x.com/Sheep_Esports/status/2126441206821364109"
+              }
             }
           ],
-          "logo": "logos/dsg.webp"
+          "logo": "logos/dsg.webp",
+          "joins": [
+            {
+              "n": "Mixtsure",
+              "r": "輔",
+              "lv": "report",
+              "note": "報導：將以輔助身分加入 Disguised 打 2027 LCS，首次登上一級聯賽，球隊未公告（Sheep X，11/28）",
+              "src": "https://x.com/Sheep_Esports/status/2126441206821364109"
+            }
+          ]
         },
         {
           "name": "FlyQuest",
